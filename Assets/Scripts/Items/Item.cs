@@ -12,9 +12,11 @@ namespace Items
 
         private void OnTriggerEnter(Collider other)
         {
-            if (!other.transform.parent.TryGetComponent<HumanMovement>(out HumanMovement comp)) return;
+            if (!other.GetComponentInParent<HumanMovement>()) return;
             
             OnItemPickUp?.Invoke(pointsIncrementCount);
+            
+            Destroy(gameObject);
         }
     }
 }

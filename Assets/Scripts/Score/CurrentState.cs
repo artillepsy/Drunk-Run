@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ScoreCalculation
+namespace Score
 {
     [CreateAssetMenu(fileName = "Current state", menuName = "State", order = 0)]
     public class CurrentState : ScriptableObject
@@ -8,6 +8,7 @@ namespace ScoreCalculation
         public string Name = "Normal";
         public Color LabelColor = Color.gray;
         public Color SliderColor = Color.red;
-        public int StepPoints = 0;
+        public int LeftPointsBorder = 0;
+        public int RightPointsBorder = 30;
     }
 }
