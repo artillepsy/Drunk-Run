@@ -29,6 +29,10 @@ namespace Score
         private void Start()
         {
             states = states.OrderByDescending(state => state.RightPointsBorder).ToList();
+            foreach (var state in states)
+            {
+                Debug.Log(state.RightPointsBorder + " | " + state.LeftPointsBorder);
+            }
             UpdateVisuals();
             
             Item.OnAddedScorePoints.AddListener(points =>
@@ -53,7 +57,7 @@ namespace Score
             var currentState = GetCurrentState(out var fillAmount);
             if (!currentState) return;
             
-           // Debug.Log(fillAmount);
+            Debug.Log(fillAmount);
             
             stateLabel.text = currentState.Name;
             stateLabel.color = currentState.LabelColor;
@@ -72,10 +76,10 @@ namespace Score
             {
                 if (currentScore < state.LeftPointsBorder || currentScore > state.RightPointsBorder) continue;
                 // Debug.Log(state.LeftPointsBorder + " | " + currentScore + " | " + state.RightPointsBorder);
-                var point = currentScore > 0
+                var score = currentScore >= 0
                     ? currentScore - state.LeftPointsBorder
                     : currentScore - state.RightPointsBorder;
-                fillAmount = Mathf.Abs((float)point / (state.RightPointsBorder - state.LeftPointsBorder));
+                fillAmount = Mathf.Abs((float)score / (state.RightPointsBorder - state.LeftPointsBorder));
                 return state;
             }
             return null;

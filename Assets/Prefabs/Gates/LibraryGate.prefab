@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6916019990633127689}
   - component: {fileID: 7434379452624606091}
   - component: {fileID: 1534352043562668282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744108949918665859}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.67}
+  m_LocalPosition: {x: 0, y: 0, z: -2.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 3.6963}
+  m_AnchoredPosition: {x: 0, y: 3.34}
   m_SizeDelta: {x: 5.83, y: 1.945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &7434379452624606091
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 8392141893423946675}
   - component: {fileID: 8392141893423946674}
   - component: {fileID: 8392141893423946673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,8 +201,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8392141893423946671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3391, z: 0}
-  m_LocalScale: {x: 2.6780977, y: 2.6780977, z: 2.6780977}
+  m_LocalPosition: {x: 0, y: 2.12, z: -1.8631}
+  m_LocalScale: {x: 4.2399645, y: 4.2399645, z: 0.5138322}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8392141893520756645}
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 8392141893520756645}
   - component: {fileID: 8392141893520756646}
   - component: {fileID: 6354176535999345034}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LibraryGate
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -318,8 +318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea8da9b261dc4bb394ae6299cd8ae5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsIncrementCount: 20
+  pointsIncrementCount: 25
   humansSpawnCount: 0
+  usedMat: {fileID: 2100000, guid: 88368fb61cb23714b9e07cd363f0fea2, type: 2}
   OnGateUsed:
     m_PersistentCalls:
       m_Calls: []

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2165873286119746953}
   - component: {fileID: 4321179496819196724}
   - component: {fileID: 1450072504168917605}
-  m_Layer: 0
+  - component: {fileID: 1504034160362606114}
+  m_Layer: 8
   m_Name: IntelligenceItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d53fecdf7854f7a9d45d09d6c5df2e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsIncrementCount: 25
+  pointsIncrementCount: 10
 --- !u!54 &1450072504168917605
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -63,6 +64,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!111 &1504034160362606114
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081502790030522239}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e2c2d5d73b2e13649837dee263675efd, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e2c2d5d73b2e13649837dee263675efd, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &8127791198874446177
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,7 +92,7 @@ GameObject:
   - component: {fileID: 4034266789666525690}
   - component: {fileID: 7367075052944795116}
   - component: {fileID: 4541641169077654991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +108,7 @@ Transform:
   m_GameObject: {fileID: 8127791198874446177}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.79, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2165873286119746953}

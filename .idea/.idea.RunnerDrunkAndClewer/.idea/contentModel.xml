@@ -471,9 +471,11 @@
           </e>
           <e p="Human" t="Include">
             <e p="HumanDrunkennessScaler.cs" t="Include" />
+            <e p="HumanDrunkennessScalerV2.cs" t="Include" />
             <e p="HumanHeadScaler.cs" t="Include" />
             <e p="HumanMovement.cs" t="Include" />
             <e p="HumanScaler.cs" t="Include" />
+            <e p="HumanSkinChanger.cs" t="Include" />
           </e>
           <e p="HumansAttraction" t="Include">
             <e p="HumanAttractorMovement.cs" t="Include" />

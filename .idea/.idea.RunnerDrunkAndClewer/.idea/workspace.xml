@@ -20,8 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanSkinChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanSkinChanger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/DrunkItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/DrunkItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/IntelligenceItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/IntelligenceItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Avg Drunkenness.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Avg Drunkenness.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/AvgIntelligence.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/AvgIntelligence.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/DefaultState.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/DefaultState.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/MaxDrunkenness.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/MaxDrunkenness.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/MaxIntelligence.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/MaxIntelligence.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +84,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BasePickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/DrunkennessGate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumanAttractorMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScinChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanSkinChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +144,7 @@
       <updated>1655214426712</updated>
       <workItem from="1655214469071" duration="18815000" />
       <workItem from="1655240134793" duration="24000" />
-      <workItem from="1655241396094" duration="25462000" />
+      <workItem from="1655241396094" duration="34745000" />
     </task>
     <servers />
   </component>
