@@ -464,15 +464,23 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Boosters" t="Include">
+            <e p="BaseScoreBooster.cs" t="Include" />
+            <e p="Gate.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+          </e>
           <e p="Human" t="Include">
+            <e p="HumanHeadScaler.cs" t="Include" />
             <e p="HumanMovement.cs" t="Include" />
+            <e p="HumanScaler.cs" t="Include" />
           </e>
           <e p="HumansAttraction" t="Include">
             <e p="HumanAttractorMovement.cs" t="Include" />
             <e p="HumansAttractor.cs" t="Include" />
           </e>
-          <e p="Items" t="Include">
-            <e p="Item.cs" t="Include" />
+          <e p="HumansSpawn" t="Include">
+            <e p="HumanPool.cs" t="Include" />
+            <e p="HumansSpawner.cs" t="Include" />
           </e>
           <e p="Score" t="Include">
             <e p="CurrentState.cs" t="Include" />

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Human;
+using HumansSpawn;
 using UnityEngine;
 
 namespace HumansAttraction
@@ -18,6 +19,11 @@ namespace HumansAttraction
             {
                 human.transform.SetParent(transform);
             }
+            HumansSpawner.OnHumanSpawned.AddListener((human) =>
+            {
+                humans.Add(human.GetComponent<HumanMovement>());
+                human.transform.SetParent(transform);
+            });
         }
 
         private void FixedUpdate()

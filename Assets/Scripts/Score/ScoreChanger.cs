@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
-using Items;
+using Boosters;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Score
@@ -19,14 +20,19 @@ namespace Score
         [Space]
         [SerializeField] private List<CurrentState> states;
         [SerializeField] private float updateSliderTime = 0.1f;
-        private Coroutine _fillSliderCO;
+        private Coroutine _fillStateSliderCO;
+        public static UnityEvent<int> OnScoreChange = new UnityEvent<int>();
+
+        public int StartScore => 0;
+        public int MaxScore => scoreBorder;
+        public int CurrentScore => currentScore;
 
         private void Start()
         {
             states = states.OrderByDescending(state => state.RightPointsBorder).ToList();
             UpdateVisuals();
             
-            Item.OnItemPickUp.AddListener(points =>
+            Item.OnAddedScorePoints.AddListener(points =>
             {
                 ChangeScore(points);
                 UpdateVisuals();
@@ -36,8 +42,11 @@ namespace Score
         private void ChangeScore(int points)
         {
             currentScore += points;
+            
             if (currentScore > scoreBorder) currentScore = scoreBorder;
             else if (currentScore < -scoreBorder) currentScore = -scoreBorder;
+            
+            OnScoreChange?.Invoke(currentScore);
         }
 
         private void UpdateVisuals()
@@ -45,14 +54,14 @@ namespace Score
             var currentState = GetCurrentState(out var fillAmount);
             if (!currentState) return;
             
-            Debug.Log(fillAmount);
+           // Debug.Log(fillAmount);
             
             stateLabel.text = currentState.Name;
             stateLabel.color = currentState.LabelColor;
 
             stateSlider.color = currentState.SliderColor;
-            if(_fillSliderCO != null) StopCoroutine(_fillSliderCO);
-            _fillSliderCO = StartCoroutine(FillStateSliderCO(fillAmount));
+            if(_fillStateSliderCO != null) StopCoroutine(_fillStateSliderCO);
+            _fillStateSliderCO = StartCoroutine(FillStateSliderCO(fillAmount));
         }
 
         private CurrentState GetCurrentState(out float fillAmount)
@@ -61,7 +70,7 @@ namespace Score
             foreach (var state in states)
             {
                 if (currentScore < state.LeftPointsBorder || currentScore > state.RightPointsBorder) continue;
-                Debug.Log(state.LeftPointsBorder + " | " + currentScore + " | " + state.RightPointsBorder);
+               // Debug.Log(state.LeftPointsBorder + " | " + currentScore + " | " + state.RightPointsBorder);
                 var point = currentScore > 0
                     ? currentScore - state.LeftPointsBorder
                     : currentScore - state.RightPointsBorder;
@@ -70,6 +79,7 @@ namespace Score
             }
             return null;
         }
+        
         //TODO: 
         // add filling steps, if level changes
         // fix bug when filling from max
@@ -86,7 +96,7 @@ namespace Score
                 yield return null;
             }
             stateSlider.fillAmount = endFillAmount;
-            _fillSliderCO = null;
+            _fillStateSliderCO = null;
         }
     }
 }

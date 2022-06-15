@@ -20,24 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HumanMat.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/HumanMat.physicMaterial" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Basic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Basic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DrunkennessItemMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DrunkennessItemMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/IntelligenceItemMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/IntelligenceItemMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Animations/TCP_Platform_01A.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Animations/TCP_Platform_01A.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Models/TCP_Male_Character_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Models/TCP_Male_Character_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Sources/TCP_Male_Character_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Sources/TCP_Male_Character_02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Sources/TCP_Male_Character_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Sources/TCP_Male_Character_04.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Item.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +57,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,9 +74,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/CurrentState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaleChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gates/Gate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BasePickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/DrunkennessGate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +137,7 @@
       <updated>1655214426712</updated>
       <workItem from="1655214469071" duration="18815000" />
       <workItem from="1655240134793" duration="24000" />
-      <workItem from="1655241396094" duration="787000" />
+      <workItem from="1655241396094" duration="12154000" />
     </task>
     <servers />
   </component>
