@@ -59,8 +59,10 @@ namespace Score
             stateLabel.color = currentState.LabelColor;
 
             stateSlider.color = currentState.SliderColor;
-            if(_fillStateSliderCO != null) StopCoroutine(_fillStateSliderCO);
-            _fillStateSliderCO = StartCoroutine(FillStateSliderCO(fillAmount));
+            stateSlider.fillAmount = fillAmount;
+            
+            /*if(_fillStateSliderCO != null) StopCoroutine(_fillStateSliderCO);
+            _fillStateSliderCO = StartCoroutine(FillStateSliderCO(fillAmount));*/
         }
 
         private CurrentState GetCurrentState(out float fillAmount)
@@ -69,7 +71,7 @@ namespace Score
             foreach (var state in states)
             {
                 if (currentScore < state.LeftPointsBorder || currentScore > state.RightPointsBorder) continue;
-               // Debug.Log(state.LeftPointsBorder + " | " + currentScore + " | " + state.RightPointsBorder);
+                // Debug.Log(state.LeftPointsBorder + " | " + currentScore + " | " + state.RightPointsBorder);
                 var point = currentScore > 0
                     ? currentScore - state.LeftPointsBorder
                     : currentScore - state.RightPointsBorder;

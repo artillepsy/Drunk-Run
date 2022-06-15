@@ -21,21 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/HumanController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/HumanController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DrunkennessItemMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DrunkennessItemMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GreenGateMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GreenGateMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HumanMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/HumanMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/IntelligenceItemMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/IntelligenceItemMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ObjectsMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ObjectsMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/RedGateMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/RedGateMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Configs/Default Humanoid Puppet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Configs/Default Humanoid Puppet.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +58,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumanAttractorMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanSpawner.cs" />
@@ -80,6 +65,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" />
       </list>
     </option>
   </component>
@@ -127,7 +113,7 @@
       <updated>1655214426712</updated>
       <workItem from="1655214469071" duration="18815000" />
       <workItem from="1655240134793" duration="24000" />
-      <workItem from="1655241396094" duration="23939000" />
+      <workItem from="1655241396094" duration="25462000" />
     </task>
     <servers />
   </component>
