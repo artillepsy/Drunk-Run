@@ -4,16 +4,16 @@ namespace Score
 {
     public class ScorePlacer : MonoBehaviour
     {
-        private Transform _cam;
+        [SerializeField] private RectTransform score;
+        [SerializeField] private Transform scoreFollowTarget;
+        private Camera _cam;
 
-        private void Start()
-        {
-            _cam = Camera.main.transform;
-        }
+        private void Start() => _cam = Camera.main;
 
-        private void Update()
+        private void LateUpdate()
         {
-            transform.forward = transform.position - _cam.position;
+            var pos = _cam.WorldToScreenPoint(scoreFollowTarget.position);
+            score.SetPositionAndRotation(pos, Quaternion.identity); 
         }
     }
 }

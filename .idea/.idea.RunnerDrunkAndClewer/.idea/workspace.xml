@@ -20,30 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScaler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScaler.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HumanMat.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/HumanMat.physicMaterial" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/HumanController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/HumanController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DrunkennessItemMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DrunkennessItemMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GreenGateMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GreenGateMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/HumanMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/HumanMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/IntelligenceItemMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/IntelligenceItemMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ObjectsMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ObjectsMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/RedGateMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/RedGateMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Configs/Default Humanoid Puppet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Configs/Default Humanoid Puppet.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumanAttractorMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumanAttractorMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanPool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanSpawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreCalculation/CurrentState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreCalculation/ScoreChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/CurrentState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
@@ -88,6 +79,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +127,7 @@
       <updated>1655214426712</updated>
       <workItem from="1655214469071" duration="18815000" />
       <workItem from="1655240134793" duration="24000" />
-      <workItem from="1655241396094" duration="21318000" />
+      <workItem from="1655241396094" duration="23939000" />
     </task>
     <servers />
   </component>
