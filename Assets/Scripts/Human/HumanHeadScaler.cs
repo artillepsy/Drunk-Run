@@ -10,9 +10,8 @@ namespace Human
         [SerializeField] private float maxScale = 3f;
         [SerializeField] private float startScale = 1f;
         [Space] 
-        [SerializeField] private float headScaleTime = 0.3f;
+        [SerializeField] private float scaleTime = 0.7f;
         private Coroutine _changeScaleCO;
-        
         private int _maxScore;
         private int _startScore;
 
@@ -50,9 +49,9 @@ namespace Human
 
         private IEnumerator ChangeScaleCO(float headEndScale)
         {
-            var scaleStep = (headEndScale - head.localScale.x) / headScaleTime;
+            var scaleStep = (headEndScale - head.localScale.x) / scaleTime;
             var time = 0f;
-            while (time < headScaleTime)
+            while (time < scaleTime)
             {
                 head.localScale += Vector3.one * (scaleStep * Time.deltaTime);
                 time += Time.deltaTime;

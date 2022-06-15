@@ -470,6 +470,7 @@
             <e p="Item.cs" t="Include" />
           </e>
           <e p="Human" t="Include">
+            <e p="HumanDrunkennessScaler.cs" t="Include" />
             <e p="HumanHeadScaler.cs" t="Include" />
             <e p="HumanMovement.cs" t="Include" />
             <e p="HumanScaler.cs" t="Include" />
@@ -478,9 +479,9 @@
             <e p="HumanAttractorMovement.cs" t="Include" />
             <e p="HumansAttractor.cs" t="Include" />
           </e>
-          <e p="HumansSpawn" t="Include">
+          <e p="HumanSpawn" t="Include">
             <e p="HumanPool.cs" t="Include" />
-            <e p="HumansSpawner.cs" t="Include" />
+            <e p="HumanSpawner.cs" t="Include" />
           </e>
           <e p="Score" t="Include">
             <e p="CurrentState.cs" t="Include" />

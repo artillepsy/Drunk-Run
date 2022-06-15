@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Boosters;
 using Human;
 using HumansAttraction;
 using UnityEngine;
 using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
-namespace HumansSpawn
+namespace HumanSpawn
 {
-    public class HumansSpawner : MonoBehaviour
+    public class HumanSpawner : MonoBehaviour
     {
         [SerializeField] private GameObject humanPrefab;
         private List<GameObject> _humans = new List<GameObject>();
@@ -24,7 +25,7 @@ namespace HumansSpawn
             var humans = FindObjectsOfType<HumanMovement>().ToList();
             humans.ForEach(human => _humans.Add(human.gameObject));
             
-            
+            Gate.OnNeedToSpawnHumans.AddListener(SpawnHumans);
         }
         
         private void SpawnHumans(int count)
@@ -34,6 +35,7 @@ namespace HumansSpawn
                 if (!HumanPool.Inst.TryGet(out var human))
                 {
                     human = Instantiate(humanPrefab);
+                    Debug.Log("inst");
                 }
                 UpdateHumanPos(human);
                 human.gameObject.SetActive(true);

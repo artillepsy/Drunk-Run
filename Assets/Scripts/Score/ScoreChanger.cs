@@ -9,7 +9,6 @@ using UnityEngine.UI;
 
 namespace Score
 {
-    
     public class ScoreChanger : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI stateLabel;

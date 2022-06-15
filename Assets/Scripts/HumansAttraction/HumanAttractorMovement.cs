@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace HumansAttraction
 {
@@ -13,6 +14,8 @@ namespace HumansAttraction
 
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.R)) SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+            
             if (!_shouldMove) return;
             
             var x = joystick.Horizontal;

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Human;
-using HumansSpawn;
+using HumanSpawn;
 using UnityEngine;
 
 namespace HumansAttraction
@@ -19,7 +19,7 @@ namespace HumansAttraction
             {
                 human.transform.SetParent(transform);
             }
-            HumansSpawner.OnHumanSpawned.AddListener((human) =>
+            HumanSpawner.OnHumanSpawned.AddListener((human) =>
             {
                 humans.Add(human.GetComponent<HumanMovement>());
                 human.transform.SetParent(transform);

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace HumansSpawn
+namespace HumanSpawn
 {
     public class HumanPool : MonoBehaviour
     {
