@@ -17,14 +17,11 @@ namespace Boosters
             if (_used) return;
             if (!other.GetComponentInParent<HumanMovement>()) return;
             base.OnTriggerEnter(other);
-            if (humansSpawnCount > 0)
-            {
-                Debug.Log("Invoke");
-                Debug.Log(other.gameObject.name);
-                OnNeedToSpawnHumans?.Invoke(humansSpawnCount);
-            }
+            if (humansSpawnCount > 0) OnNeedToSpawnHumans?.Invoke(humansSpawnCount);
+            
             OnGateUsed?.Invoke();
             _used = true;
+            
             GetComponentInChildren<MeshRenderer>().sharedMaterial = usedMat;
         }
     }
