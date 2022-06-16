@@ -12,16 +12,22 @@ namespace HumanSpawn
 
         public void Add(GameObject human) => _humans.Add(human);
 
-        public bool TryGet(out GameObject human)
+        public bool TryGet(out GameObject human, string tag)
         {
             if (_humans.Count == 0)
             {
                 human = null;
                 return false;
             }
-            human = _humans[0];
-            _humans.Remove(human);
-            return true;
+            foreach (var h in _humans)
+            {
+                if(!h.CompareTag(tag)) continue;
+                human = h;
+                _humans.Remove(human);
+                return true;
+            }
+            human = null;
+            return false;
         }
     }
 }

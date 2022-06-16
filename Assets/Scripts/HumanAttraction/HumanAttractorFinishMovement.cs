@@ -45,7 +45,7 @@ namespace HumanAttraction
             
             while (time < timeToMove)
             {
-                transform.Translate(velocity * Time.deltaTime, Space.World);
+                transform.Translate(velocity * Time.deltaTime, Space.Self);
                 time += Time.deltaTime;
                 yield return null;
             }

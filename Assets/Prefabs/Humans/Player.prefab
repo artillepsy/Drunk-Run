@@ -260,7 +260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12063271673542915}
   m_LocalRotation: {x: -0.0318837, y: 0.044598926, z: 0.00010498052, w: 0.99849606}
-  m_LocalPosition: {x: 0.0000000055879346, y: 0.51345575, z: -0.00000012665986}
+  m_LocalPosition: {x: 0.000000031664964, y: 0.5134559, z: 0.00000018626449}
   m_LocalScale: {x: 1, y: 0.99999964, z: 0.9999995}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1065,7 +1065,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191364841933417266}
   m_LocalRotation: {x: 0.70436364, y: -0.062302522, z: 0.7043495, w: 0.062305886}
-  m_LocalPosition: {x: 0.022616457, y: -0.18189363, z: 0.000000057742007}
+  m_LocalPosition: {x: 0.022616366, y: -0.18189366, z: 0.00000013050159}
   m_LocalScale: {x: 1.0000204, y: 1.0000001, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13972,7 +13972,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2423551194098420311}
   m_LocalRotation: {x: -0.031888824, y: -0.044622052, z: -0.00010579822, w: 0.99849486}
-  m_LocalPosition: {x: 0.000000039115545, y: 0.51345545, z: -0.00000008940695}
+  m_LocalPosition: {x: 0.000000013038514, y: 0.5134552, z: 0.00000024586913}
   m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15477,7 +15477,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2646787835114172041}
   m_LocalRotation: {x: 0.56729734, y: -0.44838595, z: -0.46443284, w: -0.51129824}
-  m_LocalPosition: {x: -0.2059327, y: 0.2613938, z: 0.01590657}
+  m_LocalPosition: {x: -0.20593269, y: 0.26139382, z: 0.01590669}
   m_LocalScale: {x: 1.0000069, y: 0.9999804, z: 1.0000067}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19169,7 +19169,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3306742895446091891}
   m_LocalRotation: {x: 0.56729484, y: 0.44838786, z: 0.46443248, w: -0.5112997}
-  m_LocalPosition: {x: 0.20593269, y: 0.26139486, z: 0.015906898}
+  m_LocalPosition: {x: 0.20593263, y: 0.26139468, z: 0.015907137}
   m_LocalScale: {x: 1.0000056, y: 0.9999835, z: 1.0000035}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20059,7 +20059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3433225455950794996}
   m_LocalRotation: {x: -0.053448163, y: -0.14407547, z: 0.0020289999, w: 0.98812014}
-  m_LocalPosition: {x: 0.000000018626427, y: 0.2948083, z: 0.00000006705574}
+  m_LocalPosition: {x: 0.000000059604563, y: 0.29480824, z: -0.0000001788153}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21831,7 +21831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6362258138225649637
 Transform:
   m_ObjectHideFlags: 0
@@ -22916,8 +22916,8 @@ GameObject:
   - component: {fileID: 4095336746186955381}
   - component: {fileID: 1630591304776397841}
   m_Layer: 0
-  m_Name: Human
-  m_TagString: Untagged
+  m_Name: Player
+  m_TagString: Player
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22936,6 +22936,7 @@ Transform:
   m_Children:
   - {fileID: 351620255105765055}
   - {fileID: 6362258138225649637}
+  - {fileID: 3165355932000065484}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22976,7 +22977,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3924057490233314311}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e8a3f2714c14e0cbd60d443421ece1f, type: 3}
   m_Name: 
@@ -23258,7 +23259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3956910713188750476}
   m_LocalRotation: {x: -0.08183026, y: 0.7367603, z: 0.036187872, w: 0.67020774}
-  m_LocalPosition: {x: -0.008860324, y: 0.06925643, z: -0.092683}
+  m_LocalPosition: {x: -0.008860498, y: 0.06925642, z: -0.09268298}
   m_LocalScale: {x: 1.0000001, y: 0.99999887, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25889,7 +25890,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4466012922771400794}
   m_LocalRotation: {x: 0.19217984, y: -0.7757108, z: 0.13425806, w: 0.58593047}
-  m_LocalPosition: {x: -0.000000074505294, y: 0.21765654, z: 0.00000020488962}
+  m_LocalPosition: {x: -0.00000024959274, y: 0.21765652, z: 0.00000013969746}
   m_LocalScale: {x: 1.0000014, y: 1.0000073, z: 0.9999924}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32694,7 +32695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5722829285525695142}
   m_LocalRotation: {x: 0.6102375, y: 0.042301185, z: -0.010802623, w: 0.7910146}
-  m_LocalPosition: {x: 0.000000035623092, y: 0.5329109, z: -0.000000022351747}
+  m_LocalPosition: {x: 0.000000028521757, y: 0.5329109, z: 0.00000010803345}
   m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39749,7 +39750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7259254219640042572}
   m_LocalRotation: {x: 0.19217885, y: 0.7757092, z: -0.13425751, w: 0.58593297}
-  m_LocalPosition: {x: -0.00000017881294, y: 0.21765614, z: -0.00000005029125}
+  m_LocalPosition: {x: -0.00000045075763, y: 0.21765627, z: 0.00000019371444}
   m_LocalScale: {x: 1.0000031, y: 1.0000055, z: 0.9999915}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40142,7 +40143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7325156032663716390}
   m_LocalRotation: {x: 0.7056698, y: 0.04505919, z: 0.7056696, w: 0.045059133}
-  m_LocalPosition: {x: 0.000000171676, y: 1.2063684, z: 0.0027475818}
+  m_LocalPosition: {x: 0.00000011920929, y: 1.2063683, z: 0.0027475818}
   m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40749,7 +40750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   humanoidConfig: {fileID: 0}
   targetRoot: {fileID: 1032151790054798881}
-  state: 0
+  state: 1
   stateSettings:
     killDuration: 1
     deadMuscleWeight: 0.01
@@ -40782,8 +40783,8 @@ MonoBehaviour:
     props:
       group: 0
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0
+      muscleWeight: 0
       muscleDamper: 1
       mapPosition: 1
       internalCollisionIgnores:
@@ -40797,16 +40798,16 @@ MonoBehaviour:
     kinshipDegrees: 000000000100000002000000030000000100000002000000030000000100000002000000030000000400000002000000030000000400000002000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.010279536, y: 0.12512326, z: 0.021898746}
+    positionOffset: {x: -0.022880197, y: 0.076491594, z: -0.039237022}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0, y: 0, z: 0}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.2335591, y: 0.3488689, z: -0.24255633}
+    mappedAngularVelocity: {x: -87.032906, y: 61.3296, z: -12.430615}
     isPropMuscle: 0
     index: 0
-    targetMappedPosition: {x: -1.6499588, y: 2.093285, z: 6.656484}
-    targetMappedRotation: {x: 0.74862444, y: 0.09043969, z: 0.6478889, w: 0.10780511}
+    targetMappedPosition: {x: -1.6026961, y: 2.2986188, z: 6.91925}
+    targetMappedRotation: {x: 0.5869252, y: 0.21616465, z: 0.7627745, w: 0.16421555}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Quad.L
@@ -40815,8 +40816,8 @@ MonoBehaviour:
     props:
       group: 5
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0.15
+      muscleWeight: 0.5
       muscleDamper: 1
       mapPosition: 1
       internalCollisionIgnores:
@@ -40830,16 +40831,16 @@ MonoBehaviour:
     kinshipDegrees: 010000000000000001000000020000000200000003000000040000000200000003000000040000000500000003000000040000000500000003000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.031149507, y: 0.06185031, z: -0.056175232}
+    positionOffset: {x: 0.007959485, y: 0.074924946, z: -0.050987244}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0, y: 0, z: 0}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.24428871, y: 0.39679453, z: -0.042001966}
+    mappedAngularVelocity: {x: 239.72617, y: 141.88496, z: 138.38834}
     isPropMuscle: 0
     index: 1
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: -0.035372913, y: 0.4364473, z: 0.8990252, w: -0.0039946726}
+    targetMappedRotation: {x: -0.22766271, y: -0.09980755, z: 0.9634423, w: 0.099935986}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Shin.L
@@ -40848,8 +40849,8 @@ MonoBehaviour:
     props:
       group: 5
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0.3
+      muscleWeight: 0.3
       muscleDamper: 1
       mapPosition: 1
       internalCollisionIgnores:
@@ -40863,16 +40864,16 @@ MonoBehaviour:
     kinshipDegrees: 020000000100000000000000010000000300000004000000050000000300000004000000050000000600000004000000050000000600000004000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.06292248, y: 0.030264974, z: -0.24336481}
+    positionOffset: {x: 0.009705305, y: 0.05512762, z: -0.021505833}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0, y: 0, z: 0}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: 0.64183766, y: 0.64055234, z: -1.9579086}
+    mappedAngularVelocity: {x: -153.81688, y: 260.8323, z: 11.128346}
     isPropMuscle: 0
     index: 2
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.012710138, y: 0.016713805, z: 0.999257, w: -0.03232032}
+    targetMappedRotation: {x: -0.18428527, y: -0.23149443, z: 0.9549062, w: -0.024569418}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Foot.L
@@ -40896,16 +40897,16 @@ MonoBehaviour:
     kinshipDegrees: 030000000200000001000000000000000400000005000000060000000400000005000000060000000700000005000000060000000700000005000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.075597525, y: 0.037219644, z: -0.34880304}
+    positionOffset: {x: -0.0046024323, y: 0.02942419, z: 0.013830662}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0, y: 0, z: 0}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.318921, y: 0.014239091, z: -1.0745932}
+    mappedAngularVelocity: {x: -73.643776, y: 298.8551, z: 39.588417}
     isPropMuscle: 0
     index: 3
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.1276766, y: -0.6741129, z: -0.7261727, w: 0.044087466}
+    targetMappedRotation: {x: -0.1574566, y: 0.6154411, z: 0.7603919, w: 0.13507119}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Quad.R
@@ -40914,8 +40915,8 @@ MonoBehaviour:
     props:
       group: 5
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0.15
+      muscleWeight: 0.5
       muscleDamper: 1
       mapPosition: 1
       internalCollisionIgnores:
@@ -40929,16 +40930,16 @@ MonoBehaviour:
     kinshipDegrees: 010000000200000003000000040000000000000001000000020000000200000003000000040000000500000003000000040000000500000003000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: 0.01840341, y: 0.106592774, z: 0.1257639}
+    positionOffset: {x: -0.013713121, y: 0.059591174, z: -0.06923962}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0, y: 0, z: 0}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.17706098, y: 0.42104793, z: -0.27054274}
+    mappedAngularVelocity: {x: -76.18455, y: 63.620457, z: 10.099727}
     isPropMuscle: 0
     index: 4
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.20334662, y: -0.17685072, z: 0.9493804, w: -0.16140322}
+    targetMappedRotation: {x: 0.11154249, y: 0.019176207, z: 0.9912857, w: -0.067404866}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Shin.R
@@ -40947,8 +40948,8 @@ MonoBehaviour:
     props:
       group: 5
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0.3
+      muscleWeight: 0.3
       muscleDamper: 1
       mapPosition: 1
       internalCollisionIgnores:
@@ -40962,16 +40963,16 @@ MonoBehaviour:
     kinshipDegrees: 020000000300000004000000050000000100000000000000010000000300000004000000050000000600000004000000050000000600000004000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: 0.04226482, y: 0.04295063, z: 0.24283314}
+    positionOffset: {x: -0.005728483, y: 0.018347025, z: 0.0054097176}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0, y: 0, z: 0}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.050831545, y: 0.48403412, z: 0.3765424}
+    mappedAngularVelocity: {x: -169.8083, y: 69.929214, z: 55.835617}
     isPropMuscle: 0
     index: 5
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.18926112, y: -0.6397728, z: 0.7441684, w: -0.03293154}
+    targetMappedRotation: {x: 0.15645117, y: -0.39316633, z: 0.90551656, w: 0.031355824}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Foot.R
@@ -40995,16 +40996,16 @@ MonoBehaviour:
     kinshipDegrees: 030000000400000005000000060000000200000001000000000000000400000005000000060000000700000005000000060000000700000005000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: 0.049046755, y: 0.015993237, z: 0.29366398}
+    positionOffset: {x: 0.0048879385, y: -0.014437437, z: 0.054296017}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0, y: 0, z: 0}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.15916152, y: -0.7047624, z: 1.556487}
+    mappedAngularVelocity: {x: -54.563663, y: 122.42491, z: 24.045698}
     isPropMuscle: 0
     index: 6
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: -0.09327378, y: 0.25287548, z: -0.94729006, w: 0.17319262}
+    targetMappedRotation: {x: 0.098760545, y: 0.31919715, z: 0.9299736, w: -0.15332526}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Spine_02
@@ -41013,8 +41014,8 @@ MonoBehaviour:
     props:
       group: 1
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0
+      muscleWeight: 0
       muscleDamper: 1
       mapPosition: 0
       internalCollisionIgnores:
@@ -41028,16 +41029,16 @@ MonoBehaviour:
     kinshipDegrees: 010000000200000003000000040000000200000003000000040000000000000001000000020000000300000001000000020000000300000001000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.0033020973, y: 0.12443304, z: 0.0025925636}
+    positionOffset: {x: 0.0325011, y: 0.14192057, z: 0.10611725}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.06888768, y: -0.0010566086, z: -0.017225923}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.25326917, y: 0.2814288, z: -0.4734442}
+    mappedAngularVelocity: {x: -58.195995, y: -7.0343347, z: -0.16998854}
     isPropMuscle: 0
     index: 7
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.08785441, y: 0.08029251, z: -0.021538211, w: -0.9926586}
+    targetMappedRotation: {x: 0.44030902, y: 0.20582506, z: -0.21267228, w: -0.8476644}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Arm.L
@@ -41061,16 +41062,16 @@ MonoBehaviour:
     kinshipDegrees: 020000000300000004000000050000000300000004000000050000000100000000000000010000000200000002000000030000000400000002000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: 0.031029344, y: 0.11836386, z: 0.033936024}
+    positionOffset: {x: -0.0064122677, y: 0.28053308, z: 0.17628765}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.019691342, y: 0.12311091, z: -0.04668289}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.3840643, y: 0.16215129, z: -0.6938484}
+    mappedAngularVelocity: {x: -570.37195, y: 2.3911624, z: 244.87596}
     isPropMuscle: 0
     index: 8
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: -0.8262916, y: 0.09904448, z: 0.4762457, w: 0.28394124}
+    targetMappedRotation: {x: 0.85275227, y: -0.061465483, z: -0.51811844, w: -0.024275739}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Forearm.L
@@ -41079,8 +41080,8 @@ MonoBehaviour:
     props:
       group: 3
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0
+      muscleWeight: 0
       muscleDamper: 1
       mapPosition: 0
       internalCollisionIgnores:
@@ -41094,16 +41095,16 @@ MonoBehaviour:
     kinshipDegrees: 030000000400000005000000060000000400000005000000060000000200000001000000000000000100000003000000040000000500000003000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: 0.14057994, y: 0.07213092, z: 0.048605442}
+    positionOffset: {x: -0.0057373047, y: 0.18945956, z: 0.12583923}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.019723361, y: 0.12311091, z: -0.04668289}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: 0.51512206, y: -0.17937455, z: 1.4440943}
+    mappedAngularVelocity: {x: -89.92704, y: -146.09727, z: 200.51927}
     isPropMuscle: 0
     index: 9
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.013355171, y: 0.046568878, z: 0.9610623, w: 0.27205288}
+    targetMappedRotation: {x: -0.1791662, y: -0.6318507, z: -0.723139, w: -0.2138573}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Hand.L
@@ -41127,16 +41128,16 @@ MonoBehaviour:
     kinshipDegrees: 040000000500000006000000070000000500000006000000070000000300000002000000010000000000000004000000050000000600000004000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: 0.2704556, y: 0.025006294, z: 0.056262493}
+    positionOffset: {x: 0.004321456, y: 0.018492699, z: 0.020810127}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.019723361, y: 0.12307889, z: -0.04668289}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.08422188, y: 0.24414343, z: 1.4606581}
+    mappedAngularVelocity: {x: -96.26896, y: -145.20029, z: 191.03667}
     isPropMuscle: 0
     index: 10
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.1640861, y: -0.052334927, z: 0.94537497, w: 0.27677366}
+    targetMappedRotation: {x: -0.288341, y: -0.5925881, z: -0.68886435, w: -0.30193612}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Arm.R
@@ -41160,16 +41161,16 @@ MonoBehaviour:
     kinshipDegrees: 020000000300000004000000050000000300000004000000050000000100000002000000030000000400000000000000010000000200000002000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.0093894005, y: 0.11132598, z: -0.030828}
+    positionOffset: {x: 0.020252109, y: 0.02345848, z: 0.0021600723}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.128474, y: 0.12596056, z: -0.060514856}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.19403277, y: -0.04401377, z: -0.707238}
+    mappedAngularVelocity: {x: -120.83262, y: -13.565093, z: -124.25894}
     isPropMuscle: 0
     index: 11
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: -0.66075426, y: -0.09586088, z: -0.7090965, w: 0.22670914}
+    targetMappedRotation: {x: -0.6470202, y: -0.41716373, z: -0.63822347, w: -0.003264696}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Forearm.R
@@ -41178,8 +41179,8 @@ MonoBehaviour:
     props:
       group: 3
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 1
+      pinWeight: 0
+      muscleWeight: 0
       muscleDamper: 1
       mapPosition: 0
       internalCollisionIgnores:
@@ -41193,16 +41194,16 @@ MonoBehaviour:
     kinshipDegrees: 030000000400000005000000060000000400000005000000060000000200000003000000040000000500000001000000000000000100000003000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.023686409, y: 0.09991264, z: -0.039952278}
+    positionOffset: {x: -0.03353119, y: -0.0035686493, z: -0.07611942}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.128458, y: 0.12592854, z: -0.060514856}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.5343906, y: -0.06711597, z: -0.3749106}
+    mappedAngularVelocity: {x: 159.37923, y: 509.2948, z: -138.63663}
     isPropMuscle: 0
     index: 12
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.23738244, y: -0.4586027, z: -0.8491616, w: 0.11071675}
+    targetMappedRotation: {x: -0.13990992, y: 0.2827993, z: 0.9387233, w: -0.13874061}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Hand.R
@@ -41226,16 +41227,16 @@ MonoBehaviour:
     kinshipDegrees: 040000000500000006000000070000000500000006000000070000000300000004000000050000000600000002000000010000000000000004000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: -0.02944529, y: 0.08695984, z: -0.04962349}
+    positionOffset: {x: -0.04657042, y: -0.00078225136, z: -0.07241058}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.128474, y: 0.12596056, z: -0.06045082}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: 0.45057672, y: -0.63771904, z: -1.3486677}
+    mappedAngularVelocity: {x: 161.26494, y: 510.27603, z: -153.16739}
     isPropMuscle: 0
     index: 13
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: 0.3685568, y: -0.3750569, z: -0.8294798, w: 0.18831332}
+    targetMappedRotation: {x: -0.2878477, y: 0.2140579, z: 0.92919636, w: -0.08898231}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   - name: Head
@@ -41244,8 +41245,8 @@ MonoBehaviour:
     props:
       group: 2
       mappingWeight: 1
-      pinWeight: 1
-      muscleWeight: 0.722
+      pinWeight: 0
+      muscleWeight: 0
       muscleDamper: 1
       mapPosition: 0
       internalCollisionIgnores:
@@ -41259,16 +41260,16 @@ MonoBehaviour:
     kinshipDegrees: 020000000300000004000000050000000300000004000000050000000100000002000000030000000400000002000000030000000400000000000000
     broadcaster: {fileID: 0}
     jointBreakBroadcaster: {fileID: 0}
-    positionOffset: {x: 0.013335943, y: 0.12385917, z: -0.02304554}
+    positionOffset: {x: 0.12397313, y: 0.26410747, z: 0.32172537}
     additionalPin: {fileID: 0}
     additionalPinTarget: {fileID: 0}
     additionalPinWeight: 0
-    mappedVelocity: {x: 0.06888768, y: -0.0010245901, z: -0.017225923}
-    mappedAngularVelocity: {x: -0, y: 0, z: 0}
+    mappedVelocity: {x: -0.215207, y: -0.022934549, z: -0.76895565}
+    mappedAngularVelocity: {x: -304.9399, y: 152.4334, z: -18.449213}
     isPropMuscle: 0
     index: 14
     targetMappedPosition: {x: 0, y: 0, z: 0}
-    targetMappedRotation: {x: -0.026706316, y: 0.12087497, z: -0.024383066, w: -0.992009}
+    targetMappedRotation: {x: 0.5383414, y: 0.16158575, z: -0.30031085, w: -0.7706442}
     targetSampledPosition: {x: 0, y: 0, z: 0}
     targetSampledRotation: {x: 0, y: 0, z: 0, w: 1}
   propMuscles: []
@@ -44209,7 +44210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8037217298460115495}
   m_LocalRotation: {x: -0.053440664, y: 0.14702424, z: -0.0021875831, w: 0.9876858}
-  m_LocalPosition: {x: -0.00000035017624, y: 0.29480797, z: -0.000000029802578}
+  m_LocalPosition: {x: -0.0000002309673, y: 0.29480806, z: 0.00000044703867}
   m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45413,7 +45414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8178549675662651482}
   m_LocalRotation: {x: 0.13140768, y: 0.00000013911625, z: -0.00000010430809, w: 0.9913284}
-  m_LocalPosition: {x: 0.000000035802554, y: 0.41697797, z: 0.08429096}
+  m_LocalPosition: {x: 0.00000005617414, y: 0.4169782, z: 0.08429099}
   m_LocalScale: {x: 1.000041, y: 1, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48055,7 +48056,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8745610858866286451}
   m_LocalRotation: {x: -0.036191754, y: 0.67022604, z: 0.081831336, w: 0.7367435}
-  m_LocalPosition: {x: -0.008860284, y: 0.06925575, z: 0.09268288}
+  m_LocalPosition: {x: -0.008860347, y: 0.06925549, z: 0.092682965}
   m_LocalScale: {x: 1.0000001, y: 0.9999991, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -49061,7 +49062,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8850731693427470620}
   m_LocalRotation: {x: 0.6102358, y: -0.042304408, z: 0.010802149, w: 0.7910158}
-  m_LocalPosition: {x: 0.00000008638017, y: 0.53291076, z: -0.000000007450584}
+  m_LocalPosition: {x: 0.00000006810296, y: 0.5329107, z: -0.00000009685759}
   m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50735,3 +50736,65 @@ SkinnedMeshRenderer:
     m_Center: {x: 1.8837678, y: -0.013232145, z: 0.00000032782555}
     m_Extent: {x: 0.13445693, y: 0.12089884, z: 0.08628402}
   m_DirtyAABB: 0
+--- !u!1001 &454774369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7012489252142023315}
+    m_Modifications:
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932118336909, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_Name
+      value: TCP_Male_Character_03B
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+--- !u!4 &3165355932000065484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3165355932117981613, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+  m_PrefabInstance: {fileID: 454774369}
+  m_PrefabAsset: {fileID: 0}

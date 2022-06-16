@@ -496,8 +496,9 @@
             <e p="HumanPool.cs" t="Include" />
           </e>
           <e p="Score" t="Include">
-            <e p="CurrentState.cs" t="Include" />
+            <e p="ProgressStage.cs" t="Include" />
             <e p="ScoreChanger.cs" t="Include" />
+            <e p="ScoreDisplay.cs" t="Include" />
             <e p="ScorePlacer.cs" t="Include" />
           </e>
         </e>

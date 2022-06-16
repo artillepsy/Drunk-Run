@@ -25,7 +25,7 @@ namespace HumanAttraction
             
             var x = joystick.Horizontal;
             var velocity = new Vector3(x * xSpeed, 0, zSpeed) * Time.deltaTime;
-            transform.Translate(velocity, Space.World);
+            transform.Translate(velocity, Space.Self);
             
             ClampXPosition();
         }
