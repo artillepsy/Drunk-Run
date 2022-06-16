@@ -57,7 +57,7 @@ namespace Score
             var currentState = GetCurrentState(out var fillAmount);
             if (!currentState) return;
             
-           // Debug.Log(fillAmount);
+            Debug.Log(fillAmount);
             
             stateLabel.text = currentState.Name;
             stateLabel.color = currentState.LabelColor;

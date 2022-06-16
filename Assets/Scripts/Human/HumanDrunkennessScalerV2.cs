@@ -34,7 +34,7 @@ namespace Human
             
             if (currentScore <= _minScore) scaleCoeff = 1f;
             else if (currentScore >= _startScore) scaleCoeff = 0f;
-            else scaleCoeff = 1f - (float)currentScore / (_minScore - _startScore);
+            else scaleCoeff = (float)currentScore / (_minScore - _startScore);
             
             if (!gameObject.activeSelf)
             {
