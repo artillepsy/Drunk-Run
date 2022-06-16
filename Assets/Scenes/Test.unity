@@ -378,6 +378,942 @@ PrefabInstance:
       propertyPath: m_Name
       value: Human
       objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: state
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].props.pinWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].props.pinWeight
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].props.pinWeight
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].props.pinWeight
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].props.pinWeight
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].props.pinWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].props.pinWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].mappedVelocity.x
+      value: -0.2335591
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].mappedVelocity.y
+      value: 0.3488689
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].mappedVelocity.z
+      value: -0.24255633
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].positionOffset.x
+      value: -0.022880197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].positionOffset.y
+      value: 0.076491594
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].positionOffset.z
+      value: -0.039237022
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].props.pinWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].props.pinWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].mappedVelocity.x
+      value: -0.24428871
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].mappedVelocity.y
+      value: 0.39679453
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].mappedVelocity.z
+      value: -0.042001966
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].positionOffset.x
+      value: 0.007959485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].positionOffset.y
+      value: 0.074924946
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].positionOffset.z
+      value: -0.050987244
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].mappedVelocity.x
+      value: 0.64183766
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].mappedVelocity.y
+      value: 0.64055234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].mappedVelocity.z
+      value: -1.9579086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].positionOffset.x
+      value: 0.009705305
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].positionOffset.y
+      value: 0.05512762
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].positionOffset.z
+      value: -0.021505833
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].mappedVelocity.x
+      value: -0.318921
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].mappedVelocity.y
+      value: 0.014239091
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].mappedVelocity.z
+      value: -1.0745932
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].positionOffset.x
+      value: -0.0046024323
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].positionOffset.y
+      value: 0.02942419
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].positionOffset.z
+      value: 0.013830662
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].mappedVelocity.x
+      value: -0.17706098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].mappedVelocity.y
+      value: 0.42104793
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].mappedVelocity.z
+      value: -0.27054274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].positionOffset.x
+      value: -0.013713121
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].positionOffset.y
+      value: 0.059591174
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].positionOffset.z
+      value: -0.06923962
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].mappedVelocity.x
+      value: -0.050831545
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].mappedVelocity.y
+      value: 0.48403412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].mappedVelocity.z
+      value: 0.3765424
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].positionOffset.x
+      value: -0.005728483
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].positionOffset.y
+      value: 0.018347025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].positionOffset.z
+      value: 0.0054097176
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].mappedVelocity.x
+      value: -0.15916152
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].mappedVelocity.y
+      value: -0.7047624
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].mappedVelocity.z
+      value: 1.556487
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].positionOffset.x
+      value: 0.0048879385
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].positionOffset.y
+      value: -0.014437437
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].positionOffset.z
+      value: 0.054296017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].mappedVelocity.x
+      value: -0.25326917
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].mappedVelocity.y
+      value: 0.2814288
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].mappedVelocity.z
+      value: -0.4734442
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].positionOffset.x
+      value: 0.0325011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].positionOffset.y
+      value: 0.14192057
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].positionOffset.z
+      value: 0.10611725
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].mappedVelocity.x
+      value: -0.3840643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].mappedVelocity.y
+      value: 0.16215129
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].mappedVelocity.z
+      value: -0.6938484
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].positionOffset.x
+      value: -0.0064122677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].positionOffset.y
+      value: 0.28053308
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].positionOffset.z
+      value: 0.17628765
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].mappedVelocity.x
+      value: 0.51512206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].mappedVelocity.y
+      value: -0.17937455
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].mappedVelocity.z
+      value: 1.4440943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].positionOffset.x
+      value: -0.0057373047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].positionOffset.y
+      value: 0.18945956
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].positionOffset.z
+      value: 0.12583923
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].mappedVelocity.x
+      value: -0.08422188
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].mappedVelocity.y
+      value: 0.24414343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].mappedVelocity.z
+      value: 1.4606581
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].positionOffset.x
+      value: 0.004321456
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].positionOffset.y
+      value: 0.018492699
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].positionOffset.z
+      value: 0.020810127
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].mappedVelocity.x
+      value: -0.19403277
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].mappedVelocity.y
+      value: -0.04401377
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].mappedVelocity.z
+      value: -0.707238
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].positionOffset.x
+      value: 0.020252109
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].positionOffset.y
+      value: 0.02345848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].positionOffset.z
+      value: 0.0021600723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].mappedVelocity.x
+      value: -0.5343906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].mappedVelocity.y
+      value: -0.06711597
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].mappedVelocity.z
+      value: -0.3749106
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].positionOffset.x
+      value: -0.03353119
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].positionOffset.y
+      value: -0.0035686493
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].positionOffset.z
+      value: -0.07611942
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].mappedVelocity.x
+      value: 0.45057672
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].mappedVelocity.y
+      value: -0.63771904
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].mappedVelocity.z
+      value: -1.3486677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].positionOffset.x
+      value: -0.04657042
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].positionOffset.y
+      value: -0.00078225136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].positionOffset.z
+      value: -0.07241058
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].mappedVelocity.x
+      value: -0.215207
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].mappedVelocity.y
+      value: -0.022934549
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].mappedVelocity.z
+      value: -0.76895565
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].positionOffset.x
+      value: 0.12397313
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].positionOffset.y
+      value: 0.26410747
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].positionOffset.z
+      value: 0.32172537
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].props.muscleWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].props.muscleWeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].props.muscleWeight
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].props.muscleWeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].props.muscleWeight
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].props.muscleWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].props.muscleWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].props.muscleWeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].props.muscleWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].props.muscleWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].targetMappedPosition.x
+      value: -1.6026961
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].targetMappedPosition.y
+      value: 2.2986188
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].targetMappedPosition.z
+      value: 6.91925
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].targetMappedRotation.w
+      value: 0.16421555
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].targetMappedRotation.x
+      value: 0.5869252
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].targetMappedRotation.y
+      value: 0.21616465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].targetMappedRotation.z
+      value: 0.7627745
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].jointBreakBroadcaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].targetMappedRotation.w
+      value: 0.099935986
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].targetMappedRotation.x
+      value: -0.22766271
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].targetMappedRotation.y
+      value: -0.09980755
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].targetMappedRotation.z
+      value: 0.9634423
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].targetMappedRotation.w
+      value: -0.024569418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].targetMappedRotation.x
+      value: -0.18428527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].targetMappedRotation.y
+      value: -0.23149443
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].targetMappedRotation.z
+      value: 0.9549062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].targetMappedRotation.w
+      value: 0.13507119
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].targetMappedRotation.x
+      value: -0.1574566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].targetMappedRotation.y
+      value: 0.6154411
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].targetMappedRotation.z
+      value: 0.7603919
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].targetMappedRotation.w
+      value: -0.067404866
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].targetMappedRotation.x
+      value: 0.11154249
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].targetMappedRotation.y
+      value: 0.019176207
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].targetMappedRotation.z
+      value: 0.9912857
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].targetMappedRotation.w
+      value: 0.031355824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].targetMappedRotation.x
+      value: 0.15645117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].targetMappedRotation.y
+      value: -0.39316633
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].targetMappedRotation.z
+      value: 0.90551656
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].targetMappedRotation.w
+      value: -0.15332526
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].targetMappedRotation.x
+      value: 0.098760545
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].targetMappedRotation.y
+      value: 0.31919715
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].targetMappedRotation.z
+      value: 0.9299736
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].targetMappedRotation.w
+      value: -0.8476644
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].targetMappedRotation.x
+      value: 0.44030902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].targetMappedRotation.y
+      value: 0.20582506
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].targetMappedRotation.z
+      value: -0.21267228
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].targetMappedRotation.w
+      value: -0.024275739
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].targetMappedRotation.x
+      value: 0.85275227
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].targetMappedRotation.y
+      value: -0.061465483
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].targetMappedRotation.z
+      value: -0.51811844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].targetMappedRotation.w
+      value: -0.2138573
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].targetMappedRotation.x
+      value: -0.1791662
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].targetMappedRotation.y
+      value: -0.6318507
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].targetMappedRotation.z
+      value: -0.723139
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].mappedAngularVelocity.x
+      value: -87.032906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].mappedAngularVelocity.y
+      value: 61.3296
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[0].mappedAngularVelocity.z
+      value: -12.430615
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].targetMappedRotation.w
+      value: -0.30193612
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].targetMappedRotation.x
+      value: -0.288341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].targetMappedRotation.y
+      value: -0.5925881
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].targetMappedRotation.z
+      value: -0.68886435
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].targetMappedRotation.w
+      value: -0.003264696
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].targetMappedRotation.x
+      value: -0.6470202
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].targetMappedRotation.y
+      value: -0.41716373
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].targetMappedRotation.z
+      value: -0.63822347
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].targetMappedRotation.w
+      value: -0.13874061
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].targetMappedRotation.x
+      value: -0.13990992
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].targetMappedRotation.y
+      value: 0.2827993
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].targetMappedRotation.z
+      value: 0.9387233
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].targetMappedRotation.w
+      value: -0.08898231
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].targetMappedRotation.x
+      value: -0.2878477
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].targetMappedRotation.y
+      value: 0.2140579
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].targetMappedRotation.z
+      value: 0.92919636
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].targetMappedRotation.w
+      value: -0.7706442
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].targetMappedRotation.x
+      value: 0.5383414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].targetMappedRotation.y
+      value: 0.16158575
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].targetMappedRotation.z
+      value: -0.30031085
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].mappedAngularVelocity.x
+      value: 239.72617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].mappedAngularVelocity.y
+      value: 141.88496
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[1].mappedAngularVelocity.z
+      value: 138.38834
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].mappedAngularVelocity.x
+      value: -153.81688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].mappedAngularVelocity.y
+      value: 260.8323
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[2].mappedAngularVelocity.z
+      value: 11.128346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].mappedAngularVelocity.x
+      value: -73.643776
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].mappedAngularVelocity.y
+      value: 298.8551
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[3].mappedAngularVelocity.z
+      value: 39.588417
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].mappedAngularVelocity.x
+      value: -76.18455
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].mappedAngularVelocity.y
+      value: 63.620457
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[4].mappedAngularVelocity.z
+      value: 10.099727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].mappedAngularVelocity.x
+      value: -169.8083
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].mappedAngularVelocity.y
+      value: 69.929214
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[5].mappedAngularVelocity.z
+      value: 55.835617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].mappedAngularVelocity.x
+      value: -54.563663
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].mappedAngularVelocity.y
+      value: 122.42491
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[6].mappedAngularVelocity.z
+      value: 24.045698
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].mappedAngularVelocity.x
+      value: -58.195995
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].mappedAngularVelocity.y
+      value: -7.0343347
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[7].mappedAngularVelocity.z
+      value: -0.16998854
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].mappedAngularVelocity.x
+      value: -570.37195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].mappedAngularVelocity.y
+      value: 2.3911624
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[8].mappedAngularVelocity.z
+      value: 244.87596
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].mappedAngularVelocity.x
+      value: -89.92704
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].mappedAngularVelocity.y
+      value: -146.09727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[9].mappedAngularVelocity.z
+      value: 200.51927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].mappedAngularVelocity.x
+      value: -96.26896
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].mappedAngularVelocity.y
+      value: -145.20029
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[10].mappedAngularVelocity.z
+      value: 191.03667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].mappedAngularVelocity.x
+      value: -120.83262
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].mappedAngularVelocity.y
+      value: -13.565093
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[11].mappedAngularVelocity.z
+      value: -124.25894
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].mappedAngularVelocity.x
+      value: 159.37923
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].mappedAngularVelocity.y
+      value: 509.2948
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[12].mappedAngularVelocity.z
+      value: -138.63663
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].mappedAngularVelocity.x
+      value: 161.26494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].mappedAngularVelocity.y
+      value: 510.27603
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[13].mappedAngularVelocity.z
+      value: -153.16739
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].mappedAngularVelocity.x
+      value: -304.9399
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].mappedAngularVelocity.y
+      value: 152.4334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089206965015828305, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
+      propertyPath: muscles.Array.data[14].mappedAngularVelocity.z
+      value: -18.449213
+      objectReference: {fileID: 0}
     - target: {fileID: 4331713557151775074, guid: 9d6d13d90479f4b4db72c6dbe4a3a152, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00000011920929
@@ -624,8 +1560,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433157746}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.1847936, y: 0.22586553, z: -0.04398608, w: 0.95545876}
+  m_LocalPosition: {x: -3.3934336, y: 3.953411, z: 3.0933082}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

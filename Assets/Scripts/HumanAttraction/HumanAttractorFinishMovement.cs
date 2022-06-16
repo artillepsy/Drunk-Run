@@ -18,6 +18,7 @@ namespace HumanAttraction
             
             FinishLine.OnEnterFinishTrigger.AddListener((decisionPoint) =>
             {
+                decisionPoint.x = transform.position.x;
                 _onEndMoveEvent = OnReachedDecisionPoint;
                 StartCoroutine(MoveToFinishCO(decisionPoint));
                 RotateHumans(decisionPoint);

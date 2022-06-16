@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using HumanSpawn;
 using RootMotion.Dynamics;
 using UnityEngine;
 
@@ -26,20 +25,20 @@ namespace Human
             _scaleIncrement = 1f / scaleTime;
         }
 
-        private void Start()
+        /*private void Start()
         {
             HumanSpawner.OnAllSpawned.AddListener(() =>
             {
                 DeactivatePuppetMaster();
                 Invoke(nameof(ActivatePuppetMaster), scaleTime);
             });
-        }
+        }*/
 
         private IEnumerator ChangeScaleCO() 
         {
             var scale = startScale;
 
-            DeactivatePuppetMaster();
+           // DeactivatePuppetMaster();
             
             while (scale < endScale)
             {
@@ -48,7 +47,7 @@ namespace Human
                 yield return null;
             }
             transform.localScale = Vector3.one * endScale;
-            ActivatePuppetMaster();
+           // ActivatePuppetMaster();
         }
 
         private void DeactivatePuppetMaster() => _puppetMaster.mode = PuppetMaster.Mode.Disabled;
