@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Finish;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,6 +9,7 @@ namespace Score
 {
     public class ScoreDisplay : MonoBehaviour
     {
+        [SerializeField] private GameObject scoreGO;
         [SerializeField] private TextMeshProUGUI stageLabel;
         [SerializeField] private Image progressBar;
         [Space]
@@ -18,6 +20,8 @@ namespace Score
         private void Start()
         {
             ScoreChanger.OnScoreChange.AddListener((score) => StartCoroutine(UpdateVisualsCO(score)));
+            FinishLine.OnEnterFinishTrigger.AddListener(point => scoreGO.SetActive(false));
+            StartCoroutine(UpdateVisualsCO(0));
         }
 
         private IEnumerator UpdateVisualsCO(int score)

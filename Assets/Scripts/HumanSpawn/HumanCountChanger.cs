@@ -94,6 +94,7 @@ namespace HumanSpawn
             var direction = (spawnOffsetXZ - spawnPos).normalized;
             spawnPos += direction;
             human.transform.position = spawnPos;
+            human.transform.forward = _attractor.forward;
             human.transform.SetParent(_attractor);
         }
     }
