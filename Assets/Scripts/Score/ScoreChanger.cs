@@ -29,10 +29,10 @@ namespace Score
         private void Start()
         {
             states = states.OrderByDescending(state => state.RightPointsBorder).ToList();
-            foreach (var state in states)
+            /*foreach (var state in states)
             {
                 Debug.Log(state.RightPointsBorder + " | " + state.LeftPointsBorder);
-            }
+            }*/
             UpdateVisuals();
             
             Item.OnAddedScorePoints.AddListener(points =>
@@ -57,7 +57,7 @@ namespace Score
             var currentState = GetCurrentState(out var fillAmount);
             if (!currentState) return;
             
-            Debug.Log(fillAmount);
+           // Debug.Log(fillAmount);
             
             stateLabel.text = currentState.Name;
             stateLabel.color = currentState.LabelColor;

@@ -473,9 +473,12 @@
             <e p="CameraFinishAnimationPlayer.cs" t="Include" />
           </e>
           <e p="Finish" t="Include">
+            <e p="DecisionMaker.cs" t="Include" />
             <e p="FinishLine.cs" t="Include" />
+            <e p="LevelReloader.cs" t="Include" />
           </e>
           <e p="Human" t="Include">
+            <e p="HumanAnimationChanger.cs" t="Include" />
             <e p="HumanDrunkennessScaler.cs" t="Include" />
             <e p="HumanDrunkennessScalerV2.cs" t="Include" />
             <e p="HumanHeadScaler.cs" t="Include" />
@@ -483,9 +486,10 @@
             <e p="HumanScaler.cs" t="Include" />
             <e p="HumanVisualsRandomizer.cs" t="Include" />
           </e>
-          <e p="HumansAttraction" t="Include">
+          <e p="HumanAttraction" t="Include">
+            <e p="HumanAttractor.cs" t="Include" />
+            <e p="HumanAttractorFinishMovement.cs" t="Include" />
             <e p="HumanAttractorMovement.cs" t="Include" />
-            <e p="HumansAttractor.cs" t="Include" />
           </e>
           <e p="HumanSpawn" t="Include">
             <e p="HumanPool.cs" t="Include" />

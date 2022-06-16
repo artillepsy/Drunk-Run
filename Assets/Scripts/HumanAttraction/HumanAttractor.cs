@@ -4,13 +4,14 @@ using Human;
 using HumanSpawn;
 using UnityEngine;
 
-namespace HumansAttraction
+namespace HumanAttraction
 {
-    public class HumansAttractor : MonoBehaviour
+    public class HumanAttractor : MonoBehaviour
     {
         [SerializeField] private List<HumanMovement> humans;
         [SerializeField] private float attractForce = 70f;
         private bool _attractionEnabled = true;
+        public List<HumanMovement> Humans => humans;
 
         private void Start()
         {

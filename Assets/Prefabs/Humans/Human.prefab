@@ -22913,7 +22913,7 @@ GameObject:
   - component: {fileID: 8191480406689969004}
   - component: {fileID: -410481902316260531}
   - component: {fileID: 1099115247}
-  - component: {fileID: 7199645016895847437}
+  - component: {fileID: 5719532436056059159}
   - component: {fileID: 4095336746186955381}
   m_Layer: 0
   m_Name: Human
@@ -22967,6 +22967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c9ad2b5ebaf4715ac1b4b7a1a5f3062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationToFinishDegreesSec: 280
   forceFalloffDistance: 1
 --- !u!114 &8191480406689969004
 MonoBehaviour:
@@ -23015,21 +23016,19 @@ MonoBehaviour:
   pinMinWeight: 0.1
   musclesStartWeight: 1
   musclesMinWeight: 0
---- !u!114 &7199645016895847437
+--- !u!114 &5719532436056059159
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3924057490233314311}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab59d7117d846beb1e183852d20b060, type: 3}
+  m_Script: {fileID: 11500000, guid: bdeb9df02d354a16876ea6ad38c7b1b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 0.5
-  minChangeDelay: 0
-  maxChangeDelay: 0.4
+  changeDelay: 0.5
 --- !u!114 &4095336746186955381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41536,7 +41535,7 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: a3fd0ffcf0d0a384ba3568687a96ab8e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.39
+  m_Radius: 0.41
   m_Height: 0.78
   m_Direction: 1
   m_Center: {x: 0, y: -0.5867257, z: 0}

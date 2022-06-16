@@ -6,9 +6,8 @@ namespace Finish
 {
     public class FinishLine : MonoBehaviour
     {
-        [SerializeField] private Transform finishPoint;
-        
-        public static UnityEvent<Vector3> OnReachedFinish = new UnityEvent<Vector3>();
+        [SerializeField] private Transform decisionPoint;
+        public static UnityEvent<Vector3> OnEnterFinishTrigger = new UnityEvent<Vector3>();
         private bool _reached = false;
 
         private void OnTriggerEnter(Collider other)
@@ -16,7 +15,7 @@ namespace Finish
             if (_reached) return;
             if (!other.GetComponentInParent<HumanMovement>()) return;
             
-            OnReachedFinish?.Invoke(finishPoint.position);
+            OnEnterFinishTrigger?.Invoke(decisionPoint.position);
             _reached = true;
         }
     }

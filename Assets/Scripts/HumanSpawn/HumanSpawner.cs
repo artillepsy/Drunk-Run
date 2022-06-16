@@ -2,7 +2,7 @@
 using System.Linq;
 using Boosters;
 using Human;
-using HumansAttraction;
+using HumanAttraction;
 using UnityEngine;
 using UnityEngine.Events;
 using Random = UnityEngine.Random;
@@ -18,10 +18,11 @@ namespace HumanSpawn
 
         public static UnityEvent<GameObject> OnHumanSpawned = new UnityEvent<GameObject>();
         public static UnityEvent<GameObject> OnHumanRemoved = new UnityEvent<GameObject>();
+        public static UnityEvent OnAllSpawned = new UnityEvent();
 
         private void Start()
         {
-            _attractor = FindObjectOfType<HumansAttractor>().transform;
+            _attractor = FindObjectOfType<HumanAttractor>().transform;
             var humans = FindObjectsOfType<HumanMovement>().ToList();
             humans.ForEach(human => _humans.Add(human.gameObject));
             
@@ -35,7 +36,6 @@ namespace HumanSpawn
                 if (!HumanPool.Inst.TryGet(out var human))
                 {
                     human = Instantiate(humanPrefab);
-                    Debug.Log("inst");
                 }
                 UpdateHumanPos(human);
                 human.gameObject.SetActive(true);
@@ -43,6 +43,7 @@ namespace HumanSpawn
                 _humans.Add(human);
                 OnHumanSpawned?.Invoke(human);
             }
+            OnAllSpawned?.Invoke();
         }
 
         private void DeactivateHuman(GameObject human)

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4754339342185808407}
   - component: {fileID: 4754339342185808404}
   - component: {fileID: 4754339342185808405}
+  - component: {fileID: 1067563565447937169}
   m_Layer: 0
   m_Name: HumanAttractor
   m_TagString: Untagged
@@ -47,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   humans: []
-  attractForce: 120
+  attractForce: 100
 --- !u!114 &4754339342185808405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,6 +65,19 @@ MonoBehaviour:
   zSpeed: 6
   xSpeed: 9
   xConstraints: 6
+--- !u!114 &1067563565447937169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4754339342185808406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79b4debfc054102aed4419a0ca97367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationToFinishDegreesSec: 180
 --- !u!1 &4754339343327980690
 GameObject:
   m_ObjectHideFlags: 0

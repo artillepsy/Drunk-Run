@@ -9,11 +9,9 @@ namespace CinemachineCam
         private void Start()
         {
             var anim = GetComponent<Animation>();
-            var cinemachineCam = GetComponent<CinemachineVirtualCamera>();
-            FinishLine.OnReachedFinish.AddListener((finishPoint) =>
+            FinishLine.OnEnterFinishTrigger.AddListener((finishPoint) =>
             {
                 anim.Play();
-                cinemachineCam.m_Follow = null;
             });
         }
     }
