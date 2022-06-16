@@ -10,11 +10,12 @@ namespace Human
         private float _forceFadeSqrDist;
         private Rigidbody _rb;
 
-        public void RotateToTarget(Vector3 targetPos)
+        public void RotateToTarget(Vector3 targetPos, float degreesSec = 0f)
         {
+            var rotationSec = degreesSec == 0 ? rotationToFinishDegreesSec : degreesSec;
             if (gameObject.activeSelf)
             {
-                StartCoroutine(RotateToTargetCO(targetPos));
+                StartCoroutine(RotateToTargetCO(targetPos, rotationSec));
             }
             else 
             {
@@ -47,7 +48,7 @@ namespace Human
             _rb.velocity = new Vector3(_rb.velocity.x * multiplier, _rb.velocity.y, _rb.velocity.z * multiplier);
         }
         
-        private IEnumerator RotateToTargetCO(Vector3 targetPos)
+        private IEnumerator RotateToTargetCO(Vector3 targetPos, float rotationSec)
         {
             var lookDirection = (targetPos - transform.position);
             var lookRotation = Quaternion.LookRotation(lookDirection);
@@ -55,7 +56,7 @@ namespace Human
             while (Quaternion.Angle(transform.rotation, lookRotation) > 0.01f)
             {
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation,
-                    rotationToFinishDegreesSec * Time.deltaTime);
+                    rotationSec * Time.deltaTime);
                 yield return null;
             }
             transform.rotation = lookRotation;

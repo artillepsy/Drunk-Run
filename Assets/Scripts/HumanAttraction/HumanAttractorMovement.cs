@@ -27,7 +27,7 @@ namespace HumanAttraction
             var velocity = new Vector3(x * xSpeed, 0, zSpeed) * Time.deltaTime;
             transform.Translate(velocity, Space.Self);
             
-            ClampXPosition();
+          //  ClampXPosition();
         }
 
         private void ClampXPosition()

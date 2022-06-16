@@ -393,9 +393,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3687721442396755669, guid: 8ec2556cf592d7846957caa1ec37a8f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687721442396755671, guid: 8ec2556cf592d7846957caa1ec37a8f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687721442396755675, guid: 8ec2556cf592d7846957caa1ec37a8f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3687721442396756007, guid: 8ec2556cf592d7846957caa1ec37a8f5, type: 3}
       propertyPath: m_Name
       value: TCP_Female_Character_12C
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687721442396756265, guid: 8ec2556cf592d7846957caa1ec37a8f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687721442396756267, guid: 8ec2556cf592d7846957caa1ec37a8f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ec2556cf592d7846957caa1ec37a8f5, type: 3}

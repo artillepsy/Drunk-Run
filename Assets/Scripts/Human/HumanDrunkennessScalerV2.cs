@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using Score;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Human
 {
@@ -27,7 +28,12 @@ namespace Human
             ChangeDrunkennessScale(scoreChanger.CurrentScore);
             ScoreChanger.OnScoreChange.AddListener(ChangeDrunkennessScale);
         }
-        
+
+        private void OnEnable()
+        {
+            
+        }
+
         private void ChangeDrunkennessScale(int currentScore)
         {
             float scaleCoeff;

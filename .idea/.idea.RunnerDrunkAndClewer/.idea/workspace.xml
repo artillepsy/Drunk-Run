@@ -20,102 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Turns.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Turns/TurnPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Turns/TurnPoint.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Brilliant.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Brilliant.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Drunk.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Drunk.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Geinal.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Geinal.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Intelligent.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Intelligent.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Pissed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Pissed.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Screwed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/States/Screwed.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/CurrentState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ProgressStage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/CurrentState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ProgressStage.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_01E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_02D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_03E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_04D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_05E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_06E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_07E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_08A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_08A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_09E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_10C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_11E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Female Character Variants/TCP_Female_Character_12D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_01E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_02E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_03E.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04D.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04E.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Prefabs/Male Character Variants/TCP_Male_Character_04E.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +79,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumanAttractorMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumanAttractor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/ChoiceMaker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/DecisionMaker.cs" />
@@ -168,11 +87,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CameraFinishAnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorFinishMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreDisplayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ProgressStage.cs" />
@@ -180,6 +96,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Turns/TurnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorFinishMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" />
       </list>
     </option>
   </component>
@@ -228,7 +150,7 @@
       <workItem from="1655214469071" duration="18815000" />
       <workItem from="1655240134793" duration="24000" />
       <workItem from="1655241396094" duration="36506000" />
-      <workItem from="1655356198037" duration="28563000" />
+      <workItem from="1655356198037" duration="34720000" />
     </task>
     <servers />
   </component>

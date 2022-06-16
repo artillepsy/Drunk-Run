@@ -490,6 +490,7 @@
             <e p="HumanAttractor.cs" t="Include" />
             <e p="HumanAttractorFinishMovement.cs" t="Include" />
             <e p="HumanAttractorMovement.cs" t="Include" />
+            <e p="HumanAttractorTurner.cs" t="Include" />
           </e>
           <e p="HumanSpawn" t="Include">
             <e p="HumanCountChanger.cs" t="Include" />
@@ -500,6 +501,9 @@
             <e p="ScoreChanger.cs" t="Include" />
             <e p="ScoreDisplay.cs" t="Include" />
             <e p="ScorePlacer.cs" t="Include" />
+          </e>
+          <e p="Turns" t="Include">
+            <e p="TurnPoint.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

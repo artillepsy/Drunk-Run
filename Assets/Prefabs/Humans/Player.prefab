@@ -50791,6 +50791,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: TCP_Male_Character_03B
       objectReference: {fileID: 0}
+    - target: {fileID: 3165355932118338195, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932118338205, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165355932118338207, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e416b10a15123a34b8abfec835bf55fe, type: 3}
 --- !u!4 &3165355932000065484 stripped
