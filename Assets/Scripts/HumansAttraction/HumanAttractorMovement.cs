@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using System.Collections;
+using Finish;
+using UnityEngine;
 
 namespace HumansAttraction
 {
@@ -12,10 +13,14 @@ namespace HumansAttraction
         [SerializeField] private float xConstraints = 4f;
         private bool _shouldMove = true;
 
+        private void Start() => FinishLine.OnReachedFinish.AddListener((finishPoint) =>
+        {
+            _shouldMove = false;
+            StartCoroutine(MoveToFinishCO(finishPoint));
+        });
+
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.R)) SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
-            
             if (!_shouldMove) return;
             
             var x = joystick.Horizontal;
@@ -35,6 +40,24 @@ namespace HumansAttraction
             {
                 transform.position = new Vector3(-xConstraints, transform.position.y, transform.position.z);
             }
+        }
+
+        private IEnumerator MoveToFinishCO(Vector3 finishPoint)
+        {
+            var direction = (finishPoint - transform.position);
+            var distance = direction.magnitude;
+            var velocity = new Vector3(direction.normalized.x, 0, direction.normalized.z) * zSpeed;
+            
+            var timeToMove = distance / zSpeed;
+            var time = 0f;
+            
+            while (time < timeToMove)
+            {
+                transform.Translate(velocity * Time.deltaTime, Space.World);
+                time += Time.deltaTime;
+                yield return null;
+            }
+            transform.position = new Vector3(finishPoint.x, transform.position.y, finishPoint.z);
         }
     }
 }

@@ -158,7 +158,7 @@ ModelImporter:
     second: Take 001
   - first:
       74: 7400002
-    second: Walk
+    second: UsingWalk
   - first:
       95: 9500000
     second: //RootNode
@@ -197,7 +197,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Walk
+      name: UsingWalk
       takeName: 
       internalID: 0
       firstFrame: 5

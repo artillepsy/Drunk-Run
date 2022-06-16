@@ -469,7 +469,12 @@
             <e p="Gate.cs" t="Include" />
             <e p="Item.cs" t="Include" />
           </e>
-          <e p="FinishLine" t="Include" />
+          <e p="CinemachineCam" t="Include">
+            <e p="CameraFinishAnimationPlayer.cs" t="Include" />
+          </e>
+          <e p="Finish" t="Include">
+            <e p="FinishLine.cs" t="Include" />
+          </e>
           <e p="Human" t="Include">
             <e p="HumanDrunkennessScaler.cs" t="Include" />
             <e p="HumanDrunkennessScalerV2.cs" t="Include" />
