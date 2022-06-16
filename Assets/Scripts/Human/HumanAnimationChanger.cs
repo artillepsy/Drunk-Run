@@ -30,7 +30,7 @@ namespace Human
             var pos = Random.insideUnitSphere;
             pos.y = 0f;
             pos += transform.position;
-            _humanMovement.RotateToTaret(pos);            
+            _humanMovement.RotateToTarget(pos);            
             
             var score = FindObjectOfType<ScoreChanger>().CurrentScore;
             _animator.SetTrigger(score >= 0 ? Working : Random.value > 0.5f ? Dancing : Dancing2);

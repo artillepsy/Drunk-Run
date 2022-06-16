@@ -22968,7 +22968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationToFinishDegreesSec: 280
-  forceFalloffDistance: 1
+  forceFalloffDistance: 0.3
 --- !u!114 &8191480406689969004
 MonoBehaviour:
   m_ObjectHideFlags: 0

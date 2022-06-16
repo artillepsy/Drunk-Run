@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsIncrementCount: 25
-  humansSpawnCount: 0
+  humansSpawnCount: -3
   usedMat: {fileID: 2100000, guid: 88368fb61cb23714b9e07cd363f0fea2, type: 2}
   OnGateUsed:
     m_PersistentCalls:

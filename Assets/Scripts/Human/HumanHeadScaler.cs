@@ -30,9 +30,16 @@ namespace Human
         private void ChangeHeadScale(int currentScore)
         {
             var headEndScale = CalculateHeadEndScale(currentScore);
+            if (head.localScale.x == headEndScale) return;
+            
+            if (!gameObject.activeSelf)
+            {
+                head.localScale = Vector3.one * headEndScale;
+                return;
+            }
           //  Debug.Log(headEndScale);
 
-            if (head.localScale.x == headEndScale) return;
+            
             
             if(_changeScaleCO != null) StopCoroutine(_changeScaleCO);
             _changeScaleCO = StartCoroutine(ChangeScaleCO(headEndScale));

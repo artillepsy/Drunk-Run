@@ -10,7 +10,19 @@ namespace Human
         private float _forceFadeSqrDist;
         private Rigidbody _rb;
 
-        public void RotateToTaret(Vector3 targetPos) => StartCoroutine(RotateToTargetCO(targetPos));
+        public void RotateToTarget(Vector3 targetPos)
+        {
+            if (gameObject.activeSelf)
+            {
+                StartCoroutine(RotateToTargetCO(targetPos));
+            }
+            else 
+            {
+                var lookDirection = (targetPos - transform.position);
+                var lookRotation = Quaternion.LookRotation(lookDirection);
+                transform.rotation = lookRotation;
+            }
+        }
 
         private void Awake()
         {

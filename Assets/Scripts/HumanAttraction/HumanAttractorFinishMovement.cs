@@ -57,7 +57,7 @@ namespace HumanAttraction
         {
             foreach (var human in _attractor.Humans)
             {
-                human.RotateToTaret(pos);
+                human.RotateToTarget(pos);
             }   
         }
     }

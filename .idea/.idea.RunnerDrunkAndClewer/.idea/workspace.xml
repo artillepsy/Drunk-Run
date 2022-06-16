@@ -20,13 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Human.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorFinishMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorFinishMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +67,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/DrunkennessGate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScinChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanSkinChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanVisualsRandomizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CemeraFinishAnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumansAttractor.cs" />
@@ -75,17 +79,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansAttraction/HumanAttractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/ChoiceMaker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/DecisionMaker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/LevelReloader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CameraFinishAnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorFinishMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanHeadScaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" />
       </list>
     </option>
   </component>
@@ -134,7 +142,7 @@
       <workItem from="1655214469071" duration="18815000" />
       <workItem from="1655240134793" duration="24000" />
       <workItem from="1655241396094" duration="36506000" />
-      <workItem from="1655356198037" duration="16797000" />
+      <workItem from="1655356198037" duration="19541000" />
     </task>
     <servers />
   </component>

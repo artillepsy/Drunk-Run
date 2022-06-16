@@ -36,6 +36,11 @@ namespace Human
             else if (currentScore >= _startScore) scaleCoeff = 0f;
             else scaleCoeff = 1f - (float)currentScore / (_minScore - _startScore);
             
+            if (!gameObject.activeSelf)
+            {
+                _animator.SetFloat(Blend, scaleCoeff);
+                return;
+            }
             if(_changeBlendCO != null) StopCoroutine(_changeBlendCO);
             _changeBlendCO = StartCoroutine(ChangeBlendCO(scaleCoeff));
         }

@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 
 namespace HumanSpawn
 {
-    public class HumanSpawner : MonoBehaviour
+    public class HumanCountChanger : MonoBehaviour
     {
         [SerializeField] private GameObject humanPrefab;
         private List<GameObject> _humans = new List<GameObject>();
@@ -19,6 +19,7 @@ namespace HumanSpawn
         public static UnityEvent<GameObject> OnHumanSpawned = new UnityEvent<GameObject>();
         public static UnityEvent<GameObject> OnHumanRemoved = new UnityEvent<GameObject>();
         public static UnityEvent OnAllSpawned = new UnityEvent();
+        
 
         private void Start()
         {
@@ -26,7 +27,12 @@ namespace HumanSpawn
             var humans = FindObjectsOfType<HumanMovement>().ToList();
             humans.ForEach(human => _humans.Add(human.gameObject));
             
-            Gate.OnNeedToSpawnHumans.AddListener(SpawnHumans);
+            Gate.OnShouldChangeHumanCount.AddListener((count) =>
+            {
+                if (count > 0) SpawnHumans(count);
+                else RemoveHumans(count);
+
+            });
         }
         
         private void SpawnHumans(int count)
@@ -58,17 +64,16 @@ namespace HumanSpawn
 
         private void RemoveHumans(int count)
         {
+            count = Mathf.Abs(count);
             for (var i = 0; i < count; i++)
             {
+                if (_humans.Count == 1) return;
+                
                 var human = _humans[Random.Range(0, _humans.Count)];
                 human.gameObject.SetActive(false);
                 _humans.Remove(human);
                 HumanPool.Inst.Add(human);
                 OnHumanRemoved?.Invoke(human);
-
-                if (_humans.Count != 0) continue;
-                // game over
-                return;
             }
         }
         
