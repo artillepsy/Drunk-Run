@@ -20,21 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Turns.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Turns/TurnPoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Turns/TurnPoint.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +138,7 @@
       <workItem from="1655214469071" duration="18815000" />
       <workItem from="1655240134793" duration="24000" />
       <workItem from="1655241396094" duration="36506000" />
-      <workItem from="1655356198037" duration="34720000" />
+      <workItem from="1655356198037" duration="34774000" />
     </task>
     <servers />
   </component>
