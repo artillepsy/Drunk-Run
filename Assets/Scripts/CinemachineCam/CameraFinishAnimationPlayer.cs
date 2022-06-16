@@ -6,9 +6,10 @@ namespace CinemachineCam
 {
     public class CameraFinishAnimationPlayer : MonoBehaviour
     {
+        [SerializeField] private Animation anim;
+        
         private void Start()
         {
-            var anim = GetComponent<Animation>();
             FinishLine.OnEnterFinishTrigger.AddListener((finishPoint) =>
             {
                 anim.Play();
