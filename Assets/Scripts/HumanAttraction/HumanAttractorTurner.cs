@@ -29,7 +29,7 @@ namespace HumanAttraction
 
         private IEnumerator RotateCO(float degrees)
         {
-            TurnHumans(degrees);
+            // TurnHumans(degrees);
             
             var lookDirection = Quaternion.Euler(0, degrees, 0) * transform.forward;
             var lookRotation = Quaternion.LookRotation(lookDirection);
