@@ -7,8 +7,11 @@ namespace HumanAttraction
 {
     public class HumanAttractorTurner : MonoBehaviour
     {
-        [SerializeField] private float rotationDegreesSec = 180;
+        [SerializeField] private float speedMultiplier = 1f;
         public static UnityEvent<bool> OnMoveStatusChanged = new UnityEvent<bool>();
+        private HumanAttractorMovement _attractorMovement;
+
+        private void Awake() => _attractorMovement = GetComponent<HumanAttractorMovement>();
 
         private void OnTriggerEnter(Collider other)
         {
@@ -18,18 +21,28 @@ namespace HumanAttraction
             comp.Used = true;
             
             OnMoveStatusChanged?.Invoke(false);
-            StartCoroutine(RotateCO(comp.TurnDegrees));
+            StartCoroutine(RotateCO(comp.TurnDegrees, comp.RotationPivot.position));
         }
-
-        private IEnumerator RotateCO(float degrees)
+        
+        private IEnumerator RotateCO(float degrees, Vector3 pos)
         {
+            pos.y = 0f;
             var lookDirection = Quaternion.Euler(0, degrees, 0) * transform.forward;
             var lookRotation = Quaternion.LookRotation(lookDirection);
             
-            while (Quaternion.Angle(transform.rotation, lookRotation) > 0.01f)
+            var zSpeed = _attractorMovement.ZSpeed * speedMultiplier;
+            var remainingAngle = degrees;
+            
+            while (Mathf.Sign(remainingAngle) == Mathf.Sign(degrees))
             {
-                transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation,
-                    rotationDegreesSec * Time.deltaTime);
+                var radius = (pos - transform.position).magnitude;
+
+                var desiredTime = Mathf.Abs(remainingAngle * Mathf.Deg2Rad * radius / zSpeed);
+                var angleStep = remainingAngle / desiredTime * Time.deltaTime;
+                remainingAngle -= angleStep;
+                
+                transform.Rotate(Vector3.up, angleStep);
+                Debug.DrawLine(transform.position, transform.position + Vector3.up*2f, Color.blue, 20f);
                 yield return null;
             }
             transform.rotation = lookRotation;

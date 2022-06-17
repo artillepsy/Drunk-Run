@@ -12,12 +12,13 @@ namespace HumanAttraction
         [SerializeField] private float xConstraints = 4f;
         private bool _shouldMove = true;
         private float localX = 0f;
+        
         public float ZSpeed => zSpeed;
 
         private void Start()
         {
             FinishLine.OnEnterFinishTrigger.AddListener(finishPoint =>  _shouldMove = false);
-            HumanAttractorTurner.OnMoveStatusChanged.AddListener(status => _shouldMove = status);
+            //HumanAttractorTurner.OnMoveStatusChanged.AddListener(status => _shouldMove = status);
         } 
 
         private void Update()
