@@ -135,6 +135,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
+--root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Assembly-CSharp-firstpass.dll
@@ -144,7 +145,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\ToonyColorsPro2.Demo.dll
---root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\ToonyColorsPro.Runtime.dll
 --assembly-folder=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/

@@ -11,7 +11,7 @@ namespace HumanAttraction
 
         private void Start()
         {
-            FinishLine.OnEnterFinishTrigger.AddListener(point =>
+            FinishLine.OnReachedFinish.AddListener(() =>
             {
                 emojies[Random.Range(0, emojies.Count)].SetActive(true);
             });

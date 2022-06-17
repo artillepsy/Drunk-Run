@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Finish;
 using Human;
 using HumanSpawn;
 using UnityEngine;
@@ -11,7 +12,6 @@ namespace HumanAttraction
         [SerializeField] private List<HumanMovement> humans;
         [SerializeField] private float attractForce = 70f;
         private bool _attractionEnabled = true;
-        public List<HumanMovement> Humans => humans;
 
         private void Start()
         {

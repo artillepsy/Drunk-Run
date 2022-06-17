@@ -1,14 +1,11 @@
 ﻿using System.Collections;
 using Turns;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace HumanAttraction
 {
     public class HumanAttractorTurner : MonoBehaviour
     {
-        [SerializeField] private float speedMultiplier = 1f;
-        public static UnityEvent<bool> OnMoveStatusChanged = new UnityEvent<bool>();
         private HumanAttractorMovement _attractorMovement;
 
         private void Awake() => _attractorMovement = GetComponent<HumanAttractorMovement>();
@@ -20,7 +17,6 @@ namespace HumanAttraction
             if (comp.Used) return;
             comp.Used = true;
             
-            OnMoveStatusChanged?.Invoke(false);
             StartCoroutine(RotateCO(comp.TurnDegrees, comp.RotationPivot.position));
         }
         
@@ -30,7 +26,7 @@ namespace HumanAttraction
             var lookDirection = Quaternion.Euler(0, degrees, 0) * transform.forward;
             var lookRotation = Quaternion.LookRotation(lookDirection);
             
-            var zSpeed = _attractorMovement.ZSpeed * speedMultiplier;
+            var zSpeed = _attractorMovement.ZSpeed;
             var remainingAngle = degrees;
             
             while (Mathf.Sign(remainingAngle) == Mathf.Sign(degrees))
@@ -46,7 +42,6 @@ namespace HumanAttraction
                 yield return null;
             }
             transform.rotation = lookRotation;
-            OnMoveStatusChanged?.Invoke(true);
         }
     }
 }

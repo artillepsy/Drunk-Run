@@ -10,7 +10,7 @@ namespace Finish
         
         private void Start()
         {
-            HumanAttractorFinishMovement.OnReachedEndPoint.AddListener(() =>
+            HumanAttractorMovement.OnReachedEnd.AddListener(() =>
             {
                 Invoke(nameof(ReloadLevel), reloadDelay);
             });

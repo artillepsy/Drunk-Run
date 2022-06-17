@@ -5,7 +5,7 @@ using Random = UnityEngine.Random;
 
 namespace Human
 {
-    public class HumanDrunkennessScalerV2 : MonoBehaviour
+    public class HumanDrunkScaler : MonoBehaviour
     {
         [SerializeField] private float changeTime = 0.5f;
         [SerializeField] private float minChangeDelay = 0f;
@@ -25,16 +25,11 @@ namespace Human
             _minScore = -scoreChanger.MaxScore;
             _startScore = scoreChanger.StartScore;
 
-            ChangeDrunkennessScale(scoreChanger.CurrentScore);
-            ScoreChanger.OnScoreChange.AddListener(ChangeDrunkennessScale);
+            ChangeDrunkScale(scoreChanger.CurrentScore);
+            ScoreChanger.OnScoreChange.AddListener(ChangeDrunkScale);
         }
 
-        private void OnEnable()
-        {
-            
-        }
-
-        private void ChangeDrunkennessScale(int currentScore)
+        private void ChangeDrunkScale(int currentScore)
         {
             float scaleCoeff;
             
@@ -48,10 +43,10 @@ namespace Human
                 return;
             }
             if(_changeBlendCO != null) StopCoroutine(_changeBlendCO);
-            _changeBlendCO = StartCoroutine(ChangeBlendCO(scaleCoeff));
+            _changeBlendCO = StartCoroutine(ChangeBlendAmountCO(scaleCoeff));
         }
         
-        private IEnumerator ChangeBlendCO(float endBlend)
+        private IEnumerator ChangeBlendAmountCO(float endBlend)
         {
             yield return new WaitForSeconds(Random.Range(minChangeDelay, maxChangeDelay));
             
@@ -66,7 +61,6 @@ namespace Human
                 yield return null;
             }
             _animator.SetFloat(Blend, endBlend);
-            // head.localScale = Vector3.one * headEndScale;
             _changeBlendCO = null;
         }
     }

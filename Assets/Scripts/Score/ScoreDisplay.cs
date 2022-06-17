@@ -20,7 +20,7 @@ namespace Score
         private void Start()
         {
             ScoreChanger.OnScoreChange.AddListener((score) => StartCoroutine(UpdateVisualsCO(score)));
-            FinishLine.OnEnterFinishTrigger.AddListener(point => scoreGO.SetActive(false));
+            FinishLine.OnReachedFinish.AddListener(() => scoreGO.SetActive(false));
             StartCoroutine(UpdateVisualsCO(0));
         }
 
@@ -29,16 +29,11 @@ namespace Score
             var currentState = GetCurrentStage(score);
             if (!currentState) yield break;
             
-            //Debug.Log(fillAmount);
-            
             stageLabel.text = currentState.Name;
             stageLabel.color = currentState.LabelColor;
 
             progressBar.color = currentState.SliderColor;
             progressBar.fillAmount = GetBarFillAmount(score, currentState);
-            
-            /*if(_fillStateSliderCO != null) StopCoroutine(_fillStateSliderCO);
-            _fillStateSliderCO = StartCoroutine(FillStateSliderCO(fillAmount));*/
         }
         
         private ProgressStage GetCurrentStage(int currentScore)
@@ -46,7 +41,6 @@ namespace Score
             foreach (var state in states)
             {
                 if (currentScore < state.LeftPointsBorder || currentScore > state.RightPointsBorder) continue;
-                // Debug.Log(state.LeftPointsBorder + " | " + currentScore + " | " + state.RightPointsBorder);
                 return state;
             }
             return null;
@@ -59,25 +53,5 @@ namespace Score
                 : currentScore - stage.RightPointsBorder;
             return Mathf.Abs((float)score / (stage.RightPointsBorder - stage.LeftPointsBorder));
         }
-        
-        /*
-        //TODO: 
-        // add filling steps, if level changes
-        // fix bug when filling from max
-        private IEnumerator FillStateSliderCO(float endFillAmount)
-        {
-            var needFillAmount = progressBar.fillAmount - endFillAmount;
-            var fillStep = needFillAmount / updateSliderTime;
-            var time = 0f;
-
-            while (time < updateSliderTime)
-            {
-                progressBar.fillAmount += fillStep * Time.deltaTime;
-                time += Time.deltaTime;
-                yield return null;
-            }
-            progressBar.fillAmount = endFillAmount;
-            _fillProgressBarCO = null;
-        }*/
     }
 }

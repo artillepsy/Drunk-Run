@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using Boosters;
 using Human;
@@ -13,11 +14,12 @@ namespace HumanSpawn
     {
         [SerializeField] private GameObject malePrefab;
         [SerializeField] private GameObject femalePrefab;
+        [Space]
         [SerializeField] private float spawnRadius = 1f;
+        [SerializeField] private float deactivateDelay = 1f;
         
         private List<GameObject> _humans = new List<GameObject>();
         private Transform _attractor;
-        public List<GameObject> Humans => _humans;
 
         public static UnityEvent<GameObject> OnHumanSpawned = new UnityEvent<GameObject>();
         public static UnityEvent<GameObject> OnHumanRemoved = new UnityEvent<GameObject>();
@@ -26,8 +28,6 @@ namespace HumanSpawn
         private void Start()
         {
             _attractor = FindObjectOfType<HumanAttractor>().transform;
-           // var humans = FindObjectsOfType<HumanMovement>().ToList();
-           // humans.ForEach(human => _humans.Add(human.gameObject));
             
             Gate.OnShouldChangeHumanCount.AddListener((humanTag, count) =>
             {
@@ -48,20 +48,10 @@ namespace HumanSpawn
                 }
                 UpdateHumanPos(human);
                 human.gameObject.SetActive(true);
-                human.GetComponent<HumanScaler>().StartGrow();
                 _humans.Add(human);
                 OnHumanSpawned?.Invoke(human);
             }
             OnAllSpawned?.Invoke();
-        }
-
-        private void DeactivateHuman(GameObject human)
-        {
-            human.gameObject.SetActive(false);
-            _humans.Remove(human);
-            HumanPool.Inst.Add(human);
-            //if (_humans.Count != 0) return;
-            // game over
         }
 
         private int RemoveHumans(string humanTag, int remainingCount)
@@ -74,20 +64,31 @@ namespace HumanSpawn
                 if(human.CompareTag(humanTag)) continue;
 
                 remainingCount--;
-                human.gameObject.SetActive(false);
                 humansToDelete.Add(human);
-                HumanPool.Inst.Add(human);
                 OnHumanRemoved?.Invoke(human);
+                human.transform.SetParent(null);
+
+                human.GetComponent<HumanMovement>().MoveAway();
+
+                StartCoroutine(DelayHumanDeactivationCO(human));
             }
+            
             if (humansToDelete.Count == 0) return remainingCount;
             
             _humans = _humans.Except(humansToDelete).ToList();
             return remainingCount;
         }
-        
+
+        private IEnumerator DelayHumanDeactivationCO(GameObject human)
+        {
+            yield return new WaitForSeconds(deactivateDelay);
+            human.gameObject.SetActive(false);
+            HumanPool.Inst.Add(human);
+        }
+
         private void UpdateHumanPos(GameObject human)
         {
-            var spawnPos = new Vector3(_attractor.position.x, 0, _attractor.position.z);
+            var spawnPos = new Vector3(transform.position.x, 0, transform.position.z);
             var spawnOffsetXZ = Random.insideUnitSphere * spawnRadius;
             spawnOffsetXZ.y = 0;
 

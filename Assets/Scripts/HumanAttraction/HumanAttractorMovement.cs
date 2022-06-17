@@ -1,10 +1,13 @@
-﻿using Finish;
+﻿using System.Collections;
+using Finish;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace HumanAttraction
 {
     public class HumanAttractorMovement : MonoBehaviour
     {
+        [SerializeField] private float rotationToFinishDegreesSec = 90f;
         [SerializeField] private Joystick joystick;
         [Space]        
         [SerializeField] private float zSpeed = 3f;
@@ -12,13 +15,17 @@ namespace HumanAttraction
         [SerializeField] private float xConstraints = 4f;
         private bool _shouldMove = true;
         private float localX = 0f;
-        
+        public static UnityEvent OnReachedEnd = new UnityEvent();           
         public float ZSpeed => zSpeed;
 
         private void Start()
         {
-            FinishLine.OnEnterFinishTrigger.AddListener(finishPoint =>  _shouldMove = false);
-            //HumanAttractorTurner.OnMoveStatusChanged.AddListener(status => _shouldMove = status);
+            FinishLine.OnShouldMoveToEndPoint.AddListener((endpoint, radius) =>
+            {
+                if (!gameObject.activeSelf) return;
+                StartCoroutine(MoveToEndPointCO(endpoint));
+            });
+            OnReachedEnd.AddListener(() => _shouldMove = false);
         } 
 
         private void Update()
@@ -33,6 +40,21 @@ namespace HumanAttraction
             else localX = tempX;
             
             transform.Translate(velocity, Space.Self);
+        }
+        
+        private IEnumerator MoveToEndPointCO(Vector3 endPoint)
+        {
+            endPoint.y = 0f;
+            while ((transform.position - endPoint).magnitude > 1f)
+            {
+                var lookDirection = (endPoint - transform.position);
+                var lookRotation = Quaternion.LookRotation(lookDirection);
+                
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation,
+                    rotationToFinishDegreesSec * Time.deltaTime);
+                yield return null;
+            }
+            OnReachedEnd?.Invoke();
         }
     }
 }
