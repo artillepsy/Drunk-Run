@@ -3011,7 +3011,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.50042844, y: 1}
+    m_SensorSize: {x: 0.5004583, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3027,7 +3027,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848267517}
-  m_LocalRotation: {x: 0.19082165, y: 0.000000032707742, z: -0.000000006358179, w: 0.9816247}
+  m_LocalRotation: {x: 0.19082163, y: -6.563963e-15, z: 1.6126084e-15, w: 0.9816247}
   m_LocalPosition: {x: 0, y: 4.83, z: -6.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3504,7 +3504,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.19082165, y: 0.000000032707742, z: -0.000000006358179, w: 0.9816247}
+  m_LocalRotation: {x: 0.19082163, y: -6.563963e-15, z: 1.6126084e-15, w: 0.9816247}
   m_LocalPosition: {x: 0, y: 4.83, z: -6.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7050,14 +7050,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4173999442694687312, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4173999442708571318, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4754339342185808405, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
       propertyPath: joystick
       value: 
@@ -7109,18 +7101,6 @@ PrefabInstance:
     - target: {fileID: 4754339342185808407, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558447488635761242, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7622454886050270200, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8650221562867808038, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}

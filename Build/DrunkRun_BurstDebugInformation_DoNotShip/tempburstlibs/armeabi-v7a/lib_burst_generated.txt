@@ -146,7 +146,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\ToonyColorsPro2.Demo.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\ToonyColorsPro.Runtime.dll
---root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.Analytics.DataPrivacy.dll
 --assembly-folder=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=UnityEngine.Animations.ProcessAnimationJobStruct`1[[UnityEngine.Animations.Rigging.TwoBoneIKConstraintJob, Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Animations.Rigging.TwoBoneIKConstraintJob&, Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--0c96fb01b070c5126b22b8685cc3e444
