@@ -502,6 +502,7 @@
           </e>
           <e p="Human" t="Include">
             <e p="HumanAnimationChanger.cs" t="Include" />
+            <e p="HumanAsyncWalkAnimationSetter.cs" t="Include" />
             <e p="HumanDrunkennessScaler.cs" t="Include" />
             <e p="HumanDrunkennessScalerV2.cs" t="Include" />
             <e p="HumanHeadScaler.cs" t="Include" />
