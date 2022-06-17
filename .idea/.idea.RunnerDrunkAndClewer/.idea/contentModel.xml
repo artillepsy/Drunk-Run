@@ -517,6 +517,7 @@
             <e p="HumanAttractorTurner.cs" t="Include" />
           </e>
           <e p="HumanSpawn" t="Include">
+            <e p="HumanCountChangeEffectsPlacer.cs" t="Include" />
             <e p="HumanCountChanger.cs" t="Include" />
             <e p="HumanPool.cs" t="Include" />
           </e>

@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &755647174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755647175}
+  m_Layer: 0
+  m_Name: ParticlesParent
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755647175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755647174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4754339342185808407}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &858684512
 GameObject:
   m_ObjectHideFlags: 0
@@ -69,8 +100,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181589764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.98, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: 0, y: 4.19, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4754339342398729694}
@@ -96,6 +127,7 @@ GameObject:
   - component: {fileID: 1990389537}
   - component: {fileID: 1990389538}
   - component: {fileID: 1693204394}
+  - component: {fileID: 1693204395}
   m_Layer: 0
   m_Name: HumanAttractor
   m_TagString: Untagged
@@ -118,6 +150,7 @@ Transform:
   - {fileID: 4754339343327980691}
   - {fileID: 858684513}
   - {fileID: 1181589765}
+  - {fileID: 755647175}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -175,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3a0e5b4a17406cb263aea3de7690e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationDegreesSec: 180
+  rotationDegreesSec: 250
 --- !u!54 &1990389538
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -210,6 +243,22 @@ MonoBehaviour:
   - {fileID: 4754339341742051992}
   - {fileID: 4754339342279525051}
   - {fileID: 4755276609931061521}
+--- !u!114 &1693204395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4754339342185808406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7ad52c51cf4170ab05188b07c6edab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 755647175}
+  maleAppearPS: {fileID: 430288, guid: bb16b1cd7674525499df7efabb03c29c, type: 3}
+  femaleAppearPS: {fileID: 420096, guid: 926133de62a8e7245a537e523431fde4, type: 3}
+  disappearPS: {fileID: 454262, guid: 01d6beed4c1ba2a45876f56865513517, type: 3}
 --- !u!1 &4754339343327980690
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19845558, guid: 4a9bb31a555add44ba9d0dbc0c220e70, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 2
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9bb31a555add44ba9d0dbc0c220e70, type: 3}
@@ -377,7 +426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198596738551863430, guid: 8898eec2e914d864cbacd434a30d6bff, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 2
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8898eec2e914d864cbacd434a30d6bff, type: 3}
@@ -452,7 +501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198313682454179158, guid: a6452c2c635c3a34faefab3b3ae24102, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 2
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6452c2c635c3a34faefab3b3ae24102, type: 3}
@@ -527,7 +576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19881692, guid: ab519ef83513b594cad24b0df6fc5d72, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 2
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab519ef83513b594cad24b0df6fc5d72, type: 3}
@@ -602,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19886694, guid: 69359de5f8759454bbfe449e619129bc, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 2
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69359de5f8759454bbfe449e619129bc, type: 3}
