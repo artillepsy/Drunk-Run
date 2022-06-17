@@ -1,19 +1,14 @@
 ﻿using System.Collections;
 using Turns;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace HumanAttraction
 {
     public class HumanAttractorTurner : MonoBehaviour
     {
         [SerializeField] private float rotationDegreesSec = 180;
-        
-        private HumanAttractor _humanAttractor;
-
-        private void Start()
-        {
-            _humanAttractor = GetComponent<HumanAttractor>();
-        }
+        public static UnityEvent<bool> OnMoveStatusChanged = new UnityEvent<bool>();
 
         private void OnTriggerEnter(Collider other)
         {
@@ -22,15 +17,12 @@ namespace HumanAttraction
             if (comp.Used) return;
             comp.Used = true;
             
-           // SetParentToHumans(false);
-
+            OnMoveStatusChanged?.Invoke(false);
             StartCoroutine(RotateCO(comp.TurnDegrees));
         }
 
         private IEnumerator RotateCO(float degrees)
         {
-            // TurnHumans(degrees);
-            
             var lookDirection = Quaternion.Euler(0, degrees, 0) * transform.forward;
             var lookRotation = Quaternion.LookRotation(lookDirection);
             
@@ -41,26 +33,7 @@ namespace HumanAttraction
                 yield return null;
             }
             transform.rotation = lookRotation;
-            
-          //  SetParentToHumans(true);
-        }
-        
-        private void SetParentToHumans(bool parent)
-        {
-            foreach (var human in _humanAttractor.Humans)
-            {
-                human.transform.SetParent(parent ? transform : null);
-            }
-        }
-
-        private void TurnHumans(float rotationDegrees)
-        {
-            foreach (var human in _humanAttractor.Humans)
-            {
-                var direction = Quaternion.Euler(0, rotationDegrees, 0) * human.transform.forward;
-                var target = human.transform.position + direction;
-                human.RotateToTarget(target, rotationDegreesSec);
-            }
+            OnMoveStatusChanged?.Invoke(true);
         }
     }
 }

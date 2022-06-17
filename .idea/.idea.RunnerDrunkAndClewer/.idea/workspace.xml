@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChangeEffectsPlacer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChangeEffectsPlacer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastRainbow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastRainbow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoofSoft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoofSoft.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinBlast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinBlast.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Turns/TurnPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Turns/TurnPoint.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +88,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/DecisionParticlesDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/DecisionEmojiDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/ChangeCountEffectsPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChangeEffectsPlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorTurner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" />
       </list>
     </option>
   </component>
@@ -144,7 +142,8 @@
       <workItem from="1655240134793" duration="24000" />
       <workItem from="1655241396094" duration="36506000" />
       <workItem from="1655356198037" duration="34850000" />
-      <workItem from="1655417347075" duration="8079000" />
+      <workItem from="1655417347075" duration="8275000" />
+      <workItem from="1655450020955" duration="3858000" />
     </task>
     <servers />
   </component>

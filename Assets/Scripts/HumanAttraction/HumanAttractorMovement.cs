@@ -11,12 +11,13 @@ namespace HumanAttraction
         [SerializeField] private float xSpeed = 1f;
         [SerializeField] private float xConstraints = 4f;
         private bool _shouldMove = true;
-
+        private float localX = 0f;
         public float ZSpeed => zSpeed;
 
         private void Start()
         {
             FinishLine.OnEnterFinishTrigger.AddListener(finishPoint =>  _shouldMove = false);
+            HumanAttractorTurner.OnMoveStatusChanged.AddListener(status => _shouldMove = status);
         } 
 
         private void Update()
@@ -25,21 +26,12 @@ namespace HumanAttraction
             
             var x = joystick.Horizontal;
             var velocity = new Vector3(x * xSpeed, 0, zSpeed) * Time.deltaTime;
-            transform.Translate(velocity, Space.Self);
             
-          //  ClampXPosition();
-        }
-
-        private void ClampXPosition()
-        {
-            if (transform.position.x > xConstraints)
-            {
-                transform.position = new Vector3(xConstraints, transform.position.y, transform.position.z);
-            }
-            else if (transform.position.x < -xConstraints)
-            {
-                transform.position = new Vector3(-xConstraints, transform.position.y, transform.position.z);
-            }
+            var tempX = localX + x * xSpeed * Time.deltaTime;
+            if (tempX > xConstraints || tempX < -xConstraints) velocity.x = 0f;
+            else localX = tempX;
+            
+            transform.Translate(velocity, Space.Self);
         }
     }
 }
