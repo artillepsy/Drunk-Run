@@ -40,6 +40,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4639085902854499721}
     m_Modifications:
+    - target: {fileID: 1281387418586605528, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756644, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
       propertyPath: m_Name
       value: LibraryGate
@@ -50,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756645, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.47
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756645, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -121,7 +125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756645, guid: cde946be47a40c442916989cbcab89ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4056568
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756645, guid: cde946be47a40c442916989cbcab89ae, type: 3}
       propertyPath: m_LocalPosition.y

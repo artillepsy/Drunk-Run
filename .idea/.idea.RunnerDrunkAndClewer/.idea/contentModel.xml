@@ -5,7 +5,6 @@
     <e p="C:\Users\Dell\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_RunnerDrunkAndClewer.-1784356931.00" t="ExcludeRecursive" />
     <e p="C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -264,25 +263,6 @@
               <e p="TCP2_Standard PBS Outline Blended.shader" t="Include" />
               <e p="TCP2_Standard PBS Outline.shader" t="Include" />
               <e p="TCP2_Standard PBS.shader" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Joystick Pack" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="Base" t="Include">
-              <e p="Joystick.cs" t="Include" />
-            </e>
-            <e p="Editor" t="Include">
-              <e p="DynamicJoystickEditor.cs" t="Include" />
-              <e p="FloatingJoystickEditor.cs" t="Include" />
-              <e p="JoystickEditor.cs" t="Include" />
-              <e p="VariableJoystickEditor.cs" t="Include" />
-            </e>
-            <e p="Joysticks" t="Include">
-              <e p="DynamicJoystick.cs" t="Include" />
-              <e p="FixedJoystick.cs" t="Include" />
-              <e p="FloatingJoystick.cs" t="Include" />
-              <e p="VariableJoystick.cs" t="Include" />
             </e>
           </e>
         </e>

@@ -7,39 +7,70 @@ namespace HumanAttraction
 {
     public class HumanAttractorMovement : MonoBehaviour
     {
-        [SerializeField] private float rotationToFinishDegreesSec = 90f;
-        [SerializeField] private Joystick joystick;
+        [SerializeField] private Transform attractPoint;
+        [SerializeField] private float rotationToFinishDegreesSec = 65f;
         [Space]        
         [SerializeField] private float zSpeed = 3f;
         [SerializeField] private float xSpeed = 1f;
         [SerializeField] private float xConstraints = 4f;
         private bool _shouldMove = true;
-        private float localX = 0f;
+        private bool _shouldControl = true;
         public static UnityEvent OnReachedEnd = new UnityEvent();           
         public float ZSpeed => zSpeed;
+
+        private Vector2 _lastPos = Vector2.zero;
 
         private void Start()
         {
             FinishLine.OnShouldMoveToEndPoint.AddListener((endpoint, radius) =>
             {
+                _shouldControl = false;
                 if (!gameObject.activeSelf) return;
                 StartCoroutine(MoveToEndPointCO(endpoint));
             });
             OnReachedEnd.AddListener(() => _shouldMove = false);
-        } 
+        }
+
+        private void MoveAttractionPoint()
+        {
+            var x =  SwipeInput();
+            
+            var velocity = Vector3.right * (x * xSpeed * Time.deltaTime);
+            attractPoint.transform.Translate(velocity, Space.Self);
+            
+            var clampedX = Mathf.Clamp(attractPoint.localPosition.x, -xConstraints, xConstraints);
+            attractPoint.localPosition = new Vector3(clampedX, attractPoint.localPosition.y, attractPoint.localPosition.z);
+        }
 
         private void Update()
         {
             if (!_shouldMove) return;
+
             
-            var x = joystick.Horizontal;
-            var velocity = new Vector3(x * xSpeed, 0, zSpeed) * Time.deltaTime;
-            
-            var tempX = localX + x * xSpeed * Time.deltaTime;
-            if (tempX > xConstraints || tempX < -xConstraints) velocity.x = 0f;
-            else localX = tempX;
+            var velocity = Vector3.forward * (zSpeed * Time.deltaTime);
             
             transform.Translate(velocity, Space.Self);
+
+            if (!_shouldControl) return;
+            
+            MoveAttractionPoint();
+            
+        }
+
+        private float SwipeInput()
+        {
+            if (Input.touchCount == 0) return 0f;
+
+            var touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began) _lastPos = touch.position;
+            else if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
+            {
+                var direction = touch.position - _lastPos;
+                _lastPos = touch.position;
+                return direction.x;
+            }
+            return 0f;
         }
         
         private IEnumerator MoveToEndPointCO(Vector3 endPoint)

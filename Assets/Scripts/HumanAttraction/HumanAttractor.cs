@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using Finish;
 using Human;
 using HumanSpawn;
 using UnityEngine;

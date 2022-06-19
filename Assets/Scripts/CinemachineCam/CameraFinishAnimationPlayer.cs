@@ -14,7 +14,6 @@ namespace CinemachineCam
             FinishLine.OnReachedFinish.AddListener(() =>
             {
                 anim.Play();
-                vcam.m_LookAt = null;
             });
         }
     }
