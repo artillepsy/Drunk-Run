@@ -20,18 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HUmanPosClamper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanPosClamper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Camera/CameraFinish.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Camera/CameraFinish.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_SkyboxDay.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Materials/TCP2_Demo_SkyboxDay.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TrackMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/HumanAttractor.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Turns/TurnPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Turns/TurnPoint.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CameraFinishAnimationPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CameraFinishAnimationPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Без имени-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Без имени-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Toon City People/Models/Materials/Atlas_1A_D.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon City People/Models/Materials/Atlas_1A_D.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score/CurrentState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumansPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanScaleChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumansSpawn/HumanPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gates.cs" />
@@ -98,6 +103,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CameraFinishAnimationPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HUmanPosClamper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanPosClamper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" />
       </list>
     </option>
@@ -151,7 +158,9 @@
       <workItem from="1655417347075" duration="8275000" />
       <workItem from="1655450020955" duration="4691000" />
       <workItem from="1655458118951" duration="20639000" />
-      <workItem from="1655672980112" duration="6602000" />
+      <workItem from="1655672980112" duration="7318000" />
+      <workItem from="1655730927225" duration="1328000" />
+      <workItem from="1655743349431" duration="1356000" />
     </task>
     <servers />
   </component>

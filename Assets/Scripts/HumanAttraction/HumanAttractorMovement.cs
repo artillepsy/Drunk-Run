@@ -13,6 +13,7 @@ namespace HumanAttraction
         [SerializeField] private float zSpeed = 3f;
         [SerializeField] private float xSpeed = 1f;
         [SerializeField] private float xConstraints = 4f;
+        private float _widthMultiplier;
         private bool _shouldMove = true;
         private bool _shouldControl = true;
         public static UnityEvent OnReachedEnd = new UnityEvent();           
@@ -22,6 +23,8 @@ namespace HumanAttraction
 
         private void Start()
         {
+            _widthMultiplier = 100f / Camera.main.pixelWidth;
+            Debug.Log(_widthMultiplier);
             FinishLine.OnShouldMoveToEndPoint.AddListener((endpoint, radius) =>
             {
                 _shouldControl = false;
@@ -45,7 +48,6 @@ namespace HumanAttraction
         private void Update()
         {
             if (!_shouldMove) return;
-
             
             var velocity = Vector3.forward * (zSpeed * Time.deltaTime);
             
@@ -68,7 +70,7 @@ namespace HumanAttraction
             {
                 var direction = touch.position - _lastPos;
                 _lastPos = touch.position;
-                return direction.x;
+                return direction.x * _widthMultiplier;
             }
             return 0f;
         }
