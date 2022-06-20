@@ -10,23 +10,34 @@ namespace Human
         [SerializeField] private float changeTime = 0.5f;
         [SerializeField] private float minChangeDelay = 0f;
         [SerializeField] private float maxChangeDelay = 0.4f;
-        
+
+        private bool _started = false;
         private int _minScore;
         private int _startScore;
         private Animator _animator;
+        private ScoreChanger _scoreChanger;
         private Coroutine _changeBlendCO;
         private static readonly int Blend = Animator.StringToHash("Blend");
 
+
+        private void OnEnable()
+        {
+            if (!_started) return;
+            ChangeDrunkScale(_scoreChanger.CurrentScore);
+        }
+
         private void Start()
         {
+            _started = true;
             _animator = GetComponentInChildren<Animator>();
             
-            var scoreChanger = FindObjectOfType<ScoreChanger>();
-            _minScore = -scoreChanger.MaxScore;
-            _startScore = scoreChanger.StartScore;
+            _scoreChanger = FindObjectOfType<ScoreChanger>();
+            _minScore = -_scoreChanger.MaxScore;
+            _startScore = _scoreChanger.StartScore;
 
-            ChangeDrunkScale(scoreChanger.CurrentScore);
+            ChangeDrunkScale(_scoreChanger.CurrentScore);
             ScoreChanger.OnScoreChange.AddListener(ChangeDrunkScale);
+            
         }
 
         private void ChangeDrunkScale(int currentScore)

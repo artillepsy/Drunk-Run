@@ -138,7 +138,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
---root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Assembly-CSharp-firstpass.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.Animation.Rigging.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
