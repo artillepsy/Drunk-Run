@@ -82,7 +82,7 @@ Material:
     - _Outline: 1
     - _Parallax: 0.02
     - _RampSmooth: 0.637
-    - _RampThreshold: 0.61
+    - _RampThreshold: 0.491
     - _Shininess: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecSmooth: 0.05
@@ -99,6 +99,6 @@ Material:
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _HColor: {r: 0.785, g: 0.785, b: 0.785, a: 1}
     - _OutlineColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _SColor: {r: 0, g: 0.097079605, b: 0.4433962, a: 1}
+    - _SColor: {r: 0.13250308, g: 0, b: 0.5471698, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []
