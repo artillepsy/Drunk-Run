@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DrunkennessItemMat
+  m_Name: BarBillMat
   m_Shader: {fileID: 4800000, guid: f8d49205b3b0a644195633020367689d, type: 3}
   m_ValidKeywords:
   - TCP2_DISABLE_WRAPPED_LIGHT
@@ -92,9 +92,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.6509434, g: 0.020879272, b: 0.0638383, a: 1}
+    - _Color: {r: 1, g: 0, b: 0.6786189, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
-    - _SColor: {r: 0.18867922, g: 0.000711983, b: 0.17994551, a: 1}
+    - _SColor: {r: 0.42729604, g: 0.20784314, b: 0, a: 1}
   m_BuildTextureStacks: []
