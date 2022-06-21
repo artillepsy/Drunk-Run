@@ -13,9 +13,12 @@ namespace HumanAttraction
         [SerializeField] private float zSpeed = 3f;
         [SerializeField] private float xSpeed = 1f;
         [SerializeField] private float xConstraints = 4f;
+        
+        private HumanAttractor _attractor;
         private float _widthMultiplier;
         private bool _shouldMove = true;
         private bool _shouldControl = true;
+        
         public static UnityEvent OnReachedEnd = new UnityEvent();           
         public float ZSpeed => zSpeed;
 
@@ -23,8 +26,9 @@ namespace HumanAttraction
 
         private void Start()
         {
+            _attractor = GetComponentInChildren<HumanAttractor>();
             _widthMultiplier = 100f / Camera.main.pixelWidth;
-            Debug.Log(_widthMultiplier);
+            
             FinishLine.OnShouldMoveToEndPoint.AddListener((endpoint, radius) =>
             {
                 _shouldControl = false;
@@ -38,10 +42,20 @@ namespace HumanAttraction
         {
             var x =  SwipeInput();
             
+            var bounds = _attractor.GetXPosBounds();
+
+            var min = bounds[0] + attractPoint.localPosition.x;
+            var max = bounds[1] + attractPoint.localPosition.x;
+            
+            Debug.Log(bounds[0] + "   "+bounds[1]);
+            
+            min = min < -xConstraints ? attractPoint.localPosition.x : -xConstraints;
+            max = max > xConstraints ? attractPoint.localPosition.x : xConstraints;
+            
             var velocity = Vector3.right * (x * xSpeed * Time.deltaTime);
             attractPoint.transform.Translate(velocity, Space.Self);
             
-            var clampedX = Mathf.Clamp(attractPoint.localPosition.x, -xConstraints, xConstraints);
+            var clampedX = Mathf.Clamp(attractPoint.localPosition.x, min, max);
             attractPoint.localPosition = new Vector3(clampedX, attractPoint.localPosition.y, attractPoint.localPosition.z);
         }
 

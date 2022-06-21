@@ -12,6 +12,20 @@ namespace HumanAttraction
         [SerializeField] private float attractForce = 70f;
         private bool _attractionEnabled = true;
 
+        public float[] GetXPosBounds()
+        {
+            var bounds = new float[2];
+
+            foreach (var human in humans)
+            {
+                var humanXPos = human.transform.localPosition.x;
+                
+                if (humanXPos < bounds[0]) bounds[0] = humanXPos;
+                else if (humanXPos > bounds[1]) bounds[1] = humanXPos;
+            }
+            return bounds;
+        }
+
         private void Start()
         {
             humans = FindObjectsOfType<HumanMovement>().ToList();
