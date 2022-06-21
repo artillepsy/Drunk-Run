@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/RoadMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/RoadMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/StraightRoadPart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/StraightRoadPart.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/TurnLeftRoadPart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/TurnLeftRoadPart.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/TurnRightRoadPart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/TurnRightRoadPart.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +145,7 @@
       <workItem from="1655743349431" duration="1538000" />
       <workItem from="1655753730889" duration="874000" />
       <workItem from="1655805034341" duration="3002000" />
-      <workItem from="1655815391662" duration="4165000" />
+      <workItem from="1655815391662" duration="4842000" />
     </task>
     <servers />
   </component>
