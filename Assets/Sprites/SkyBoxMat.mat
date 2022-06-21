@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex:
-        m_Texture: {fileID: 8900000, guid: 7f5db06958ba8a04a9c26850f512d4dd, type: 3}
+        m_Texture: {fileID: 8900000, guid: 1f456505b97bf1144ac10f646b04c1fe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UpTex:
@@ -58,17 +58,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _AtmosphereThickness: 0.42
-    - _Exposure: 3.81
+    - _Exposure: 2.7
     - _ImageType: 0
     - _Layout: 0
     - _Mapping: 0
     - _MirrorOnBack: 0
-    - _Rotation: 198
+    - _Rotation: 0
     - _SunDisk: 1
     - _SunSize: 1
     - _SunSizeConvergence: 5
     m_Colors:
     - _GroundColor: {r: 0.28264502, g: 0.35676655, b: 0.6320754, a: 1}
     - _SkyTint: {r: 0, g: 0.4571529, b: 0.764151, a: 1}
-    - _Tint: {r: 0.19298682, g: 0.21913491, b: 0.24528301, a: 0.5}
+    - _Tint: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
   m_BuildTextureStacks: []
