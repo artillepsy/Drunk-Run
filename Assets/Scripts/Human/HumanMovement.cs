@@ -55,11 +55,13 @@ namespace Human
 
         private IEnumerator MoveAwayCO()
         {
+            _rb.velocity = Vector3.zero;
             _collider.enabled = false;
-            transform.forward = -transform.forward;
+            transform.Rotate(0, 180, 0);
+            var targetPos = transform.position + (transform.forward * 100f);
             while (gameObject.activeSelf)
             {
-                AddForceToTarget(transform.forward, moveForce);
+                AddForceToTarget(targetPos, moveForce);
                 yield return null;
             }
         }

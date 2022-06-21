@@ -468,6 +468,12 @@
           <e p="PolygonCity" t="Include">
             <e p="Change_Log.txt" t="Include" />
           </e>
+          <e p="PolygonSciFiCity" t="Include">
+            <e p="_Shaders" t="Include">
+              <e p="Polygon_Triplanar.shader" t="Include" />
+              <e p="Polygon_UVScroll.shader" t="Include" />
+            </e>
+          </e>
           <e p="TextMesh Pro" t="Include">
             <e p="Examples &amp; Extras" t="Include">
               <e p="Fonts" t="Include">
