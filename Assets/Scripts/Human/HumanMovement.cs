@@ -9,7 +9,6 @@ namespace Human
         [SerializeField] private float moveForce = 30;
         [SerializeField] private float rotationDegreesSec = 180f;
         
-        
         private float _forceFadeSqrDist;
         private Rigidbody _rb;
         private Collider _collider;
@@ -36,7 +35,7 @@ namespace Human
         }
 
         private void OnEnable() => _collider.enabled = true;
-
+        
         public void AddForceToTarget(Vector3 targetPos, float force)
         {
             var direction = (targetPos - transform.position);

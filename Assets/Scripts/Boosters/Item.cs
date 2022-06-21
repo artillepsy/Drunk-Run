@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Human;
+using UnityEngine;
 
 namespace Boosters
 {
@@ -6,6 +7,7 @@ namespace Boosters
     {
         protected void OnTriggerEnter(Collider other)
         {
+            if (!other.GetComponentInParent<HumanMovement>()) return;
             base.OnTriggerEnter(other);
             Destroy(gameObject);
         }

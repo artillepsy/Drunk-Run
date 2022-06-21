@@ -124,6 +124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_LargeSign_Milkshake_01
       objectReference: {fileID: 0}
+    - target: {fileID: 162776, guid: 6f80e919ce3f15944905cac373e3b447, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 470126, guid: 6f80e919ce3f15944905cac373e3b447, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -214,8 +218,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 2165873286119746953}
     m_Modifications:
     - target: {fileID: 107348, guid: dcf6f1e47fc909c4eb280ede0f72ebf0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 107348, guid: dcf6f1e47fc909c4eb280ede0f72ebf0, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 141690, guid: dcf6f1e47fc909c4eb280ede0f72ebf0, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 141690, guid: dcf6f1e47fc909c4eb280ede0f72ebf0, type: 3}
       propertyPath: m_IsActive
@@ -224,6 +236,10 @@ PrefabInstance:
     - target: {fileID: 183924, guid: dcf6f1e47fc909c4eb280ede0f72ebf0, type: 3}
       propertyPath: m_Name
       value: StarFogFlowGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 183924, guid: dcf6f1e47fc909c4eb280ede0f72ebf0, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 481368, guid: dcf6f1e47fc909c4eb280ede0f72ebf0, type: 3}
       propertyPath: m_RootOrder

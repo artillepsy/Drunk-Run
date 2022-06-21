@@ -1,4 +1,5 @@
 ﻿using HumanAttraction;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,19 +7,18 @@ namespace Finish
 {
     public class LevelReloader : MonoBehaviour
     {
+        [SerializeField] private SceneAsset nextLevel;
+        
         [SerializeField] private float reloadDelay = 2f;
         
         private void Start()
         {
             HumanAttractorMovement.OnReachedEnd.AddListener(() =>
             {
-                Invoke(nameof(ReloadLevel), reloadDelay);
+                Invoke(nameof(LoadNextLevel), reloadDelay);
             });
         }
 
-        private void ReloadLevel()
-        {
-            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
-        }
+        private void LoadNextLevel() => SceneManager.LoadSceneAsync(nextLevel.name);
     }
 }

@@ -47,8 +47,6 @@ namespace HumanAttraction
             var min = bounds[0] + attractPoint.localPosition.x;
             var max = bounds[1] + attractPoint.localPosition.x;
             
-            Debug.Log(bounds[0] + "   "+bounds[1]);
-            
             min = min < -xConstraints ? attractPoint.localPosition.x : -xConstraints;
             max = max > xConstraints ? attractPoint.localPosition.x : xConstraints;
             

@@ -148,7 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsIncrementCount: -35
   humanTag: Female
-  humanSpawnCount: 9
+  humanSpawnCount: 2
   usedMat: {fileID: 2100000, guid: 88368fb61cb23714b9e07cd363f0fea2, type: 2}
   OnGateUsed:
     m_PersistentCalls:

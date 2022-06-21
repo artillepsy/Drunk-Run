@@ -609,6 +609,7 @@
             <e p="HumanMovement.cs" t="Include" />
           </e>
           <e p="HumanAttraction" t="Include">
+            <e p="BoostersDeactivator.cs" t="Include" />
             <e p="DecisionEmojiDisplay.cs" t="Include" />
             <e p="HumanAttractor.cs" t="Include" />
             <e p="HumanAttractorMovement.cs" t="Include" />
