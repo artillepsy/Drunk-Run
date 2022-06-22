@@ -21,17 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Human/Pick Fruit.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Human/Pick Fruit.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Finish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/Finish.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate Long.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate Long.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate Long.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate Long.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/URP Asset.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/URP Asset.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/URP Asset_Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/URP Asset_Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +161,7 @@
       <workItem from="1655805034341" duration="3002000" />
       <workItem from="1655815391662" duration="4842000" />
       <workItem from="1655831732306" duration="19133000" />
+      <workItem from="1655932793753" duration="1307000" />
     </task>
     <servers />
   </component>

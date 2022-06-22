@@ -45,7 +45,12 @@ namespace HumanAttraction
 
         private IEnumerator MoveToEndCO(Vector3 endPoint)
         {
-            var remainingDistance = (transform.position - endPoint).magnitude;
+            var direction = endPoint - transform.position;
+            var remainingDistance = direction.magnitude;
+            var angleRad = Vector3.Angle(transform.forward, direction) * Mathf.Deg2Rad;
+            var cos = Mathf.Cos(angleRad);
+            remainingDistance *= Mathf.Abs(cos);
+            
             var lastPos = transform.position;
             while (remainingDistance > 0)
             {

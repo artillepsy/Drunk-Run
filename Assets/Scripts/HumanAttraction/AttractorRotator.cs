@@ -46,11 +46,8 @@ namespace HumanAttraction
 
         private void SetDesiredSpeed(Vector3 rotatePoint)
         {
-            Debug.Log(_forwardMover.ZSpeed);
             var r = transform.position.x - rotatePoint.x;
-           // if (r == 0f) r = 0.1f;
             _forwardMover.ZSpeed = Mathf.Abs(endAngle * Mathf.Deg2Rad * r / endRotationTime);
-            Debug.Log(_forwardMover.ZSpeed);
         }
 
         private IEnumerator RotateAroundCO(float degrees, Vector3 pos)
