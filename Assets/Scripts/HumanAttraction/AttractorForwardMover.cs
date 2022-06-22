@@ -25,7 +25,7 @@ namespace HumanAttraction
         {
             _startSpeed = zSpeed;
             OnReachedEnd.AddListener(() => _shouldMove = false);
-            FinishLine.OnShouldMoveToEndPoint.AddListener(endPoint =>
+            GetComponent<AttractorRotator>().OnRotated.AddListener(endPoint =>
             {
                 if (gameObject.activeSelf) StartCoroutine(MoveToEndCO(endPoint));
             });

@@ -2,6 +2,7 @@
 using Finish;
 using Turns;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace HumanAttraction
 {
@@ -13,6 +14,9 @@ namespace HumanAttraction
         
         private AttractorForwardMover _forwardMover;
         private Transform _attractor;
+        private Vector3 _endPoint;
+        
+        public UnityEvent<Vector3> OnRotated = new UnityEvent<Vector3>();
 
         private void Start()
         {
@@ -21,22 +25,30 @@ namespace HumanAttraction
             FinishLine.OnShouldMoveToEndPoint.AddListener(RotateToEndPoint);
         }
 
+        private void RaiseOnRotatedEvent() => OnRotated?.Invoke(_endPoint);
+
         private void RotateToEndPoint(Vector3 endPoint)
         {
             if (!gameObject.activeSelf) return;
+            
+            _endPoint = endPoint;
             var directionToPoint = (endPoint - transform.position);
             var sign = Mathf.Sign(Vector3.SignedAngle(transform.forward, directionToPoint, Vector3.up));
             var rotatePointOffset = Vector3.right * (endRadius * sign + _attractor.localPosition.x);
             var rotatePoint = transform.position + rotatePointOffset;
+           
             Debug.DrawLine(rotatePoint, rotatePoint + Vector3.up* 3f, Color.cyan, 30f);
+           
             SetDesiredSpeed(rotatePoint);
             StartCoroutine(RotateAroundCO(sign * endAngle, rotatePoint));
+            Invoke(nameof(RaiseOnRotatedEvent), endRotationTime);
         }
 
         private void SetDesiredSpeed(Vector3 rotatePoint)
         {
             Debug.Log(_forwardMover.ZSpeed);
             var r = transform.position.x - rotatePoint.x;
+           // if (r == 0f) r = 0.1f;
             _forwardMover.ZSpeed = Mathf.Abs(endAngle * Mathf.Deg2Rad * r / endRotationTime);
             Debug.Log(_forwardMover.ZSpeed);
         }
