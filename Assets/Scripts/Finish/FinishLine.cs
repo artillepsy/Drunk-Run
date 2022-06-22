@@ -9,10 +9,9 @@ namespace Finish
     {
         [SerializeField] private Transform dancePoint;
         [SerializeField] private Transform workPoint;
-        [SerializeField] private float pointRadius = 3f;
         
         public static UnityEvent OnReachedFinish = new UnityEvent();
-        public static UnityEvent<Vector3, float> OnShouldMoveToEndPoint = new UnityEvent<Vector3, float>();
+        public static UnityEvent<Vector3> OnShouldMoveToEndPoint = new UnityEvent<Vector3>();
         private bool _reached = false;
 
         private void OnTriggerEnter(Collider other)
@@ -24,7 +23,7 @@ namespace Finish
             var score = FindObjectOfType<ScoreChanger>().CurrentScore;
             var movePoint = score >= 0 ? workPoint.position : dancePoint.position;
             
-            OnShouldMoveToEndPoint?.Invoke(movePoint, pointRadius);
+            OnShouldMoveToEndPoint?.Invoke(movePoint);
             OnReachedFinish?.Invoke();
             
             _reached = true;

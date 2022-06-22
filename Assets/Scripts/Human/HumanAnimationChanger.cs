@@ -19,7 +19,7 @@ namespace Human
             _animator = GetComponentInChildren<Animator>();
             _humanMovement = GetComponent<HumanMovement>();
             
-            HumanAttractorMovement.OnReachedEnd.AddListener(() =>
+            AttractorForwardMover.OnReachedEnd.AddListener(() =>
             {
                 Invoke(nameof(ChangeAnimation), Random.Range(0, changeDelay));
             });            

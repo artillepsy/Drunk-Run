@@ -27,7 +27,7 @@ namespace HumanSpawn
 
         private void Start()
         {
-            _attractor = FindObjectOfType<HumanAttractor>().transform;
+            _attractor = FindObjectOfType<Attractor>().transform;
             
             Gate.OnShouldChangeHumanCount.AddListener((humanTag, count) =>
             {

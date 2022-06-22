@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using HumanAttraction;
 using Score;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ namespace Finish
 
         private void Start()
         {
-            FinishLine.OnReachedFinish.AddListener(() =>
+            AttractorForwardMover.OnReachedEnd.AddListener(() =>
             {
                 var score = FindObjectOfType<ScoreChanger>().CurrentScore;
 
