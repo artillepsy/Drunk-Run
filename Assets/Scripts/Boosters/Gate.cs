@@ -9,6 +9,8 @@ namespace Boosters
         [SerializeField] private string humanTag = "Male";
         [SerializeField] private int humanSpawnCount = 0;
         [SerializeField] private Material usedMat;
+        [SerializeField] private bool changeMaterial = false;
+        
         
         public UnityEvent OnGateUsed = new UnityEvent();
         public static UnityEvent<string, int> OnShouldChangeHumanCount = new UnityEvent<string, int>();
@@ -22,7 +24,8 @@ namespace Boosters
             
             OnGateUsed?.Invoke();
             _used = true;
-            
+
+            if (!changeMaterial) return;
             GetComponentInChildren<MeshRenderer>().sharedMaterial = usedMat;
         }
     }
