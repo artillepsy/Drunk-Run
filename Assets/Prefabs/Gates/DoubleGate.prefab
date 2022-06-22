@@ -40,9 +40,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4639085902854499721}
     m_Modifications:
+    - target: {fileID: 399623387781045966, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.0504
+      objectReference: {fileID: 0}
+    - target: {fileID: 399623387781045966, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0248
+      objectReference: {fileID: 0}
     - target: {fileID: 1281387418586605528, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7760114998619667882, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.45
       objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756644, guid: b18640bfedd7cc746a7c8f8dab5e97f9, type: 3}
       propertyPath: m_Name
@@ -148,6 +160,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4639085902854499721}
     m_Modifications:
+    - target: {fileID: 307216450077419674, guid: cde946be47a40c442916989cbcab89ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778679421921245426, guid: cde946be47a40c442916989cbcab89ae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.0498703
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778679421921245426, guid: cde946be47a40c442916989cbcab89ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756644, guid: cde946be47a40c442916989cbcab89ae, type: 3}
       propertyPath: m_Name
       value: BarGate

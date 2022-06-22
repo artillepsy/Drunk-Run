@@ -68,15 +68,15 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.274
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RampSmooth: 0.881
+    - _RampSmooth: 1
     - _RampSmoothAdd: 1
-    - _RampThreshold: 0.487
+    - _RampThreshold: 0.164
     - _RimMax: 0.85
     - _RimMin: 0.6
     - _RimStrength: 0.5
@@ -92,9 +92,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.013616918, g: 0.4245283, b: 0.020408807, a: 1}
+    - _Color: {r: 0, g: 0.5283019, b: 0.010358828, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
-    - _SColor: {r: 0.3490566, g: 0.19626716, b: 0.10998575, a: 1}
+    - _SColor: {r: 0.46226418, g: 0, b: 0.2501076, a: 1}
   m_BuildTextureStacks: []
