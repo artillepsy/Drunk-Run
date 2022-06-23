@@ -67,6 +67,7 @@ namespace Levels
         private void SendLevelEndEvent()
         {
             _metrics.CurrentLevelInLoop++;
+            _metrics.LevelCount++;
             
             if (_metrics.CurrentLevelInLoop == SceneManager.sceneCountInBuildSettings - 1)
             {
@@ -84,6 +85,13 @@ namespace Levels
             });
             SaveSystem.SaveMetrics(_metrics);
             AppMetrica.Instance.SendEventsBuffer();
+            
+            _metrics.PrintInfo();
+            Debug.Log("result = " + s_result);
+            Debug.Log("time = "+ _time);
+            Debug.Log(" ");
+            Debug.Log(" ");
+            Debug.Log(" ");
         }
     }
 }
