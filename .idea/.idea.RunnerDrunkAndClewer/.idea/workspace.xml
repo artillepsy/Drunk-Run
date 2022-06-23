@@ -20,315 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/LevelSaver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/LevelSaver.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/SaveSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/SaveSystem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AppMetrica/AppMetrica.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AppMetrica/AppMetrica.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AFInAppEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AFInAppEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AFMiniJSON.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AFMiniJSON.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyer.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyer.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerAndroid.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerAndroid.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerEventArgs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerEventArgs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerObject.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerObject.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerObjectScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyerObjectScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyeriOS.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/AppsFlyeriOS.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/AppsFlyer.Editor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/AppsFlyer.Editor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/AppsFlyerDependencies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/AppsFlyerDependencies.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/AppsFlyerObjectEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/AppsFlyerObjectEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Editor/logo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/IAppsFlyerConversionData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/IAppsFlyerConversionData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/IAppsFlyerUserInvite.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/IAppsFlyerUserInvite.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/IAppsFlyerValidateReceipt.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/IAppsFlyerValidateReceipt.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AFUnityUtils.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AFUnityUtils.mm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyer+AppController.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyer+AppController.m.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyerAppController.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyerAppController.mm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyerAttribution.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyerAttribution.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyerAttribution.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyerAttribution.m.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.mm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Windows/AppsFlyerLib.pri" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Windows/AppsFlyerLib.pri.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Windows/AppsFlyerLib.winmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Windows/AppsFlyerLib.winmd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Windows/AppsFlyerWindows.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/Windows/AppsFlyerWindows.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/AppsFlyer/package.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AccessTokenMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AccessTokenMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AppEvents.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AppEvents.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AppLinks.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AppLinks.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AppRequests.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/AppRequests.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/DialogShare.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/DialogShare.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/GraphRequest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/GraphRequest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/LogView.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/LogView.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/MainMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/MainMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Pay.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Pay.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/ConsoleBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/ConsoleBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/LogView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/LogView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/MenuBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/MenuBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/TournamentsMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Scripts/SubMenus/TournamentsMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Textures/White.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Textures/White.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/TournamentsMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/TournamentsMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsA2UNotificationsManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsA2UNotificationsManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsADSManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsADSManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsExampleTabsManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsExampleTabsManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsFriendsManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsFriendsManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsGraphAPIManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsGraphAPIManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsInitManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsInitManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsLoginManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsLoginManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsLogsManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsLogsManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsPurchaseManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsPurchaseManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsShareManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsShareManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsTournamentsManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsTournamentsManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsVirtualGamepadManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/FBWindowsVirtualGamepadManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/PurchaseButton.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/PurchaseButton.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/WindowsExample.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Examples/Windows/WindowsExample.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Android/libs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-13.2.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-13.2.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Canvas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Editor/Dependencies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Editor/Dependencies.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Facebook.Unity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Facebook.Unity.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Settings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/Facebook.Unity.Windows.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/Facebook.Unity.Windows.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/LibFBGManaged.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/LibFBGManaged.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/LibFBGPlatform.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/LibFBGPlatform.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/LibFBGUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/LibFBGUI.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/WebView2Loader.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/WebView2Loader.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/cpprest_2_10.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/cpprest_2_10.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/libcrypto-1_1-x64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/libcrypto-1_1-x64.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/libcurl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/libcurl.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/libssl-1_1-x64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/libssl-1_1-x64.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/tinyxml2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/tinyxml2.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x64/zlib1.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/LibFBGPlatform.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/LibFBGPlatform.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/LibFBGUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/LibFBGUI.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/WebView2Loader.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/WebView2Loader.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/cpprest_2_10.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/cpprest_2_10.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/libcrypto-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/libcrypto-1_1.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/libcurl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/libcurl.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/libssl-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/libssl-1_1.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/tinyxml2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/tinyxml2.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/Windows/x86/zlib1.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/iOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKShareTournamentDialog.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKShareTournamentDialog.swift.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournament.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournament.swift.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentUpdater.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentUpdater.swift.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/fixup.projmods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/SDK/Editor/iOS/fixup.projmods.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/link.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/FacebookSDK/link.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.135.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.135.0.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.137.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.137.0.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.IOSResolver.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.IOSResolver.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.JarResolver.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.JarResolver.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.PackageManagerResolver.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.PackageManagerResolver.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.VersionHandlerImpl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.169/Google.VersionHandlerImpl.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.144.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.144.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.144.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.144.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.UnityPackageManagerResolver_v1.2.144.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.UnityPackageManagerResolver_v1.2.144.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.144.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.144.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/GoogleRegistries.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/GoogleRegistries.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_v1.2.144.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_v1.2.144.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.169_manifest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.169_manifest.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/LilitaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/LilitaOne-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1_Profiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1_Profiles/Main Camera Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1_Profiles/Main Camera Profile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/meta.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/meta.mp4.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saves/LevelSaver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saves/LevelSaver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -345,12 +48,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/8c/0e8599e0/UnityEvent`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkennessScalerV2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/ChangeCountEffectsPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChangeEffectsPlacer.cs" />
@@ -378,7 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CameraFinishAnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
@@ -396,10 +98,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/SaveSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/UserData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/LevelSaver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/MetricsEventParameters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" />
       </list>
     </option>
@@ -463,7 +167,7 @@
       <workItem from="1655932793753" duration="2511000" />
       <workItem from="1655973476690" duration="6922000" />
       <workItem from="1656001713196" duration="3761000" />
-      <workItem from="1656016804145" duration="2743000" />
+      <workItem from="1656016804145" duration="8885000" />
     </task>
     <servers />
   </component>
@@ -488,10 +192,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="189" key="run.anything.popup" timestamp="1655461099881">
+    <state x="425" y="189" key="run.anything.popup" timestamp="1656020779887">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1655461099881" />
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1656020779887" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1655363173779">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
