@@ -4,112 +4,168 @@
     <e p="C:\Users\Dell\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Dell\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_RunnerDrunkAndClewer.-1784356931.00" t="ExcludeRecursive" />
     <e p="C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer" t="IncludeRecursive">
+      <e p="AppsFlyer.csproj" t="IncludeRecursive" />
+      <e p="AppsFlyer.Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BOXOPHOBIC" t="Include">
-          <e p="Skybox Cubemap Extended" t="Include">
-            <e p="Core" t="Include">
-              <e p="Editor" t="Include">
-                <e p="Boxophobic.SkyboxCubemapExtended.Editor.asmdef" t="Include" />
-                <e p="SkyboxExtendedHub.cs" t="Include" />
-                <e p="SkyboxExtendedShaderGUI.cs" t="Include" />
-                <e p="SkyboxExtendedWindows.cs" t="Include" />
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="Skybox Cubemap Blend.shader" t="Include" />
-                <e p="Skybox Cubemap Extended.shader" t="Include" />
-              </e>
-            </e>
+        <e p="AppMetrica" t="Include">
+          <e p="AppMetrica.cs" t="Include" />
+          <e p="BaseYandexAppMetrica.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="AppMetricaDependencies.xml" t="Include" />
+            <e p="PostprocessBuildPlayerAppMetrica.cs" t="Include" />
           </e>
-          <e p="Utils" t="Include">
-            <e p="Editor" t="Include">
-              <e p="Boxophobic.Utils.Editor.asmdef" t="Include" />
-              <e p="Constants" t="Include">
-                <e p="Constants.cs" t="Include" />
-              </e>
-              <e p="SettingsUtils" t="Include">
-                <e p="LoadSettingsData.cs" t="Include" />
-                <e p="SaveSettingsData.cs" t="Include" />
-              </e>
-              <e p="StyledGUI" t="Include">
-                <e p="DrawInspectorBanner.cs" t="Include" />
-                <e p="DrawInspectorCategory.cs" t="Include" />
-                <e p="DrawWindowBanner.cs" t="Include" />
-                <e p="DrawWindowCategory.cs" t="Include" />
-              </e>
-              <e p="StyledInspector" t="Include">
-                <e p="StyledBannerDrawer.cs" t="Include" />
-                <e p="StyledButtonDrawer.cs" t="Include" />
-                <e p="StyledCategoryDrawer.cs" t="Include" />
-                <e p="StyledEnumDrawer.cs" t="Include" />
-                <e p="StyledIndentDrawer.cs" t="Include" />
-                <e p="StyledInteractiveDrawer.cs" t="Include" />
-                <e p="StyledLayersDrawer.cs" t="Include" />
-                <e p="StyledMaskDrawer.cs" t="Include" />
-                <e p="StyledMessageDrawer.cs" t="Include" />
-                <e p="StyledRangeOptionsDrawer.cs" t="Include" />
-                <e p="StyledSpaceDrawer.cs" t="Include" />
-                <e p="StyledTextDrawer.cs" t="Include" />
-                <e p="StyledTexturePreviewDrawer.cs" t="Include" />
-              </e>
-              <e p="StyledMaterial" t="Include">
-                <e p="StyledBannerDrawer.cs" t="Include" />
-                <e p="StyledButtonDrawer.cs" t="Include" />
-                <e p="StyledCategoryDrawer.cs" t="Include" />
-                <e p="StyledDiffusionMaterialDrawer.cs" t="Include" />
-                <e p="StyledEmissiveIntensityDrawer.cs" t="Include" />
-                <e p="StyledEnumDrawer.cs" t="Include" />
-                <e p="StyledIndentDrawer.cs" t="Include" />
-                <e p="StyledInteractiveDrawer.cs" t="Include" />
-                <e p="StyledLayersDrawer.cs" t="Include" />
-                <e p="StyledMaskDrawer.cs" t="Include" />
-                <e p="StyledMessageDrawer.cs" t="Include" />
-                <e p="StyledOptionsSliderDrawer.cs" t="Include" />
-                <e p="StyledRemapSliderDrawer.cs" t="Include" />
-                <e p="StyledSpaceDrawer.cs" t="Include" />
-                <e p="StyledTextDrawer.cs" t="Include" />
-                <e p="StyledTextureDrawer.cs" t="Include" />
-                <e p="StyledTextureSingleLineDrawer.cs" t="Include" />
-                <e p="StyledToggleDrawer.cs" t="Include" />
-                <e p="StyledVectorDrawer.cs" t="Include" />
-              </e>
-              <e p="StyledMono" t="Include">
-                <e p="StyledMonoBehaviourEditor.cs" t="Include" />
-                <e p="StyledScriptableObjectEditor.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="Boxophobic.Utils.Scripts.asmdef" t="Include" />
-              <e p="SettingsUtils" t="Include">
-                <e p="SettingsData.cs" t="Include" />
-              </e>
-              <e p="StyledGizmos" t="Include">
-                <e p="StyledLabelGizmo.cs" t="Include" />
-              </e>
-              <e p="StyledInspector" t="Include">
-                <e p="StyledBanner.cs" t="Include" />
-                <e p="StyledButton.cs" t="Include" />
-                <e p="StyledCategory.cs" t="Include" />
-                <e p="StyledEnum.cs" t="Include" />
-                <e p="StyledIndent.cs" t="Include" />
-                <e p="StyledInteractive.cs" t="Include" />
-                <e p="StyledLayers.cs" t="Include" />
-                <e p="StyledMask.cs" t="Include" />
-                <e p="StyledMessage.cs" t="Include" />
-                <e p="StyledRangeOptions.cs" t="Include" />
-                <e p="StyledSpace.cs" t="Include" />
-                <e p="StyledText.cs" t="Include" />
-                <e p="StyledTexturePreview.cs" t="Include" />
-              </e>
-              <e p="StyledMono" t="Include">
-                <e p="StyledMonoBehaviour.cs" t="Include" />
-                <e p="StyledScriptableObject.cs" t="Include" />
-              </e>
-            </e>
+          <e p="IYandexAppMetrica.cs" t="Include" />
+          <e p="Profile" t="Include">
+            <e p="YandexAppMetricaAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaBirthDateAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaBooleanAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaCounterAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaGenderAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaNameAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaNotificationsEnabledAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaNumberAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaStringAttribute.cs" t="Include" />
+            <e p="YandexAppMetricaUserProfile.cs" t="Include" />
+            <e p="YandexAppMetricaUserProfileUpdate.cs" t="Include" />
           </e>
+          <e p="YandexAppMetricaAndroid.cs" t="Include" />
+          <e p="YandexAppMetricaConfig.cs" t="Include" />
+          <e p="YandexAppMetricaDummy.cs" t="Include" />
+          <e p="YandexAppMetricaError.cs" t="Include" />
+          <e p="YandexAppMetricaErrorDetails.cs" t="Include" />
+          <e p="YandexAppMetricaIOS.cs" t="Include" />
+          <e p="YandexAppMetricaRequestTrackingStatus.cs" t="Include" />
+          <e p="YandexAppMetricaRevenue.cs" t="Include" />
+          <e p="YMMJSONUtils.cs" t="Include" />
         </e>
         <e p="Downloaded Assets" t="Include">
+          <e p="AppsFlyer" t="Include">
+            <e p="AFInAppEvents.cs" t="Include" />
+            <e p="AFMiniJSON.cs" t="Include" />
+            <e p="AppsFlyer.asmdef" t="Include" />
+            <e p="AppsFlyer.cs" t="Include" />
+            <e p="AppsFlyerAndroid.cs" t="Include" />
+            <e p="AppsFlyerEventArgs.cs" t="Include" />
+            <e p="AppsFlyeriOS.cs" t="Include" />
+            <e p="AppsFlyerObjectScript.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="AppsFlyer.Editor.asmdef" t="Include" />
+              <e p="AppsFlyerDependencies.xml" t="Include" />
+              <e p="AppsFlyerObjectEditor.cs" t="Include" />
+            </e>
+            <e p="IAppsFlyerConversionData.cs" t="Include" />
+            <e p="IAppsFlyerUserInvite.cs" t="Include" />
+            <e p="IAppsFlyerValidateReceipt.cs" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="Windows" t="Include">
+              <e p="AppsFlyerWindows.cs" t="Include" />
+            </e>
+          </e>
+          <e p="BOXOPHOBIC" t="Include">
+            <e p="Skybox Cubemap Extended" t="Include">
+              <e p="Core" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="Boxophobic.SkyboxCubemapExtended.Editor.asmdef" t="Include" />
+                  <e p="SkyboxExtendedHub.cs" t="Include" />
+                  <e p="SkyboxExtendedShaderGUI.cs" t="Include" />
+                  <e p="SkyboxExtendedWindows.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="Skybox Cubemap Blend.shader" t="Include" />
+                  <e p="Skybox Cubemap Extended.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Utils" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Boxophobic.Utils.Editor.asmdef" t="Include" />
+                <e p="Constants" t="Include">
+                  <e p="Constants.cs" t="Include" />
+                </e>
+                <e p="SettingsUtils" t="Include">
+                  <e p="LoadSettingsData.cs" t="Include" />
+                  <e p="SaveSettingsData.cs" t="Include" />
+                </e>
+                <e p="StyledGUI" t="Include">
+                  <e p="DrawInspectorBanner.cs" t="Include" />
+                  <e p="DrawInspectorCategory.cs" t="Include" />
+                  <e p="DrawWindowBanner.cs" t="Include" />
+                  <e p="DrawWindowCategory.cs" t="Include" />
+                </e>
+                <e p="StyledInspector" t="Include">
+                  <e p="StyledBannerDrawer.cs" t="Include" />
+                  <e p="StyledButtonDrawer.cs" t="Include" />
+                  <e p="StyledCategoryDrawer.cs" t="Include" />
+                  <e p="StyledEnumDrawer.cs" t="Include" />
+                  <e p="StyledIndentDrawer.cs" t="Include" />
+                  <e p="StyledInteractiveDrawer.cs" t="Include" />
+                  <e p="StyledLayersDrawer.cs" t="Include" />
+                  <e p="StyledMaskDrawer.cs" t="Include" />
+                  <e p="StyledMessageDrawer.cs" t="Include" />
+                  <e p="StyledRangeOptionsDrawer.cs" t="Include" />
+                  <e p="StyledSpaceDrawer.cs" t="Include" />
+                  <e p="StyledTextDrawer.cs" t="Include" />
+                  <e p="StyledTexturePreviewDrawer.cs" t="Include" />
+                </e>
+                <e p="StyledMaterial" t="Include">
+                  <e p="StyledBannerDrawer.cs" t="Include" />
+                  <e p="StyledButtonDrawer.cs" t="Include" />
+                  <e p="StyledCategoryDrawer.cs" t="Include" />
+                  <e p="StyledDiffusionMaterialDrawer.cs" t="Include" />
+                  <e p="StyledEmissiveIntensityDrawer.cs" t="Include" />
+                  <e p="StyledEnumDrawer.cs" t="Include" />
+                  <e p="StyledIndentDrawer.cs" t="Include" />
+                  <e p="StyledInteractiveDrawer.cs" t="Include" />
+                  <e p="StyledLayersDrawer.cs" t="Include" />
+                  <e p="StyledMaskDrawer.cs" t="Include" />
+                  <e p="StyledMessageDrawer.cs" t="Include" />
+                  <e p="StyledOptionsSliderDrawer.cs" t="Include" />
+                  <e p="StyledRemapSliderDrawer.cs" t="Include" />
+                  <e p="StyledSpaceDrawer.cs" t="Include" />
+                  <e p="StyledTextDrawer.cs" t="Include" />
+                  <e p="StyledTextureDrawer.cs" t="Include" />
+                  <e p="StyledTextureSingleLineDrawer.cs" t="Include" />
+                  <e p="StyledToggleDrawer.cs" t="Include" />
+                  <e p="StyledVectorDrawer.cs" t="Include" />
+                </e>
+                <e p="StyledMono" t="Include">
+                  <e p="StyledMonoBehaviourEditor.cs" t="Include" />
+                  <e p="StyledScriptableObjectEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Boxophobic.Utils.Scripts.asmdef" t="Include" />
+                <e p="SettingsUtils" t="Include">
+                  <e p="SettingsData.cs" t="Include" />
+                </e>
+                <e p="StyledGizmos" t="Include">
+                  <e p="StyledLabelGizmo.cs" t="Include" />
+                </e>
+                <e p="StyledInspector" t="Include">
+                  <e p="StyledBanner.cs" t="Include" />
+                  <e p="StyledButton.cs" t="Include" />
+                  <e p="StyledCategory.cs" t="Include" />
+                  <e p="StyledEnum.cs" t="Include" />
+                  <e p="StyledIndent.cs" t="Include" />
+                  <e p="StyledInteractive.cs" t="Include" />
+                  <e p="StyledLayers.cs" t="Include" />
+                  <e p="StyledMask.cs" t="Include" />
+                  <e p="StyledMessage.cs" t="Include" />
+                  <e p="StyledRangeOptions.cs" t="Include" />
+                  <e p="StyledSpace.cs" t="Include" />
+                  <e p="StyledText.cs" t="Include" />
+                  <e p="StyledTexturePreview.cs" t="Include" />
+                </e>
+                <e p="StyledMono" t="Include">
+                  <e p="StyledMonoBehaviour.cs" t="Include" />
+                  <e p="StyledScriptableObject.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Epic Toon FX" t="Include">
             <e p="Changelog.txt" t="Include" />
             <e p="Prefabs" t="Include">
@@ -132,203 +188,50 @@
               <e p="URP Compatibility.txt" t="Include" />
             </e>
           </e>
-          <e p="Plugins" t="Include">
-            <e p="RootMotion" t="Include">
-              <e p="Baker" t="Include">
-                <e p="_DEMOS" t="Include">
-                  <e p="Scripts" t="Include">
-                    <e p="FKOffset.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="Scripts" t="Include">
-                  <e p="Baker.cs" t="Include" />
-                  <e p="GenericBaker.cs" t="Include" />
-                  <e p="Helpers" t="Include">
-                    <e p="AvatarUtility.cs" t="Include" />
-                    <e p="BakerUtilities.cs" t="Include" />
-                  </e>
-                  <e p="HumanoidBaker.cs" t="Include" />
+          <e p="FacebookSDK" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ConsoleBase.cs" t="Include" />
+                <e p="LogView.cs" t="Include" />
+                <e p="MenuBase.cs" t="Include" />
+                <e p="SubMenus" t="Include">
+                  <e p="AccessTokenMenu.cs" t="Include" />
+                  <e p="AppEvents.cs" t="Include" />
+                  <e p="AppLinks.cs" t="Include" />
+                  <e p="AppRequests.cs" t="Include" />
+                  <e p="DialogShare.cs" t="Include" />
+                  <e p="GraphRequest.cs" t="Include" />
+                  <e p="MainMenu.cs" t="Include" />
+                  <e p="Pay.cs" t="Include" />
+                  <e p="TournamentsMenu.cs" t="Include" />
                 </e>
               </e>
+              <e p="Windows" t="Include">
+                <e p="FBWindowsA2UNotificationsManager.cs" t="Include" />
+                <e p="FBWindowsADSManager.cs" t="Include" />
+                <e p="FBWindowsExampleTabsManager.cs" t="Include" />
+                <e p="FBWindowsFriendsManager.cs" t="Include" />
+                <e p="FBWindowsGraphAPIManager.cs" t="Include" />
+                <e p="FBWindowsInitManager.cs" t="Include" />
+                <e p="FBWindowsLoginManager.cs" t="Include" />
+                <e p="FBWindowsLogsManager.cs" t="Include" />
+                <e p="FBWindowsPurchaseManager.cs" t="Include" />
+                <e p="FBWindowsShareManager.cs" t="Include" />
+                <e p="FBWindowsTournamentsManager.cs" t="Include" />
+                <e p="FBWindowsVirtualGamepadManager.cs" t="Include" />
+              </e>
+            </e>
+            <e p="link.xml" t="Include" />
+            <e p="Plugins" t="Include">
               <e p="Editor" t="Include">
-                <e p="Baker" t="Include">
-                  <e p="BakerInspector.cs" t="Include" />
-                  <e p="GenericBakerInspector.cs" t="Include" />
-                  <e p="Helpers" t="Include">
-                    <e p="AnimationUtilityExtended.cs" t="Include" />
-                    <e p="SaveClipFolderPanel.cs" t="Include" />
-                  </e>
-                  <e p="HumanoidBakerInspector.cs" t="Include" />
-                </e>
-                <e p="PuppetMaster" t="Include">
-                  <e p="_DEMOS" t="Include">
-                    <e p="CharacterMeleeDemoInspector.cs" t="Include" />
-                    <e p="CharacterPuppetInspector.cs" t="Include" />
-                  </e>
-                  <e p="BehaviourPuppetMasterPropsDrawer.cs" t="Include" />
-                  <e p="PropMuscleInspector.cs" t="Include" />
-                  <e p="PuppetMasterHumanoidConfigInspector.cs" t="Include" />
-                  <e p="PuppetMasterInspector.cs" t="Include" />
-                  <e p="PuppetMasterPropInspector.cs" t="Include" />
-                  <e p="WeightDrawer.cs" t="Include" />
-                </e>
-                <e p="RagdollManager" t="Include">
-                  <e p="BipedRagdollCreatorInspector.cs" t="Include" />
-                  <e p="CharacterJointInspector.cs" t="Include" />
-                  <e p="ColliderTools.cs" t="Include" />
-                  <e p="ConfigurableJointInspector.cs" t="Include" />
-                  <e p="ConvertToConfigurableJoints.cs" t="Include" />
-                  <e p="JointInspector.cs" t="Include" />
-                  <e p="JointTools.cs" t="Include" />
-                  <e p="RagdollEditorInspector.cs" t="Include" />
-                  <e p="SymmetryTools.cs" t="Include" />
-                </e>
-                <e p="Shared Demo Scripts" t="Include">
-                  <e p="CameraControllerInspector.cs" t="Include" />
-                </e>
-                <e p="Shared Scripts" t="Include">
-                  <e p="BipedReferencesInspector.cs" t="Include" />
-                  <e p="CommentsInspector.cs" t="Include" />
-                  <e p="Inspector.cs" t="Include" />
-                  <e p="InspectorCommentDrawer.cs" t="Include" />
-                  <e p="LargeHeaderDrawer.cs" t="Include" />
-                  <e p="SerializedContent.cs" t="Include" />
-                </e>
+                <e p="Dependencies.xml" t="Include" />
               </e>
-              <e p="PuppetMaster" t="Include">
-                <e p="_DEMOS" t="Include">
-                  <e p="Assets" t="Include">
-                    <e p="Scripts" t="Include">
-                      <e p="AnimatorIKDemo.cs" t="Include" />
-                      <e p="BallShooter.cs" t="Include" />
-                      <e p="BoardController.cs" t="Include" />
-                      <e p="CharacterAnimationMeleeDemo.cs" t="Include" />
-                      <e p="CharacterMeleeDemo.cs" t="Include" />
-                      <e p="CharacterPuppet.cs" t="Include" />
-                      <e p="CreatePuppetInRuntime.cs" t="Include" />
-                      <e p="CreateRagdollInRuntime.cs" t="Include" />
-                      <e p="DeathBaker.cs" t="Include" />
-                      <e p="Destructor.cs" t="Include" />
-                      <e p="Dying.cs" t="Include" />
-                      <e p="FXCollisionBlood.cs" t="Include" />
-                      <e p="Grab.cs" t="Include" />
-                      <e p="InitialVelocity.cs" t="Include" />
-                      <e p="Killing.cs" t="Include" />
-                      <e p="LayerSetup.cs" t="Include" />
-                      <e p="NavMeshPuppet.cs" t="Include" />
-                      <e p="Planet.cs" t="Include" />
-                      <e p="PlanetaryGravity.cs" t="Include" />
-                      <e p="PropDemo.cs" t="Include" />
-                      <e p="PropMelee.cs" t="Include" />
-                      <e p="PropPickUpTrigger.cs" t="Include" />
-                      <e p="PuppetBoard.cs" t="Include" />
-                      <e p="PuppetMasterPropMelee.cs" t="Include" />
-                      <e p="PuppetScaling.cs" t="Include" />
-                      <e p="RaycastShooter.cs" t="Include" />
-                      <e p="Respawning.cs" t="Include" />
-                      <e p="RotateShoulderToTarget.cs" t="Include" />
-                      <e p="Skeleton.cs" t="Include" />
-                      <e p="SkeletonDisconnector.cs" t="Include" />
-                      <e p="SkeletonShooter.cs" t="Include" />
-                      <e p="UserControlAIMelee.cs" t="Include" />
-                      <e p="UserControlMelee.cs" t="Include" />
-                    </e>
-                  </e>
-                </e>
-                <e p="DoxygenManualPuppetMaster.cs" t="Include" />
-                <e p="Scripts" t="Include">
-                  <e p="AnimationBlocker.cs" t="Include" />
-                  <e p="Behaviours" t="Include">
-                    <e p="BehaviourBase.cs" t="Include" />
-                    <e p="BehaviourFall.cs" t="Include" />
-                    <e p="BehaviourPuppet.cs" t="Include" />
-                    <e p="BehaviourPuppetBoosting.cs" t="Include" />
-                    <e p="BehaviourPuppetDamage.cs" t="Include" />
-                    <e p="BehaviourPuppetHelpers.cs" t="Include" />
-                    <e p="BehaviourPuppetStateSwitching.cs" t="Include" />
-                    <e p="BehaviourTemplate.cs" t="Include" />
-                    <e p="SubBehaviours" t="Include">
-                      <e p="SubBehaviourBalancer.cs" t="Include" />
-                      <e p="SubBehaviourBase.cs" t="Include" />
-                      <e p="SubBehaviourCOM.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="Booster.cs" t="Include" />
-                  <e p="JointBreakBroadcaster.cs" t="Include" />
-                  <e p="Muscle.cs" t="Include" />
-                  <e p="MuscleCollisionBroadcaster.cs" t="Include" />
-                  <e p="PhysXTools.cs" t="Include" />
-                  <e p="PressureSensor.cs" t="Include" />
-                  <e p="Prop.cs" t="Include" />
-                  <e p="PropMuscle.cs" t="Include" />
-                  <e p="PropRoot.cs" t="Include" />
-                  <e p="PropTemplate.cs" t="Include" />
-                  <e p="PuppetMaster.cs" t="Include" />
-                  <e p="PuppetMasterHierarchyAPI.cs" t="Include" />
-                  <e p="PuppetMasterHumanoidConfig.cs" t="Include" />
-                  <e p="PuppetMasterModes.cs" t="Include" />
-                  <e p="PuppetMasterMuscleAPI.cs" t="Include" />
-                  <e p="PuppetMasterProp.cs" t="Include" />
-                  <e p="PuppetMasterSettings.cs" t="Include" />
-                  <e p="PuppetMasterSetup.cs" t="Include" />
-                  <e p="PuppetMasterStates.cs" t="Include" />
-                  <e p="PuppetMasterTargetMappedState.cs" t="Include" />
-                  <e p="PuppetMasterTools.cs" t="Include" />
-                  <e p="PuppetMasterValidation.cs" t="Include" />
-                  <e p="Weight.cs" t="Include" />
-                </e>
-              </e>
-              <e p="RagdollManager" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="BipedRagdollCreator.cs" t="Include" />
-                  <e p="BipedRagdollReferences.cs" t="Include" />
-                  <e p="JointConverter.cs" t="Include" />
-                  <e p="RagdollCreator.cs" t="Include" />
-                  <e p="RagdollEditor.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Shared Demo Assets" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="Camera Controllers" t="Include">
-                    <e p="CameraController.cs" t="Include" />
-                    <e p="CameraControllerFPS.cs" t="Include" />
-                  </e>
-                  <e p="Character Controllers" t="Include">
-                    <e p="CharacterAnimationBase.cs" t="Include" />
-                    <e p="CharacterAnimationSimple.cs" t="Include" />
-                    <e p="CharacterAnimationThirdPerson.cs" t="Include" />
-                    <e p="CharacterBase.cs" t="Include" />
-                    <e p="CharacterThirdPerson.cs" t="Include" />
-                    <e p="SimpleLocomotion.cs" t="Include" />
-                    <e p="UserControlAI.cs" t="Include" />
-                    <e p="UserControlThirdPerson.cs" t="Include" />
-                  </e>
-                  <e p="Misc" t="Include">
-                    <e p="ApplicationQuit.cs" t="Include" />
-                    <e p="SlowMo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-              <e p="Shared Scripts" t="Include">
-                <e p="AxisTools.cs" t="Include" />
-                <e p="BipedLimbOrientations.cs" t="Include" />
-                <e p="BipedNaming.cs" t="Include" />
-                <e p="BipedReferences.cs" t="Include" />
-                <e p="Comments.cs" t="Include" />
-                <e p="DemoGUIMessage.cs" t="Include" />
-                <e p="Hierarchy.cs" t="Include" />
-                <e p="InspectorComment.cs" t="Include" />
-                <e p="Interp.cs" t="Include" />
-                <e p="LargeHeader.cs" t="Include" />
-                <e p="LayerMaskExtensions.cs" t="Include" />
-                <e p="Navigator.cs" t="Include" />
-                <e p="QuaTools.cs" t="Include" />
-                <e p="Singleton.cs" t="Include" />
-                <e p="SolverManager.cs" t="Include" />
-                <e p="TriggerEventBroadcaster.cs" t="Include" />
-                <e p="V3Tools.cs" t="Include" />
-                <e p="Warning.cs" t="Include" />
-              </e>
+            </e>
+          </e>
+          <e p="PlayServicesResolver" t="Include">
+            <e p="Editor" t="Include">
+              <e p="play-services-resolver_v1.2.135.0.txt" t="Include" />
+              <e p="play-services-resolver_v1.2.137.0.txt" t="Include" />
             </e>
           </e>
           <e p="PolygonCity" t="Include">
@@ -453,6 +356,16 @@
               </e>
             </e>
           </e>
+        </e>
+        <e p="ExternalDependencyManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="external-dependency-manager_v1.2.144.txt" t="Include" />
+            <e p="external-dependency-manager_version-1.2.169_manifest.txt" t="Include" />
+            <e p="GoogleRegistries.xml" t="Include" />
+          </e>
+        </e>
+        <e p="Fonts" t="Include">
+          <e p="LilitaOne-Regular_license.txt" t="Include" />
         </e>
         <e p="JMO Assets" t="Include">
           <e p="Toony Colors Pro" t="Include">
@@ -690,6 +603,11 @@
             </e>
           </e>
         </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Boosters" t="Include">
             <e p="BaseScoreBooster.cs" t="Include" />
@@ -702,7 +620,6 @@
           <e p="Finish" t="Include">
             <e p="DecisionParticlesDisplay.cs" t="Include" />
             <e p="FinishLine.cs" t="Include" />
-            <e p="LevelReloader.cs" t="Include" />
           </e>
           <e p="Human" t="Include">
             <e p="HumanAnimationChanger.cs" t="Include" />
@@ -722,6 +639,10 @@
             <e p="HumanCountChanger.cs" t="Include" />
             <e p="HumanPool.cs" t="Include" />
           </e>
+          <e p="Levels" t="Include">
+            <e p="LevelData.cs" t="Include" />
+            <e p="LevelManager.cs" t="Include" />
+          </e>
           <e p="Score" t="Include">
             <e p="ProgressStage.cs" t="Include" />
             <e p="ScoreChanger.cs" t="Include" />
@@ -731,6 +652,9 @@
           <e p="Turns" t="Include">
             <e p="TurnPoint.cs" t="Include" />
           </e>
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="LilitaOne-Regular_license.txt" t="Include" />
         </e>
       </e>
       <e p="Boxophobic.SkyboxCubemapExtended.Editor.csproj" t="IncludeRecursive" />
