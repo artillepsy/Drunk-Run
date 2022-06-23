@@ -41,29 +41,29 @@
           <e p="YandexAppMetricaRevenue.cs" t="Include" />
           <e p="YMMJSONUtils.cs" t="Include" />
         </e>
-        <e p="Downloaded Assets" t="Include">
-          <e p="AppsFlyer" t="Include">
-            <e p="AFInAppEvents.cs" t="Include" />
-            <e p="AFMiniJSON.cs" t="Include" />
-            <e p="AppsFlyer.asmdef" t="Include" />
-            <e p="AppsFlyer.cs" t="Include" />
-            <e p="AppsFlyerAndroid.cs" t="Include" />
-            <e p="AppsFlyerEventArgs.cs" t="Include" />
-            <e p="AppsFlyeriOS.cs" t="Include" />
-            <e p="AppsFlyerObjectScript.cs" t="Include" />
-            <e p="Editor" t="Include">
-              <e p="AppsFlyer.Editor.asmdef" t="Include" />
-              <e p="AppsFlyerDependencies.xml" t="Include" />
-              <e p="AppsFlyerObjectEditor.cs" t="Include" />
-            </e>
-            <e p="IAppsFlyerConversionData.cs" t="Include" />
-            <e p="IAppsFlyerUserInvite.cs" t="Include" />
-            <e p="IAppsFlyerValidateReceipt.cs" t="Include" />
-            <e p="package.json" t="Include" />
-            <e p="Windows" t="Include">
-              <e p="AppsFlyerWindows.cs" t="Include" />
-            </e>
+        <e p="AppsFlyer" t="Include">
+          <e p="AFInAppEvents.cs" t="Include" />
+          <e p="AFMiniJSON.cs" t="Include" />
+          <e p="AppsFlyer.asmdef" t="Include" />
+          <e p="AppsFlyer.cs" t="Include" />
+          <e p="AppsFlyerAndroid.cs" t="Include" />
+          <e p="AppsFlyerEventArgs.cs" t="Include" />
+          <e p="AppsFlyeriOS.cs" t="Include" />
+          <e p="AppsFlyerObjectScript.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="AppsFlyer.Editor.asmdef" t="Include" />
+            <e p="AppsFlyerDependencies.xml" t="Include" />
+            <e p="AppsFlyerObjectEditor.cs" t="Include" />
           </e>
+          <e p="IAppsFlyerConversionData.cs" t="Include" />
+          <e p="IAppsFlyerUserInvite.cs" t="Include" />
+          <e p="IAppsFlyerValidateReceipt.cs" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="Windows" t="Include">
+            <e p="AppsFlyerWindows.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Downloaded Assets" t="Include">
           <e p="BOXOPHOBIC" t="Include">
             <e p="Skybox Cubemap Extended" t="Include">
               <e p="Core" t="Include">
@@ -186,52 +186,6 @@
             </e>
             <e p="Upgrade" t="Include">
               <e p="URP Compatibility.txt" t="Include" />
-            </e>
-          </e>
-          <e p="FacebookSDK" t="Include">
-            <e p="Examples" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="ConsoleBase.cs" t="Include" />
-                <e p="LogView.cs" t="Include" />
-                <e p="MenuBase.cs" t="Include" />
-                <e p="SubMenus" t="Include">
-                  <e p="AccessTokenMenu.cs" t="Include" />
-                  <e p="AppEvents.cs" t="Include" />
-                  <e p="AppLinks.cs" t="Include" />
-                  <e p="AppRequests.cs" t="Include" />
-                  <e p="DialogShare.cs" t="Include" />
-                  <e p="GraphRequest.cs" t="Include" />
-                  <e p="MainMenu.cs" t="Include" />
-                  <e p="Pay.cs" t="Include" />
-                  <e p="TournamentsMenu.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Windows" t="Include">
-                <e p="FBWindowsA2UNotificationsManager.cs" t="Include" />
-                <e p="FBWindowsADSManager.cs" t="Include" />
-                <e p="FBWindowsExampleTabsManager.cs" t="Include" />
-                <e p="FBWindowsFriendsManager.cs" t="Include" />
-                <e p="FBWindowsGraphAPIManager.cs" t="Include" />
-                <e p="FBWindowsInitManager.cs" t="Include" />
-                <e p="FBWindowsLoginManager.cs" t="Include" />
-                <e p="FBWindowsLogsManager.cs" t="Include" />
-                <e p="FBWindowsPurchaseManager.cs" t="Include" />
-                <e p="FBWindowsShareManager.cs" t="Include" />
-                <e p="FBWindowsTournamentsManager.cs" t="Include" />
-                <e p="FBWindowsVirtualGamepadManager.cs" t="Include" />
-              </e>
-            </e>
-            <e p="link.xml" t="Include" />
-            <e p="Plugins" t="Include">
-              <e p="Editor" t="Include">
-                <e p="Dependencies.xml" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="PlayServicesResolver" t="Include">
-            <e p="Editor" t="Include">
-              <e p="play-services-resolver_v1.2.135.0.txt" t="Include" />
-              <e p="play-services-resolver_v1.2.137.0.txt" t="Include" />
             </e>
           </e>
           <e p="PolygonCity" t="Include">
@@ -359,9 +313,47 @@
         </e>
         <e p="ExternalDependencyManager" t="Include">
           <e p="Editor" t="Include">
-            <e p="external-dependency-manager_v1.2.144.txt" t="Include" />
-            <e p="external-dependency-manager_version-1.2.169_manifest.txt" t="Include" />
-            <e p="GoogleRegistries.xml" t="Include" />
+            <e p="external-dependency-manager_version-1.2.171_manifest.txt" t="Include" />
+          </e>
+        </e>
+        <e p="FacebookSDK" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ConsoleBase.cs" t="Include" />
+              <e p="LogView.cs" t="Include" />
+              <e p="MenuBase.cs" t="Include" />
+              <e p="SubMenus" t="Include">
+                <e p="AccessTokenMenu.cs" t="Include" />
+                <e p="AppEvents.cs" t="Include" />
+                <e p="AppLinks.cs" t="Include" />
+                <e p="AppRequests.cs" t="Include" />
+                <e p="DialogShare.cs" t="Include" />
+                <e p="GraphRequest.cs" t="Include" />
+                <e p="MainMenu.cs" t="Include" />
+                <e p="Pay.cs" t="Include" />
+                <e p="TournamentsMenu.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Windows" t="Include">
+              <e p="FBWindowsA2UNotificationsManager.cs" t="Include" />
+              <e p="FBWindowsADSManager.cs" t="Include" />
+              <e p="FBWindowsExampleTabsManager.cs" t="Include" />
+              <e p="FBWindowsFriendsManager.cs" t="Include" />
+              <e p="FBWindowsGraphAPIManager.cs" t="Include" />
+              <e p="FBWindowsInitManager.cs" t="Include" />
+              <e p="FBWindowsLoginManager.cs" t="Include" />
+              <e p="FBWindowsLogsManager.cs" t="Include" />
+              <e p="FBWindowsPurchaseManager.cs" t="Include" />
+              <e p="FBWindowsShareManager.cs" t="Include" />
+              <e p="FBWindowsTournamentsManager.cs" t="Include" />
+              <e p="FBWindowsVirtualGamepadManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Dependencies.xml" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Fonts" t="Include">
@@ -640,8 +632,13 @@
             <e p="HumanPool.cs" t="Include" />
           </e>
           <e p="Levels" t="Include">
-            <e p="LevelData.cs" t="Include" />
-            <e p="LevelManager.cs" t="Include" />
+            <e p="LevelLoader.cs" t="Include" />
+            <e p="MetricsCalculator.cs" t="Include" />
+          </e>
+          <e p="Saves" t="Include">
+            <e p="LevelSaver.cs" t="Include" />
+            <e p="Metrics.cs" t="Include" />
+            <e p="SaveSystem.cs" t="Include" />
           </e>
           <e p="Score" t="Include">
             <e p="ProgressStage.cs" t="Include" />
