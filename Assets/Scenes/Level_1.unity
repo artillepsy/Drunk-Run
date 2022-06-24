@@ -8409,7 +8409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4754339342185808405, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
       propertyPath: zSpeed
-      value: 11
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4754339342185808406, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
       propertyPath: m_Name
