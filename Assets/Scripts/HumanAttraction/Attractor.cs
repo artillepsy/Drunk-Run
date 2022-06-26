@@ -18,7 +18,6 @@ namespace HumanAttraction
         public float[] GetXPosBounds()
         {
             var bounds = new float[2]{0, 0};
-
             if (humans.Count == 0) return null;
             
             foreach (var human in humans)

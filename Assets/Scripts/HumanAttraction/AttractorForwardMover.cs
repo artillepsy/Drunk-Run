@@ -37,7 +37,7 @@ namespace HumanAttraction
             Move();
         }
 
-        private void Move()
+        private void Move() 
         {
             var velocity = Vector3.forward * (zSpeed * Time.deltaTime);
             transform.Translate(velocity, Space.Self);
