@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Screwed
   m_EditorClassIdentifier: 
   Name: Screwed
-  LabelColor: {r: 1, g: 1, b: 1, a: 1}
+  LabelColor: {r: 1, g: 0.9058824, b: 0, a: 1}
   SliderColor: {r: 1, g: 0.906335, b: 0, a: 1}
   LeftPointsBorder: -30
   RightPointsBorder: -1

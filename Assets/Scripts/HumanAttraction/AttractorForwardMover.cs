@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using Finish;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,21 +8,27 @@ namespace HumanAttraction
     {
         [SerializeField] private float zSpeed = 3.5f;
         private bool _shouldMove = true;
-        private float _startSpeed;
+        private float _currentSpeed;
 
         public static UnityEvent OnReachedEnd = new UnityEvent();
 
         public float ZSpeed
         {
-            get => zSpeed;
-            set => zSpeed = value;
+            get => _currentSpeed;
+            set => _currentSpeed = value;
         }
         
-        public void ResetSpeed() => zSpeed = _startSpeed;
+        public void ResetSpeed() => _currentSpeed = zSpeed;
+        public void SetSpeed(float value) => _currentSpeed = value;
+
+        private void Awake()
+        {
+            _currentSpeed = zSpeed;
+        }
 
         private void Start()
         {
-            _startSpeed = zSpeed;
+            
             OnReachedEnd.AddListener(() => _shouldMove = false);
             GetComponent<AttractorRotator>().OnRotated.AddListener(endPoint =>
             {
@@ -39,7 +44,7 @@ namespace HumanAttraction
 
         private void Move() 
         {
-            var velocity = Vector3.forward * (zSpeed * Time.deltaTime);
+            var velocity = Vector3.forward * (_currentSpeed * Time.deltaTime);
             transform.Translate(velocity, Space.Self);
         }
 

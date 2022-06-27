@@ -1,24 +1,23 @@
 ﻿using HumanAttraction;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
 namespace Levels
 {
     public class LevelLoader : MonoBehaviour
     {
-        [SerializeField] private string nextLevelName = "Level_2";
-        [SerializeField] private float reloadDelay = 5f;
+        [SerializeField] private float reloadDelay = 2;
         public static UnityEvent OnLevelLoaded = new UnityEvent();
+        public static UnityEvent OnLevelEnded = new UnityEvent();
         private void Start()
         {
             AttractorForwardMover.OnReachedEnd.AddListener(() =>
             {
-                Invoke(nameof(LoadNextLevel), reloadDelay);
+                Invoke(nameof(SendEndLevelEvent), reloadDelay);
             });
             OnLevelLoaded?.Invoke();
         }
 
-        private void LoadNextLevel() => SceneManager.LoadSceneAsync(nextLevelName);
+        private void SendEndLevelEvent() => OnLevelEnded?.Invoke();
     }
 }

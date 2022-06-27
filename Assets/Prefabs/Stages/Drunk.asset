@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Drunk
   m_EditorClassIdentifier: 
   Name: Drunk
-  LabelColor: {r: 1, g: 1, b: 1, a: 1}
+  LabelColor: {r: 1, g: 0.63529414, b: 0, a: 1}
   SliderColor: {r: 1, g: 0.63452077, b: 0, a: 1}
   LeftPointsBorder: -60
   RightPointsBorder: -31

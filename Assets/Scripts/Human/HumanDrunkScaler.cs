@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using Score;
+using CanvasGraphics.Score;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -31,7 +31,7 @@ namespace Human
             _started = true;
             _animator = GetComponentInChildren<Animator>();
             
-            _scoreChanger = FindObjectOfType<ScoreChanger>();
+            _scoreChanger = FindObjectOfType<ScoreChanger>(true);
             _minScore = -_scoreChanger.MaxScore;
             _startScore = _scoreChanger.StartScore;
 

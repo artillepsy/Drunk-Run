@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
+using CanvasGraphics.Score;
 using HumanAttraction;
-using Score;
 using UnityEngine;
 
 namespace Finish
@@ -14,7 +14,7 @@ namespace Finish
         {
             AttractorForwardMover.OnReachedEnd.AddListener(() =>
             {
-                var score = FindObjectOfType<ScoreChanger>().CurrentScore;
+                var score = FindObjectOfType<ScoreChanger>(true).CurrentScore;
 
                 if (score >= 0) moneyParticles.ForEach(particle => particle.SetActive(true));
                 else drunkParticles.ForEach(particle => particle.SetActive(true));

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Male
   - Female
+  - ProgressBarParent
   layers:
   - Default
   - TransparentFX

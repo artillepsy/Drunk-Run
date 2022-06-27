@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Brilliant
   m_EditorClassIdentifier: 
   Name: Brilliant
-  LabelColor: {r: 1, g: 1, b: 1, a: 1}
+  LabelColor: {r: 0, g: 1, b: 0.039215688, a: 1}
   SliderColor: {r: 0, g: 1, b: 0.03937912, a: 1}
   LeftPointsBorder: 61
   RightPointsBorder: 100

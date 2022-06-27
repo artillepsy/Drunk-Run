@@ -606,6 +606,16 @@
             <e p="Gate.cs" t="Include" />
             <e p="Item.cs" t="Include" />
           </e>
+          <e p="CanvasGraphics" t="Include">
+            <e p="CurrentLevelCanvas.cs" t="Include" />
+            <e p="EndCanvas.cs" t="Include" />
+            <e p="Score" t="Include">
+              <e p="ProgressStage.cs" t="Include" />
+              <e p="ScoreChanger.cs" t="Include" />
+              <e p="ScoreDisplay.cs" t="Include" />
+              <e p="ScorePlacer.cs" t="Include" />
+            </e>
+          </e>
           <e p="CinemachineCam" t="Include">
             <e p="CameraFinishAnimationPlayer.cs" t="Include" />
           </e>
@@ -615,7 +625,6 @@
           </e>
           <e p="Human" t="Include">
             <e p="HumanAnimationChanger.cs" t="Include" />
-            <e p="HumanAsyncWalkAnimationSetter.cs" t="Include" />
             <e p="HumanDrunkScaler.cs" t="Include" />
             <e p="HumanMovement.cs" t="Include" />
           </e>
@@ -634,16 +643,11 @@
           <e p="Levels" t="Include">
             <e p="LevelLoader.cs" t="Include" />
             <e p="MetricsCalculator.cs" t="Include" />
+            <e p="StartTutorial.cs" t="Include" />
           </e>
           <e p="Saves" t="Include">
             <e p="Metrics.cs" t="Include" />
             <e p="SaveSystem.cs" t="Include" />
-          </e>
-          <e p="Score" t="Include">
-            <e p="ProgressStage.cs" t="Include" />
-            <e p="ScoreChanger.cs" t="Include" />
-            <e p="ScoreDisplay.cs" t="Include" />
-            <e p="ScorePlacer.cs" t="Include" />
           </e>
           <e p="Turns" t="Include">
             <e p="TurnPoint.cs" t="Include" />

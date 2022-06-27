@@ -1,7 +1,7 @@
 ﻿using System;
+using CanvasGraphics.Score;
 using Human;
 using HumanAttraction;
-using Score;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -18,12 +18,15 @@ namespace Finish
         private bool _reached = false;
         private int _time = 0;
 
+        public void ResetTime() => _time = 0;
+        
         private void Start()
         {
             InvokeRepeating(nameof(IncrementTime), 1f, 1f);
         }
 
         private void IncrementTime() => _time++;
+        
 
         private void OnTriggerEnter(Collider other)
         {
@@ -31,7 +34,7 @@ namespace Finish
 
             if (!other.GetComponentInParent<AttractorForwardMover>()) return;
             
-            var score = FindObjectOfType<ScoreChanger>().CurrentScore;
+            var score = FindObjectOfType<ScoreChanger>(true).CurrentScore;
             var movePoint = score >= 0 ? workPoint.position : dancePoint.position;
             
             OnDecisionMade?.Invoke(score, _time);
