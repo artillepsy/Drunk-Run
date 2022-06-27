@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4287473252188706392}
   - component: {fileID: 229705875939289131}
   - component: {fileID: 5243647715449217542}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DanceCylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 1984597084264787203}
   - component: {fileID: 1984597084264787324}
   - component: {fileID: 1984597084264787325}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 1984597084413003068}
   - component: {fileID: 1984597084413003203}
   - component: {fileID: 4043471883452882403}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Finish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1984597085010285251}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DancePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1984597085166506198}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WorkPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9200966878764967444}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DancePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5590736163705352397}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DancePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 2294974925352833511}
   - component: {fileID: 2925522807976307841}
   - component: {fileID: 8108539520736779230}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DanceArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 3863942696307471858}
   - component: {fileID: 8511786424819507905}
   - component: {fileID: 5625599157132580009}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WorkArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 2656575682501096808}
   - component: {fileID: 4291739442331962809}
   - component: {fileID: 1467181933243391399}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WorkCylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -769,6 +769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Desk_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1063340011928818, guid: d9c662c94d0879f4c8b8f505f55299d8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4612551194523426, guid: d9c662c94d0879f4c8b8f505f55299d8, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -851,6 +855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Donut_Box_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1402343953190394, guid: 4cdd7733912f5ad4b9876919a28c58bf, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4604358271358222, guid: 4cdd7733912f5ad4b9876919a28c58bf, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -928,6 +936,18 @@ PrefabInstance:
     - target: {fileID: 1065154811522494, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ArcadeMachine_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065154811522494, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243886222438126, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866506478279520, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4424271081283434, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
       propertyPath: m_RootOrder
@@ -1011,6 +1031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Chair_BeanBag_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1627632346826770, guid: 4049acbc020051c449977e4a1cc6419f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4196593153347708, guid: 4049acbc020051c449977e4a1cc6419f, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1092,6 +1116,10 @@ PrefabInstance:
     - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cabinets_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4164994288534990, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_RootOrder
@@ -1175,6 +1203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Strapped_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1771333917354840, guid: df58c5bc1afc29f47b40fa17ce57224f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4113814005787986, guid: df58c5bc1afc29f47b40fa17ce57224f, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -1253,6 +1285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Stack_Clean_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1272923785727438, guid: 1ead0b0ff923b7e48b3777820f272bff, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4878771043283258, guid: 1ead0b0ff923b7e48b3777820f272bff, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1330,6 +1366,10 @@ PrefabInstance:
     - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cabinets_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4164994288534990, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_RootOrder
@@ -1413,6 +1453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Chair_11 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1203028189949172, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4177520059457206, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -1495,6 +1539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Balloon_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1578434290008380, guid: 5fbc6b9a6ba151c43bd33d3597edd379, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4873902023113970, guid: 5fbc6b9a6ba151c43bd33d3597edd379, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1572,6 +1620,10 @@ PrefabInstance:
     - target: {fileID: 1048865767074944, guid: 33af453d4902e2442b719d9987401e21, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Computer_Setup_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048865767074944, guid: 33af453d4902e2442b719d9987401e21, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4366107172360538, guid: 33af453d4902e2442b719d9987401e21, type: 3}
       propertyPath: m_RootOrder
@@ -1651,6 +1703,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1658,6 +1718,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -1806,6 +1870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cabinets_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4164994288534990, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1887,6 +1955,10 @@ PrefabInstance:
     - target: {fileID: 1876186065524460, guid: 932917b0c56e5f542a36b8f28bd5d51c, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Jukebox_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876186065524460, guid: 932917b0c56e5f542a36b8f28bd5d51c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4572386413673734, guid: 932917b0c56e5f542a36b8f28bd5d51c, type: 3}
       propertyPath: m_RootOrder
@@ -1970,6 +2042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Chair_05
       objectReference: {fileID: 0}
+    - target: {fileID: 1639133898463432, guid: d1fc99d1fc5715c4da4882d0721692ee, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4751637669458596, guid: d1fc99d1fc5715c4da4882d0721692ee, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2048,6 +2124,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2055,6 +2139,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -2203,6 +2291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Chair_11 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1203028189949172, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4177520059457206, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2285,6 +2377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cabinets_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4164994288534990, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2364,8 +2460,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -2374,6 +2478,10 @@ PrefabInstance:
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -2550,6 +2658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Stack_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1315078593594502, guid: eaa76fbc8ed8d2e4586478b424707b11, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4529376250252344, guid: eaa76fbc8ed8d2e4586478b424707b11, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -2628,6 +2740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Stack_Clean_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1510926414817822, guid: 325e9f262b4cb4b409d82abdc035891c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4310407097155182, guid: 325e9f262b4cb4b409d82abdc035891c, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -2705,6 +2821,10 @@ PrefabInstance:
     - target: {fileID: 1639133898463432, guid: d1fc99d1fc5715c4da4882d0721692ee, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Chair_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639133898463432, guid: d1fc99d1fc5715c4da4882d0721692ee, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4751637669458596, guid: d1fc99d1fc5715c4da4882d0721692ee, type: 3}
       propertyPath: m_RootOrder
@@ -2788,6 +2908,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ArcadeMachine_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1065154811522494, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243886222438126, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866506478279520, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4424271081283434, guid: e7215398ea5e16a42a3647a8e63c2113, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2870,6 +3002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Computer_Setup_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1048865767074944, guid: 33af453d4902e2442b719d9987401e21, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4366107172360538, guid: 33af453d4902e2442b719d9987401e21, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2949,8 +3085,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -2959,6 +3103,10 @@ PrefabInstance:
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -3131,6 +3279,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3138,6 +3294,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -3286,6 +3446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Stack_Clean_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1272923785727438, guid: 1ead0b0ff923b7e48b3777820f272bff, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4878771043283258, guid: 1ead0b0ff923b7e48b3777820f272bff, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -3363,6 +3527,10 @@ PrefabInstance:
     - target: {fileID: 1048865767074944, guid: 33af453d4902e2442b719d9987401e21, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Computer_Setup_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048865767074944, guid: 33af453d4902e2442b719d9987401e21, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4366107172360538, guid: 33af453d4902e2442b719d9987401e21, type: 3}
       propertyPath: m_RootOrder
@@ -3446,6 +3614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Desk_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1738513454615862, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4359524328568424, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3528,6 +3700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Party_Hat_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1130528721337356, guid: 3bacea967c1f8c446b9a8f7f39321957, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4078000895471748, guid: 3bacea967c1f8c446b9a8f7f39321957, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -3605,6 +3781,10 @@ PrefabInstance:
     - target: {fileID: 1063340011928818, guid: d9c662c94d0879f4c8b8f505f55299d8, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Desk_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063340011928818, guid: d9c662c94d0879f4c8b8f505f55299d8, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4612551194523426, guid: d9c662c94d0879f4c8b8f505f55299d8, type: 3}
       propertyPath: m_RootOrder
@@ -3684,6 +3864,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3691,6 +3879,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -3839,6 +4031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Sandwich_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1348210696840410, guid: 1507ef0449cfd7240a2ed810bdd89e1e, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4684646177578372, guid: 1507ef0449cfd7240a2ed810bdd89e1e, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -3913,6 +4109,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3920,6 +4124,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -4068,6 +4276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Stack_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1315078593594502, guid: eaa76fbc8ed8d2e4586478b424707b11, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4529376250252344, guid: eaa76fbc8ed8d2e4586478b424707b11, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -4143,8 +4355,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -4153,6 +4373,10 @@ PrefabInstance:
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -4325,6 +4549,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4332,6 +4564,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -4480,6 +4716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_FruitBowl_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1940992545781120, guid: 41910bb046e6cc340aeb452248a82522, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4995534990936172, guid: 41910bb046e6cc340aeb452248a82522, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -4555,8 +4795,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -4565,6 +4813,10 @@ PrefabInstance:
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -4741,6 +4993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Balloon_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1578434290008380, guid: 5fbc6b9a6ba151c43bd33d3597edd379, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4873902023113970, guid: 5fbc6b9a6ba151c43bd33d3597edd379, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -4818,6 +5074,10 @@ PrefabInstance:
     - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cabinets_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4164994288534990, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_RootOrder
@@ -4901,6 +5161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Balloon_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1993261464651256, guid: a5ee4cc461e98b6438eaa8ace8630ae4, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4521886964162624, guid: a5ee4cc461e98b6438eaa8ace8630ae4, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4979,6 +5243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Stack_Clean_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1272923785727438, guid: 1ead0b0ff923b7e48b3777820f272bff, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4878771043283258, guid: 1ead0b0ff923b7e48b3777820f272bff, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -5053,6 +5321,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5060,6 +5336,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -5205,8 +5485,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -5215,6 +5503,10 @@ PrefabInstance:
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -5391,6 +5683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Desk_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1738513454615862, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4359524328568424, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5472,6 +5768,10 @@ PrefabInstance:
     - target: {fileID: 1738513454615862, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Desk_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738513454615862, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4359524328568424, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
       propertyPath: m_RootOrder
@@ -5555,6 +5855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cabinets_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1609770412431588, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4164994288534990, guid: cdde662d641d7dd4fa1082279978472b, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -5637,6 +5941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Party_Hat_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1666821995508848, guid: a3195f48bd2d2634494fcdc222874549, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4780644806778084, guid: a3195f48bd2d2634494fcdc222874549, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -5710,6 +6018,10 @@ PrefabInstance:
     - target: {fileID: 1203028189949172, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Chair_11 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203028189949172, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4177520059457206, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
       propertyPath: m_RootOrder
@@ -5793,6 +6105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Money_Strapped_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1771333917354840, guid: df58c5bc1afc29f47b40fa17ce57224f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4113814005787986, guid: df58c5bc1afc29f47b40fa17ce57224f, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -5870,6 +6186,14 @@ PrefabInstance:
     - target: {fileID: 1289289775441498, guid: 89a2f5dca3a597f4f8f4ab7be04660c5, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Couch_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1289289775441498, guid: 89a2f5dca3a597f4f8f4ab7be04660c5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1882768246722254, guid: 89a2f5dca3a597f4f8f4ab7be04660c5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4920722959103392, guid: 89a2f5dca3a597f4f8f4ab7be04660c5, type: 3}
       propertyPath: m_RootOrder
@@ -5962,8 +6286,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -5972,6 +6304,10 @@ PrefabInstance:
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -6148,6 +6484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Chair_05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1639133898463432, guid: d1fc99d1fc5715c4da4882d0721692ee, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4751637669458596, guid: d1fc99d1fc5715c4da4882d0721692ee, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -6226,6 +6566,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
+    - target: {fileID: 1050363545085534, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1141084813307746, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6233,6 +6581,10 @@ PrefabInstance:
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_Name
       value: MusicalNoteExplosion (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1211301365084078, guid: ed6b8128683f4094f92b7a556760b26b, type: 3}
       propertyPath: m_IsActive
@@ -6378,12 +6730,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -6553,8 +6917,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1984597084413003069}
     m_Modifications:
     - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 152914, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 189350, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -6563,6 +6935,10 @@ PrefabInstance:
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_Name
       value: DollarbillBlast (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 190236, guid: 39f586f40e7d928499bfe946ffb04ad5, type: 3}
       propertyPath: m_IsActive
@@ -6738,6 +7114,10 @@ PrefabInstance:
     - target: {fileID: 1203028189949172, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Chair_11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203028189949172, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4177520059457206, guid: 46276d824911b4f4f84daca1f9c6d128, type: 3}
       propertyPath: m_RootOrder

@@ -20,22 +20,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Bar L.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Bar L.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Bar R.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Bar R.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Billboard.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Billboard.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Finish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/Finish.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Library L.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Library L.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Library R.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/Library R.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.IOSResolver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.IOSResolver.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.JarResolver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.JarResolver.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.PackageManagerResolver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.PackageManagerResolver.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.VersionHandlerImpl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.171/Google.VersionHandlerImpl.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.171_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.171_manifest.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Facebook.Unity.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Facebook.Unity.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/LibFBGPlatform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/LibFBGPlatform.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/LibFBGUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/LibFBGUI.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/WebView2Loader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/WebView2Loader.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/cpprest_2_10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/cpprest_2_10.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/libcrypto-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/libcrypto-1_1.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/libcurl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/libcurl.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/libssl-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/libssl-1_1.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/tinyxml2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/tinyxml2.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/zlib1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/Plugins/Windows/x86/zlib1.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Roads/Finish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Roads/Finish.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_12.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/DrunkRun_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/DrunkRun_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,13 +131,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumanAttractorRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CinemachineCam/CameraFinishAnimationPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Downloaded Assets/AppMetrica/AppMetrica.cs" />
         <option value="$PROJECT_DIR$/Assets/Downloaded Assets/AppMetrica/YandexAppMetricaAndroid.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/SavedData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/MetricsData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/SaveAndLoadSystem.cs" />
@@ -102,7 +147,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/LevelSaver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/MetricsEventParameters.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/Cubik.cs" />
@@ -110,6 +154,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +223,8 @@
       <workItem from="1656056715474" duration="764000" />
       <workItem from="1656270393144" duration="3139000" />
       <workItem from="1656274007153" duration="1019000" />
+      <workItem from="1656316362878" duration="670000" />
+      <workItem from="1656317792689" duration="2719000" />
     </task>
     <servers />
   </component>

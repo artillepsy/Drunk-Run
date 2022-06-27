@@ -1277,7 +1277,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337757482}
-  m_LocalRotation: {x: 0.26351455, y: 0, z: 0, w: 0.96465546}
+  m_LocalRotation: {x: 0.26351452, y: 0, z: 0, w: 0.96465546}
   m_LocalPosition: {x: 0, y: 5.91, z: -8.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1986,7 +1986,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454253776}
-  m_LocalRotation: {x: 0.2554381, y: 0.000000014798063, z: -0.000000003909692, w: 0.9668254}
+  m_LocalRotation: {x: 0.25543806, y: -0.000000020652822, z: 0.000000005456535, w: 0.9668254}
   m_LocalPosition: {x: 0, y: 5.37, z: -5.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4003,18 +4003,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 208871613, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: endRadius
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 208871613, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: endRotationTime
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4754339342185808405, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: zSpeed
-      value: 3.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4754339342185808406, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
       propertyPath: m_Name
       value: HumansAttractor
@@ -5150,7 +5138,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395456492}
-  m_LocalRotation: {x: 0.2554381, y: 0.000000014798063, z: -0.000000003909692, w: 0.9668254}
+  m_LocalRotation: {x: 0.25543806, y: -0.000000020652822, z: 0.000000005456535, w: 0.9668254}
   m_LocalPosition: {x: 0, y: 5.37, z: -5.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

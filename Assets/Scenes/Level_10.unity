@@ -8368,22 +8368,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 208871613, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: endRadius
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 208871613, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: endRotationTime
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4754339342185808405, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: zSpeed
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4754339342185808405, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4754339342185808406, guid: 3232d76e357f67a4aa79b06fd8b57f9e, type: 3}
       propertyPath: m_Name
       value: HumansAttractor

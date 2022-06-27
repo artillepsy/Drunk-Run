@@ -4,7 +4,7 @@
     <attachedFolders />
     <explicitIncludes>
       <Path>Library/PackageCache/com.unity.animation.rigging@1.1.1</Path>
-      <Path>Library/PackageCache/com.unity.burst@1.6.5</Path>
+      <Path>Library/PackageCache/com.unity.burst@1.6.6</Path>
       <Path>Library/PackageCache/com.unity.cinemachine@2.8.6</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.15.15</Path>
       <Path>Library/PackageCache/com.unity.editorcoroutines@1.0.0</Path>
@@ -29,6 +29,7 @@
       <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Build</Path>
+      <Path>Build_BurstDebugInformation_DoNotShip</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>

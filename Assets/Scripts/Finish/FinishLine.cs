@@ -1,5 +1,6 @@
 ﻿using System;
 using Human;
+using HumanAttraction;
 using Score;
 using UnityEngine;
 using UnityEngine.Events;
@@ -28,7 +29,7 @@ namespace Finish
         {
             if (_reached) return;
 
-            if (!other.GetComponentInParent<HumanMovement>()) return;
+            if (!other.GetComponentInParent<AttractorForwardMover>()) return;
             
             var score = FindObjectOfType<ScoreChanger>().CurrentScore;
             var movePoint = score >= 0 ? workPoint.position : dancePoint.position;

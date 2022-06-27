@@ -149,6 +149,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\ToonyColorsPro2.Demo.dll
+--root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\AppsFlyer.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\Boxophobic.Utils.Scripts.dll
 --root-assembly=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\ToonyColorsPro.Runtime.dll
 --assembly-folder=C:\Users\Dell\Desktop\Unity\projects\RunnerDrunkAndClewer\Temp\StagingArea\Data\Managed\
