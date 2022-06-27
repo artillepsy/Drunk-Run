@@ -37,7 +37,7 @@ namespace HumanAttraction
             var rotatePointOffset = Vector3.right * (endRadius * sign + _attractor.localPosition.x);
             var rotatePoint = transform.position + rotatePointOffset;
            
-            Debug.DrawLine(rotatePoint, rotatePoint + Vector3.up* 3f, Color.cyan, 30f);
+            Debug.DrawLine(rotatePoint, rotatePoint + Vector3.up* 8f, Color.magenta, 30f);
            
             SetDesiredSpeed(rotatePoint);
             StartCoroutine(RotateAroundCO(sign * endAngle, rotatePoint));
