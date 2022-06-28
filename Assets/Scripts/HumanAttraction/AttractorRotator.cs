@@ -34,8 +34,9 @@ namespace HumanAttraction
             _endPoint = endPoint;
             var directionToPoint = (endPoint - transform.position);
             var sign = Mathf.Sign(Vector3.SignedAngle(transform.forward, directionToPoint, Vector3.up));
+            //Debug.Log("Sign: "+ sign);
             var rotatePointOffset = Vector3.right * (endRadius * sign + _attractor.localPosition.x);
-            var rotatePoint = transform.position + rotatePointOffset;
+            var rotatePoint = transform.position + transform.rotation * rotatePointOffset;
            
             Debug.DrawLine(rotatePoint, rotatePoint + Vector3.up* 8f, Color.magenta, 30f);
            
@@ -46,8 +47,11 @@ namespace HumanAttraction
 
         private void SetDesiredSpeed(Vector3 rotatePoint)
         {
-            var r = transform.position.x - rotatePoint.x;
-            _forwardMover.ZSpeed = Mathf.Abs(endAngle * Mathf.Deg2Rad * r / endRotationTime);
+            var r = (transform.position - rotatePoint).magnitude;
+            Debug.Log("Radius: "+ r);
+            var speed = Mathf.Abs(endAngle * Mathf.Deg2Rad * r / endRotationTime);
+            Debug.Log("Speed: "+ speed);
+            _forwardMover.SetSpeed(speed);
         }
 
         private IEnumerator RotateAroundCO(float degrees, Vector3 pos)

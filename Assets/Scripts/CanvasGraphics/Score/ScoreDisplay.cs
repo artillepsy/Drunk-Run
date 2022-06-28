@@ -77,6 +77,7 @@ namespace CanvasGraphics.Score
                 time += Time.deltaTime;
                 yield return null;
             }
+            pointer.anchoredPosition = endPos;
             _changePosCO = null;
         }
     }

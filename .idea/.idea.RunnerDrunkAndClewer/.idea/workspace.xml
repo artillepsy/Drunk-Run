@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/LilitaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/LilitaOne-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DancePointMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DancePointMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Downloaded Assets/SnackersUI/Scripts/DemoScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/8c/0e8599e0/UnityEvent`2.cs" root0="SKIP_HIGHLIGHTING" />
@@ -51,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HUmanPosClamper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanPosClamper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/BoostersRemover.cs" />
@@ -85,7 +88,6 @@
         <option value="$PROJECT_DIR$/Assets/Pistolet.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreDisplay.cs" />
@@ -100,8 +102,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/StartTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAsyncWalkAnimationSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Downloaded Assets/SnackersUI/Scripts/TrophyRoad.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +179,7 @@
       <workItem from="1656364588702" duration="5833000" />
       <workItem from="1656402526600" duration="591000" />
       <workItem from="1656404708743" duration="4207000" />
-      <workItem from="1656412220502" duration="1273000" />
+      <workItem from="1656412220502" duration="4126000" />
     </task>
     <servers />
   </component>

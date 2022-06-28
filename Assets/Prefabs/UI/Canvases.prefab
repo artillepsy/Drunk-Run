@@ -316,7 +316,7 @@ MonoBehaviour:
   pointerImg: {fileID: 6588537859523349632}
   scoreGO: {fileID: 5322019517959467988}
   stageLabel: {fileID: 5322019517728114545}
-  changeTime: 0.2
+  changeTime: 0.14
   states:
   - {fileID: 11400000, guid: 15fffc2d78fd6c34093bf29aef25e671, type: 2}
   - {fileID: 11400000, guid: 37e2c62cc116f11469a82e3cf55a321b, type: 2}
