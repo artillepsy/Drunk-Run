@@ -1,5 +1,4 @@
-﻿using System;
-using CanvasGraphics.Score;
+﻿using CanvasGraphics.Score;
 using HumanAttraction;
 using Levels;
 using UnityEngine;
@@ -9,6 +8,8 @@ namespace Human
 {
     public class HumanAnimationChanger : MonoBehaviour
     {
+        [SerializeField] private float maxWalkOffset = 3f;
+        
         [SerializeField] private float changeDelay = 0.5f;
         private Animator _animator;
         private HumanMovement _humanMovement;
@@ -20,38 +21,37 @@ namespace Human
         private static readonly int Dancing = Animator.StringToHash("Dancing");
         private static readonly int Dancing2 = Animator.StringToHash("Dancing2");
 
-        private void Start()
+        private void Awake()
         {
-            
             _animator = GetComponentInChildren<Animator>();
             _humanMovement = GetComponent<HumanMovement>();
-            
+        }
+
+        private void Start()
+        {
             AttractorForwardMover.OnReachedEnd.AddListener(() =>
             {
                 Invoke(nameof(ChangeAnimation), Random.Range(0, changeDelay));
             });            
         }
-        /// <summary>
-        /// ?
-        /// </summary>
+
         private void OnEnable()
         {
             if (!StartTutorial.Started) return;
-            if (_startedWalking) return;
-            
-            _animator.SetTrigger(Walking);
-            var randomOffset = Random.Range(0, _animator.GetCurrentAnimatorStateInfo(0).length);
-            _animator.SetFloat(CycleOffset, randomOffset);
-            _startedWalking = true;
+            SetWalkAnimOffset();
         }
 
         private void Update()
         {
             if (!StartTutorial.Started) return;
             if (_startedWalking) return;
-            
+            SetWalkAnimOffset();
+        }
+
+        private void SetWalkAnimOffset()
+        {
             _animator.SetTrigger(Walking);
-            var randomOffset = Random.Range(0, _animator.GetCurrentAnimatorStateInfo(0).length);
+            var randomOffset = Random.Range(0, /*_animator.GetCurrentAnimatorStateInfo(0).length*/maxWalkOffset);
             _animator.SetFloat(CycleOffset, randomOffset);
             _startedWalking = true;
         }
@@ -66,7 +66,5 @@ namespace Human
             var score = FindObjectOfType<ScoreChanger>(true).CurrentScore;
             _animator.SetTrigger(score >= 0 ? Working : Random.value > 0.5f ? Dancing : Dancing2);
         }
-        
-        
     }
 }
