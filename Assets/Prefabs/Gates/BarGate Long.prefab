@@ -412,7 +412,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea8da9b261dc4bb394ae6299cd8ae5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsIncrementCount: -1
+  genderType: 1
+  pointsIncrementCount: 1
   usedMat: {fileID: 2100000, guid: 88368fb61cb23714b9e07cd363f0fea2, type: 2}
   changeMaterial: 0
   OnGateUsed:

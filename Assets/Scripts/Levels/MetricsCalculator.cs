@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Core;
 using Finish;
 using HumanAttraction;
 using Saves;
@@ -23,7 +24,7 @@ namespace Levels
             {
                 s_isInitialized = true;
                 DontDestroyOnLoad(gameObject);
-                _metrics = SaveSystem.Load();
+                _metrics = SaveSystem.Load<Metrics>(Literals.MetricsFileName);
                 
                 if (_metrics == null || resetMetricsOnStart)
                 {
@@ -57,7 +58,7 @@ namespace Levels
                 {"level_count", _metrics.LevelCount},
                 {"level_loop", _metrics.LevelLoop},
             });
-            SaveSystem.SaveMetrics(_metrics);
+            SaveSystem.Save(_metrics, Literals.MetricsFileName);
             AppMetrica.Instance.SendEventsBuffer();
             
             _metrics.PrintInfo();
@@ -83,7 +84,7 @@ namespace Levels
                 {"result", s_result},
                 {"time", _time},
             });
-            SaveSystem.SaveMetrics(_metrics);
+            SaveSystem.Save(_metrics, Literals.MetricsFileName);
             AppMetrica.Instance.SendEventsBuffer();
             
             _metrics.PrintInfo();

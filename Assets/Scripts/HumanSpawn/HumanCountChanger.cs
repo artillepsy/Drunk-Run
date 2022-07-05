@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using CanvasGraphics.Score;
+using Core;
 using Human;
 using HumanAttraction;
 using UnityEngine;
@@ -12,9 +13,6 @@ namespace HumanSpawn
 {
     public class HumanCountChanger : MonoBehaviour
     {
-        [SerializeField] private GameObject malePrefab;
-        [SerializeField] private GameObject femalePrefab;
-        [Space]
         [SerializeField] private float spawnRadius = 1f;
         [SerializeField] private float deactivateDelay = 1f;
         
@@ -29,20 +27,22 @@ namespace HumanSpawn
         {
             _attractor = FindObjectOfType<Attractor>().transform;
 
-            ScoreChanger.OnNeedSpawnHuman.AddListener(humanTag =>
+            ScoreChanger.OnNeedSpawnHuman.AddListener(genderType =>
             {
-                var remainingCount = RemoveHumans(humanTag, 1);
-                if(remainingCount > 0) SpawnHumans(humanTag, remainingCount);
+                var remainingCount = RemoveHumans(genderType, 1);
+                if(remainingCount > 0) SpawnHumans(genderType, remainingCount);
             });
         }
         
-        private void SpawnHumans(string humanTag, int count)
+        private void SpawnHumans(GenderType genderType, int count)
         {
-            var prefab = malePrefab.CompareTag(humanTag) ? malePrefab : femalePrefab;
+            var prefab = Gender.Inst.GetPrefab(genderType);
+            Debug.Log(prefab);
+            Debug.Log(genderType);
             
             for (var i = 0; i < count; i++)
             {
-                if (!HumanPool.Inst.TryGet(out var human, humanTag))
+                if (!HumanPool.Inst.TryGet(out var human, Gender.GetTag(genderType)))
                 {
                     human = Instantiate(prefab);
                 }
@@ -54,14 +54,14 @@ namespace HumanSpawn
             OnAllSpawned?.Invoke();
         }
 
-        private int RemoveHumans(string humanTag, int remainingCount)
+        private int RemoveHumans(GenderType genderType, int remainingCount)
         {
             var humansToDelete = new List<GameObject>();
             foreach (var human in _humans)
             {
                 if (remainingCount == 0) break;
                 
-                if(human.CompareTag(humanTag)) continue;
+                if(human.CompareTag(Gender.GetTag(genderType))) continue;
 
                 remainingCount--;
                 humansToDelete.Add(human);
@@ -69,7 +69,6 @@ namespace HumanSpawn
                 human.transform.SetParent(null);
 
                 human.GetComponent<HumanMovement>().MoveAway();
-
                 StartCoroutine(DelayHumanDeactivationCO(human));
             }
             

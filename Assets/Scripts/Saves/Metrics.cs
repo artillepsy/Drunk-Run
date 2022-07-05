@@ -8,7 +8,6 @@ namespace Saves
         public int LevelCount = 0;
         public string LastLevelName = "";
         public int LevelLoop = 1;
-
         public int CurrentLevelInLoop = 0;
 
         public void PrintInfo()

@@ -32,7 +32,7 @@ namespace Human
             _animator = GetComponentInChildren<Animator>();
             
             _scoreChanger = FindObjectOfType<ScoreChanger>(true);
-            _minHumanCount = -_scoreChanger.HumanBorder;
+            _minHumanCount = -_scoreChanger.MaxHumans;
             _startScore = _scoreChanger.StartScore;
 
             ChangeDrunkScale(_scoreChanger.CurrentScore);

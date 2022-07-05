@@ -34,7 +34,7 @@ namespace Finish
 
             if (!other.GetComponentInParent<AttractorForwardMover>()) return;
             
-            var score = FindObjectOfType<ScoreChanger>(true).CurrentScore;
+            var score = FindObjectOfType<ScoreChanger>(true).HumanCount;
             var movePoint = score >= 0 ? workPoint.position : dancePoint.position;
             
             OnDecisionMade?.Invoke(score, _time);

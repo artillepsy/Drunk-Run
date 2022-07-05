@@ -6,18 +6,18 @@ namespace Saves
 {
     public static class SaveSystem
     {
-        public static void SaveMetrics(Metrics data)
+        public static void Save<T>(T data, string filename) where T : class
         {
             var binaryFormatter = new BinaryFormatter();
-            var path = Application.persistentDataPath + "/Metrics.class";
+            var path = Application.persistentDataPath + "/" + filename + ".class";
             var fileStream = new FileStream(path, FileMode.Create);
             binaryFormatter.Serialize(fileStream, data);
             fileStream.Close();
         }
 
-        public static Metrics Load()
+        public static T Load<T>(string filename) where T : class
         {
-            var path = Application.persistentDataPath + "/Metrics.class";
+            var path = Application.persistentDataPath + "/" + filename + ".class";
             FileStream fileStream;
             try
             {
@@ -32,11 +32,10 @@ namespace Saves
             if (File.Exists(path) && fileStream.Length > 0)
             {
                 var binaryFormatter = new BinaryFormatter();
-                var data = binaryFormatter.Deserialize(fileStream) as Metrics;
+                var data = binaryFormatter.Deserialize(fileStream) as T;
                 fileStream.Close();
                 return data;
             }
-
             Debug.Log("file doesn't exist");
             return null;
         }

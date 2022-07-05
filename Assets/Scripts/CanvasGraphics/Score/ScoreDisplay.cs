@@ -62,7 +62,6 @@ namespace CanvasGraphics.Score
             var endX = (float) score / _scoreChanger.MaxScore * borderPosX;
             var endPos = new Vector2(endX, startPos.y);
             
-            var maxSpeed = (endPos.x - startPos.x) / changeTime;
             var time = 0f;
             Vector2 velocity = Vector2.zero;
 

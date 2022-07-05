@@ -1,4 +1,4 @@
-﻿using HumanAttraction;
+﻿using CanvasGraphics.HumanBar;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,7 +11,7 @@ namespace Levels
         public static UnityEvent OnLevelEnded = new UnityEvent();
         private void Start()
         {
-            AttractorForwardMover.OnReachedEnd.AddListener(() =>
+            HumanBarCanvas.OnBarAnimationPlayed.AddListener(() =>
             {
                 Invoke(nameof(SendEndLevelEvent), reloadDelay);
             });

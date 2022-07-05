@@ -638,6 +638,10 @@
           </e>
           <e p="CanvasGraphics" t="Include">
             <e p="EndCanvas.cs" t="Include" />
+            <e p="HumanBar" t="Include">
+              <e p="HumanBarCanvas.cs" t="Include" />
+              <e p="ItemForHumans.cs" t="Include" />
+            </e>
             <e p="LevelLabelSetter.cs" t="Include" />
             <e p="Score" t="Include">
               <e p="ProgressStage.cs" t="Include" />
@@ -648,6 +652,11 @@
           </e>
           <e p="CinemachineCam" t="Include">
             <e p="CameraFinishAnimationPlayer.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="Gender.cs" t="Include" />
+            <e p="GenderType.cs" t="Include" />
+            <e p="Literals.cs" t="Include" />
           </e>
           <e p="Finish" t="Include">
             <e p="DecisionParticlesDisplay.cs" t="Include" />
@@ -676,6 +685,7 @@
             <e p="StartTutorial.cs" t="Include" />
           </e>
           <e p="Saves" t="Include">
+            <e p="ItemScore.cs" t="Include" />
             <e p="Metrics.cs" t="Include" />
             <e p="SaveSystem.cs" t="Include" />
           </e>
