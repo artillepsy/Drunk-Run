@@ -14,12 +14,11 @@ namespace HumanAttraction
         [SerializeField] private float attractForce = 70f;
         private bool _attractionEnabled = true;
 
-        // if no humans return ??? (constraints)
         public float[] GetXPosBounds()
         {
             var bounds = new float[2]{0, 0};
             if (humans.Count == 0) return null;
-            
+
             foreach (var human in humans)
             {
                 var humanXPos = human.transform.localPosition.x;

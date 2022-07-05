@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d53fecdf7854f7a9d45d09d6c5df2e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsIncrementCount: 10
+  pointsIncrementCount: 1
 --- !u!54 &1450072504168917605
 Rigidbody:
   m_ObjectHideFlags: 0

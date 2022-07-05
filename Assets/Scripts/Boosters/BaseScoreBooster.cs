@@ -6,13 +6,13 @@ namespace Boosters
 {
     public class BaseScoreBooster : MonoBehaviour
     {
-        [SerializeField] private int pointsIncrementCount = 5;
-        public static UnityEvent<int> OnAddedScorePoints = new UnityEvent<int>(); 
+        [SerializeField] private int pointsIncrementCount = 1;
+        public static UnityEvent<int> OnPicked = new UnityEvent<int>(); 
 
         protected void OnTriggerEnter(Collider other)
         {
             if (!other.GetComponentInParent<HumanMovement>()) return;
-            OnAddedScorePoints?.Invoke(pointsIncrementCount);
+            OnPicked?.Invoke(pointsIncrementCount);
         }
     }
 }

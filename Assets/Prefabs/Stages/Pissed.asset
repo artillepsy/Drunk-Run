@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: Pissed
   LabelColor: {r: 1, g: 0.039215688, b: 0, a: 1}
   SliderColor: {r: 1, g: 0.039215688, b: 0, a: 1}
-  LeftPointsBorder: -100
-  RightPointsBorder: -61
+  LeftPointsBorder: -8
+  RightPointsBorder: -6

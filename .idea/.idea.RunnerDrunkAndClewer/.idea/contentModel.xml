@@ -637,8 +637,8 @@
             <e p="Item.cs" t="Include" />
           </e>
           <e p="CanvasGraphics" t="Include">
-            <e p="CurrentLevelCanvas.cs" t="Include" />
             <e p="EndCanvas.cs" t="Include" />
+            <e p="LevelLabelSetter.cs" t="Include" />
             <e p="Score" t="Include">
               <e p="ProgressStage.cs" t="Include" />
               <e p="ScoreChanger.cs" t="Include" />

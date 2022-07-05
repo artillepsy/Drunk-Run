@@ -25,20 +25,19 @@ namespace CanvasGraphics.Score
         private void Start()
         {
             _scoreChanger = FindObjectOfType<ScoreChanger>();
-            ScoreChanger.OnScoreChange.AddListener((score) => StartCoroutine(UpdateVisualsCO(score)));
+            ScoreChanger.OnScoreChange.AddListener(UpdateVisuals);
             FinishLine.OnReachedFinish.AddListener(() => scoreGO.SetActive(false));
-            StartCoroutine(UpdateVisualsCO(0));
+            UpdateVisuals(0, 0);
         }
 
-        private IEnumerator UpdateVisualsCO(int score)
+        private void UpdateVisuals(int score, int humanCount)
         {
-            var currentState = GetCurrentStage(score);
-            if (!currentState) yield break;
+            var currentState = GetCurrentStage(humanCount);
+            if (!currentState) return;
             
             stageLabel.text = currentState.Name;
             pointerImg.color = currentState.LabelColor;
 
-            //progressBar.color = currentState.SliderColor;
             if (_changePosCO != null)
             {
                 StopCoroutine(_changePosCO);
@@ -57,10 +56,10 @@ namespace CanvasGraphics.Score
             return null;
         }
 
-        private IEnumerator SetPointerPosXCO(int currentScore)
+        private IEnumerator SetPointerPosXCO(int score)
         {
             var startPos = pointer.anchoredPosition;
-            var endX = (float) currentScore / _scoreChanger.MaxScore * borderPosX;
+            var endX = (float) score / _scoreChanger.MaxScore * borderPosX;
             var endPos = new Vector2(endX, startPos.y);
             
             var maxSpeed = (endPos.x - startPos.x) / changeTime;

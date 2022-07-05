@@ -12,7 +12,7 @@ namespace Human
         [SerializeField] private float maxChangeDelay = 0.4f;
 
         private bool _started = false;
-        private int _minScore;
+        private int _minHumanCount;
         private int _startScore;
         private Animator _animator;
         private ScoreChanger _scoreChanger;
@@ -32,11 +32,11 @@ namespace Human
             _animator = GetComponentInChildren<Animator>();
             
             _scoreChanger = FindObjectOfType<ScoreChanger>(true);
-            _minScore = -_scoreChanger.MaxScore;
+            _minHumanCount = -_scoreChanger.HumanBorder;
             _startScore = _scoreChanger.StartScore;
 
             ChangeDrunkScale(_scoreChanger.CurrentScore);
-            ScoreChanger.OnScoreChange.AddListener(ChangeDrunkScale);
+            ScoreChanger.OnScoreChange.AddListener((score, humanCount) => ChangeDrunkScale(humanCount));
             
         }
 
@@ -44,9 +44,9 @@ namespace Human
         {
             float scaleCoeff;
             
-            if (currentScore <= _minScore) scaleCoeff = 1f;
+            if (currentScore <= _minHumanCount) scaleCoeff = 1f;
             else if (currentScore >= _startScore) scaleCoeff = 0f;
-            else scaleCoeff = (float)currentScore / (_minScore - _startScore);
+            else scaleCoeff = (float)currentScore / (_minHumanCount - _startScore);
             
             if (!gameObject.activeSelf)
             {

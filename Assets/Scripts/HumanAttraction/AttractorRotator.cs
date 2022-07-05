@@ -34,7 +34,6 @@ namespace HumanAttraction
             _endPoint = endPoint;
             var directionToPoint = (endPoint - transform.position);
             var sign = Mathf.Sign(Vector3.SignedAngle(transform.forward, directionToPoint, Vector3.up));
-            //Debug.Log("Sign: "+ sign);
             var rotatePointOffset = Vector3.right * (endRadius * sign + _attractor.localPosition.x);
             var rotatePoint = transform.position + transform.rotation * rotatePointOffset;
            
@@ -48,9 +47,7 @@ namespace HumanAttraction
         private void SetDesiredSpeed(Vector3 rotatePoint)
         {
             var r = (transform.position - rotatePoint).magnitude;
-            Debug.Log("Radius: "+ r);
             var speed = Mathf.Abs(endAngle * Mathf.Deg2Rad * r / endRotationTime);
-            Debug.Log("Speed: "+ speed);
             _forwardMover.SetSpeed(speed);
         }
 
@@ -61,23 +58,33 @@ namespace HumanAttraction
             var lookRotation = Quaternion.LookRotation(lookDirection);
             
             var zSpeed = _forwardMover.ZSpeed;
-            var remainingAngle = degrees;
-            
-            while (Mathf.Sign(remainingAngle) == Mathf.Sign(degrees))
-            {
-                var radius = (pos - transform.position).magnitude;
+            var radius = (pos - transform.position).magnitude;
+            var desiredTime = Mathf.Abs(degrees * Mathf.Deg2Rad * radius / zSpeed);
+            var angleStep = degrees / desiredTime;
+           // var endPos = GetEndPos(degrees, radius);
 
-                var desiredTime = Mathf.Abs(remainingAngle * Mathf.Deg2Rad * radius / zSpeed);
-                var angleStep = remainingAngle / desiredTime * Time.deltaTime;
-                remainingAngle -= angleStep;
-                
-                transform.Rotate(Vector3.up, angleStep);
+            while (desiredTime > 0f)
+            {
+                desiredTime -= Time.deltaTime;
+                transform.Rotate(Vector3.up, angleStep * Time.deltaTime);
                 Debug.DrawLine(transform.position, transform.position + Vector3.up * 2f, Color.blue, 20f);
                 yield return null;
             }
             transform.rotation = lookRotation;
+           // transform.position = endPos;
             _forwardMover.ResetSpeed();
         }
+
+        /*private Vector3 GetEndPos(float degrees, float radius)
+        {
+            var alpha = (180f - Mathf.Abs(degrees)) / 2f;
+            var distance = 2f * radius * Mathf.Cos(alpha * Mathf.Deg2Rad);
+            Debug.Log("Distane: "+ distance);
+            Debug.Log("Alpha: "+ alpha);
+            var endPos = transform.position + Quaternion.Euler(0, alpha, 0) * transform.forward * distance;
+            Debug.DrawLine(endPos, endPos + Vector3.up * 2f, Color.red, 20f);
+            return endPos;
+        }*/
 
         private void OnTriggerEnter(Collider other)
         {

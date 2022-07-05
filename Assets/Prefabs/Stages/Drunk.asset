@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: Drunk
   LabelColor: {r: 1, g: 0.63529414, b: 0, a: 1}
   SliderColor: {r: 1, g: 0.63452077, b: 0, a: 1}
-  LeftPointsBorder: -60
-  RightPointsBorder: -31
+  LeftPointsBorder: -5
+  RightPointsBorder: -3

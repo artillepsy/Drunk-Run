@@ -1,5 +1,6 @@
 ﻿using Finish;
 using HumanAttraction;
+using SnackersUI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +8,9 @@ namespace Levels
 {
     public class StartTutorial : MonoBehaviour
     {
+        [SerializeField] private TweenAnimatedUIElement element;
         [SerializeField] private GameObject tutorialCanvas;
+        
         public static bool Started = false;
         private static bool s_isInitialized = false;
         private AttractorForwardMover _mover;
@@ -39,7 +42,7 @@ namespace Levels
             if (Started) return;
             if (Input.touches.Length == 0 || SceneManager.GetActiveScene().name.Equals("Start")) return;
             
-            tutorialCanvas.SetActive(false);
+            element.Hide();
             Started = true;
             _mover.ResetSpeed();
             FindObjectOfType<FinishLine>().ResetTime();

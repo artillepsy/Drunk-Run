@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Boosters;
+using CanvasGraphics.Score;
 using Human;
 using HumanAttraction;
 using UnityEngine;
@@ -28,11 +28,11 @@ namespace HumanSpawn
         private void Start()
         {
             _attractor = FindObjectOfType<Attractor>().transform;
-            
-            Gate.OnShouldChangeHumanCount.AddListener((humanTag, count) =>
+
+            ScoreChanger.OnNeedSpawnHuman.AddListener(humanTag =>
             {
-                 var spawnCount = RemoveHumans(humanTag, count);
-                 if (spawnCount > 0) SpawnHumans(humanTag, spawnCount);
+                var remainingCount = RemoveHumans(humanTag, 1);
+                if(remainingCount > 0) SpawnHumans(humanTag, remainingCount);
             });
         }
         

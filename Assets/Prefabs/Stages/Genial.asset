@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: Genial
   LabelColor: {r: 0, g: 1, b: 0.9176471, a: 1}
   SliderColor: {r: 0, g: 1, b: 0.91709113, a: 1}
-  LeftPointsBorder: 31
-  RightPointsBorder: 60
+  LeftPointsBorder: 3
+  RightPointsBorder: 5

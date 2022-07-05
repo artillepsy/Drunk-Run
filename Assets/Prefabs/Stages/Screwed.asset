@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: Screwed
   LabelColor: {r: 1, g: 0.9058824, b: 0, a: 1}
   SliderColor: {r: 1, g: 0.906335, b: 0, a: 1}
-  LeftPointsBorder: -30
+  LeftPointsBorder: -2
   RightPointsBorder: -1
