@@ -1,7 +1,9 @@
 ﻿using CanvasGraphics.Score;
+using Core;
 using HumanAttraction;
 using Levels;
 using UnityEngine;
+using Vehicles;
 using Random = UnityEngine.Random;
 
 namespace Human
@@ -9,20 +11,18 @@ namespace Human
     public class HumanAnimationChanger : MonoBehaviour
     {
         [SerializeField] private float maxWalkOffset = 3f;
-        
         [SerializeField] private float changeDelay = 0.5f;
         private Animator _animator;
         private HumanMovement _humanMovement;
         private bool _startedWalking = false;
-        
-        private static readonly int CycleOffset = Animator.StringToHash("CycleOffset");
-        private static readonly int Walking = Animator.StringToHash("Walking");
-        private static readonly int Working = Animator.StringToHash("Working");
-        private static readonly int Dancing = Animator.StringToHash("Dancing");
-        private static readonly int Dancing2 = Animator.StringToHash("Dancing2");
+        private bool _withVehicle = false;
 
         private void Awake()
         {
+            if (TryGetComponent<HumanItemSetter>(out var itemSetter))
+            {
+                itemSetter.OnGetVehicle.AddListener(SetVehicleAnim);
+            }
             _animator = GetComponentInChildren<Animator>();
             _humanMovement = GetComponent<HumanMovement>();
         }
@@ -37,22 +37,38 @@ namespace Human
 
         private void OnEnable()
         {
+            if (_withVehicle) return;
             if (!StartTutorial.Started) return;
             SetWalkAnimOffset();
         }
 
         private void Update()
         {
+            if (_withVehicle) return; 
             if (!StartTutorial.Started) return;
             if (_startedWalking) return;
             SetWalkAnimOffset();
         }
 
+        private void SetVehicleAnim(VehicleTypes type)
+        {
+            _withVehicle = true;
+            switch (type)
+            {
+                case VehicleTypes.Scooter:
+                    _animator.SetTrigger(Literals.Scooter);
+                    break;
+                case VehicleTypes.Skate:
+                    _animator.SetTrigger(Literals.Skate);
+                    break;
+            }
+        }
+
         private void SetWalkAnimOffset()
         {
-            _animator.SetTrigger(Walking);
+            _animator.SetTrigger(Literals.Walking);
             var randomOffset = Random.Range(0, /*_animator.GetCurrentAnimatorStateInfo(0).length*/maxWalkOffset);
-            _animator.SetFloat(CycleOffset, randomOffset);
+            _animator.SetFloat(Literals.CycleOffset, randomOffset);
             _startedWalking = true;
         }
 
@@ -64,7 +80,9 @@ namespace Human
             _humanMovement.RotateToTarget(pos);            
             
             var score = FindObjectOfType<ScoreChanger>(true).CurrentScore;
-            _animator.SetTrigger(score >= 0 ? Working : Random.value > 0.5f ? Dancing : Dancing2);
+            _animator.SetTrigger(score >= 0 ? 
+                Literals.Working : Random.value > 0.5f ? 
+                Literals.Dancing : Literals.Dancing2);
         }
     }
 }

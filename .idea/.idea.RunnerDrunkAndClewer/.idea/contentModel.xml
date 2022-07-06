@@ -665,6 +665,7 @@
           <e p="Human" t="Include">
             <e p="HumanAnimationChanger.cs" t="Include" />
             <e p="HumanDrunkScaler.cs" t="Include" />
+            <e p="HumanItemSetter.cs" t="Include" />
             <e p="HumanMovement.cs" t="Include" />
           </e>
           <e p="HumanAttraction" t="Include">
@@ -691,6 +692,10 @@
           </e>
           <e p="Turns" t="Include">
             <e p="TurnPoint.cs" t="Include" />
+          </e>
+          <e p="Vehicles" t="Include">
+            <e p="Vehicle.cs" t="Include" />
+            <e p="VehicleTypes.cs" t="Include" />
           </e>
         </e>
         <e p="StreamingAssets" t="Include">

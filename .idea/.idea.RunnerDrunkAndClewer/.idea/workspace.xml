@@ -20,43 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Gender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Gender.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GenderType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GenderType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/ItemScore.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/ItemScore.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanItemSetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanItemSetter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vehicles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vehicles/Vehicle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vehicles/Vehicle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vehicles/VehicleTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vehicles/VehicleTypes.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate Long.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate Long.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Alcohol 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Alcohol 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Alcohol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Alcohol.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Coctail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Coctail.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkScaler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saves/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/SaveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saves/ItemScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saves/ItemScore.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,19 +52,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Downloaded Assets/SnackersUI/Scripts/DemoScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/8c/0e8599e0/UnityEvent`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/44/32d44afc/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/1f/db36dd3b/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Finish/LevelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Finish/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/SavedData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/MetricsData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/SaveAndLoadSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/SaveLoadSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/UserData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelData.cs" />
@@ -105,7 +80,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/BeforePlayTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAsyncWalkAnimationSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Downloaded Assets/SnackersUI/Scripts/TrophyRoad.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/LevelLabelSetter.cs" />
@@ -119,20 +93,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GenderContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/FinishLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/SaveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/EndCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/UnlockedItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/Metrics.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/ItemScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Gender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/StoredItemInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/ItemScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vechicles/Vechicles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vechicles/VehicleTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vehicles/Vehicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanItemSetter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" />
       </list>
     </option>
   </component>
@@ -212,6 +192,7 @@
       <workItem from="1656498713482" duration="1199000" />
       <workItem from="1657003831196" duration="6299000" />
       <workItem from="1657017397958" duration="23458000" />
+      <workItem from="1657084462034" duration="5189000" />
     </task>
     <servers />
   </component>
