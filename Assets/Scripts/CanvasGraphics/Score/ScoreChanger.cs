@@ -1,4 +1,5 @@
-﻿using Boosters;
+﻿using System;
+using Boosters;
 using Core;
 using UnityEngine;
 using UnityEngine.Events;
@@ -10,7 +11,8 @@ namespace CanvasGraphics.Score
         [SerializeField] private int maxHumans = 8;
         [SerializeField] private int currentScore = 0;
         [SerializeField] private int maxScore = 5;
-        
+
+        public static ScoreChanger Inst { get; private set; }
         public static UnityEvent<int, int> OnScoreChange = new UnityEvent<int, int>();
         public static UnityEvent<GenderType> OnNeedSpawnHuman = new UnityEvent<GenderType>();
         private int _humanCount = 0;
@@ -20,6 +22,8 @@ namespace CanvasGraphics.Score
         public int MaxHumans => maxHumans;
         public int CurrentScore => currentScore;
         public int HumanCount => _humanCount;
+
+        private void Awake() => Inst = this;
 
         private void Start() => Item.OnPicked.AddListener(ChangeScore);
 

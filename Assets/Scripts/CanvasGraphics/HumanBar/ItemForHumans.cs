@@ -1,5 +1,6 @@
 ﻿using Core;
 using UnityEngine;
+using UnityEngine.UI;
 using Vehicles;
 
 namespace CanvasGraphics.HumanBar
@@ -8,6 +9,7 @@ namespace CanvasGraphics.HumanBar
     public class ItemForHumans : ScriptableObject
     {
         public int Id = 0;
+        public Image Icon;
         public GenderType HumanGenderType;
         public int UnlockPoints;
         public Vehicle Prefab;

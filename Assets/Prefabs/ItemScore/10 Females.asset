@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 10 Females
   m_EditorClassIdentifier: 
   Id: 4
+  Icon: {fileID: 4764728178540615692, guid: c53e1bce43658c6438725ed548625269, type: 3}
   HumanGenderType: 1
-  UnlockPoints: 10
+  UnlockPoints: 15
   Prefab: {fileID: 3286992289879604792, guid: 306ef83566bc2df43b50aa5fff291c55, type: 3}

@@ -27,10 +27,13 @@ namespace CanvasGraphics.HumanBar
         [Space]
         [SerializeField] private int maxScore = 20;
         [SerializeField] private List<ItemForHumans> items;
-        private ScoreChanger _scoreChanger;
+        private List<int> _nextIdToUnlock = new List<int>();
         private ItemScore _itemScore;
 
         public static HumanBarCanvas Inst { get; private set; }
+        public int MaxScore => maxScore;
+        public List<int> NextIdToUnlock => _nextIdToUnlock;
+        public List<ItemForHumans> Items => items;
         public static UnityEvent OnBarAnimationPlayed = new UnityEvent();
 
         public Vehicle GetCurrentItem()
@@ -61,8 +64,6 @@ namespace CanvasGraphics.HumanBar
 
         private void Start()
         {
-            _scoreChanger = FindObjectOfType<ScoreChanger>();
-                // GetComponent<HumanBarItemDisplay>()
             AttractorForwardMover.OnReachedEnd.AddListener(PlayBarAnimaiton);
         }
 
@@ -70,8 +71,8 @@ namespace CanvasGraphics.HumanBar
         {
             if (_itemScore == null) _itemScore = new ItemScore();
 
-            var collectedGender = _scoreChanger.HumanCount >= 0 ? GenderType.Male : GenderType.Female;
-            var remainingCount = Mathf.Abs(_scoreChanger.HumanCount);
+            var collectedGender = ScoreChanger.Inst.HumanCount >= 0 ? GenderType.Male : GenderType.Female;
+            var remainingCount = Mathf.Abs(ScoreChanger.Inst.HumanCount);
             
             if (remainingCount == 0) return;
             
@@ -93,8 +94,8 @@ namespace CanvasGraphics.HumanBar
                 StartCoroutine(ChangeFillAmountCO(femaleSlider, _itemScore.FemaleCount));
             }
             UpdateItem(collectedGender, _itemScore, humanCount);
+            HumanBarItemDisplay.Inst.SetUpIcons(_itemScore);
             SaveSystem.Save(_itemScore, Literals.ItemScoreFileName);
-            
         }
 
         private void UpdateItem(GenderType genderType, ItemScore itemScore, int humanCount)
@@ -104,7 +105,11 @@ namespace CanvasGraphics.HumanBar
             foreach (var item in items)
             {
                 Debug.Log(item.UnlockPoints);
-                if (item.UnlockPoints > humanCount) break;
+                if (item.UnlockPoints > humanCount)
+                {
+                    _nextIdToUnlock.Add(item.Id);
+                    break;
+                }
                 if(genderType != item.HumanGenderType) continue;
                 id = item.Id;
             }
