@@ -19,10 +19,13 @@ namespace CanvasGraphics.HumanBar
         [Space]
         [SerializeField] private TweenAnimatedUIElement barElem;
         [SerializeField] private TweenAnimatedUIElement itemElem;
+        [SerializeField] private TweenAnimatedUIElement countElem;
         [SerializeField] private Image maleSlider;
         [SerializeField] private Image femaleSlider;
         [Space]
+        [SerializeField] private float afterAnimationWithUnlockTime = 1f;
         [SerializeField] private float afterAnimationTime = 1f;
+        [SerializeField] private float hideCountDelay = 1f;
         [SerializeField] private float animationDelay = 0.5f;
         [SerializeField] private float sliderFillTime = 0.5f;
         [Space]
@@ -30,7 +33,7 @@ namespace CanvasGraphics.HumanBar
         [SerializeField] private List<ItemForHumans> items;
         private List<int> _nextIdToUnlock = new List<int>();
         private ItemScore _itemScore;
-
+        private bool _unlocked = false;
         public static HumanBarCanvas Inst { get; private set; }
         public int MaxScore => maxScore;
         public List<int> NextIdToUnlock => _nextIdToUnlock;
@@ -76,12 +79,12 @@ namespace CanvasGraphics.HumanBar
             var collectedGender = ScoreChanger.Inst.HumanCount >= 0 ? GenderType.Male : GenderType.Female;
             var remainingCount = Mathf.Abs(ScoreChanger.Inst.HumanCount);
             
-            //if (remainingCount == 0) return;
-            
             maleSlider.fillAmount = (float) _itemScore.MaleCount / maxScore;
             femaleSlider.fillAmount = (float) _itemScore.FemaleCount / maxScore;
 
             var humanCount = 0;
+            countElem.Show();
+            Invoke(nameof(DelayHideCount), hideCountDelay);
             
             if (collectedGender == GenderType.Male)
             {
@@ -101,6 +104,7 @@ namespace CanvasGraphics.HumanBar
             SaveSystem.Save(_itemScore, Literals.ItemScoreFileName);
         }
 
+        private void DelayHideCount() => countElem.Hide();
         private void AddNextIdsToList(ItemScore itemScore)
         {
             var maleAdded = false;
@@ -137,10 +141,10 @@ namespace CanvasGraphics.HumanBar
                 id = item.Id;
                 sprite = item.Icon.sprite;
             }
-            if (itemScore.UnlockedIds.Contains(id)) return;
+            if (itemScore.UnlockedIds.Contains(id) || id == -1) return;
             itemScore.LastItemId = id;
             itemScore.UnlockedIds.Add(id);
-            
+            _unlocked = true;
             OnItemUnlocked?.Invoke(sprite);
             itemElem.Show();
         }
@@ -149,6 +153,7 @@ namespace CanvasGraphics.HumanBar
         {
             var endFillAmount = (float) currentScore / maxScore;
             barElem.Show();
+            
             yield return new WaitForSeconds(animationDelay);
             var time = 0f;
             var velocity = 0f;
@@ -162,7 +167,7 @@ namespace CanvasGraphics.HumanBar
                 yield return null;
             }
             slider.fillAmount = endFillAmount;
-            yield return new WaitForSeconds(afterAnimationTime);
+            yield return new WaitForSeconds(_unlocked ? afterAnimationWithUnlockTime : afterAnimationTime);
             barElem.Hide();
             itemElem.Hide();
             OnBarAnimationPlayed?.Invoke();

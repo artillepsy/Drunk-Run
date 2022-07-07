@@ -8,8 +8,6 @@ namespace HumanAttraction
 {
     public class Attractor : MonoBehaviour
     {
-        [SerializeField] private float humanRadius = 0.6f;
-        
         [SerializeField] private List<HumanMovement> humans;
         [SerializeField] private float attractForce = 70f;
         private bool _attractionEnabled = true;
@@ -23,8 +21,8 @@ namespace HumanAttraction
             {
                 var humanXPos = human.transform.localPosition.x;
                 
-                if (humanXPos - humanRadius < bounds[0]) bounds[0] = humanXPos - humanRadius;
-                else if (humanXPos + humanRadius > bounds[1]) bounds[1] = humanXPos + humanRadius;
+                if (humanXPos < bounds[0]) bounds[0] = humanXPos;
+                else if (humanXPos > bounds[1]) bounds[1] = humanXPos;
             }
             return bounds;
         }

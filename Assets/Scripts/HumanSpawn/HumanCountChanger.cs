@@ -13,7 +13,7 @@ namespace HumanSpawn
 {
     public class HumanCountChanger : MonoBehaviour
     {
-        [SerializeField] private float spawnRadius = 1f;
+        [SerializeField] private float spawnOffsetX = 1f;
         [SerializeField] private float deactivateDelay = 1f;
         
         private List<GameObject> _humans = new List<GameObject>();
@@ -86,11 +86,10 @@ namespace HumanSpawn
         private void UpdateHumanPos(GameObject human)
         {
             var spawnPos = new Vector3(transform.position.x, 0, transform.position.z);
-            var spawnOffsetXZ = Random.insideUnitSphere * spawnRadius;
-            spawnOffsetXZ.y = 0;
+            var spawnOffsetXZ = Vector3.right * Random.Range(-spawnOffsetX, spawnOffsetX);
 
-            var direction = (spawnOffsetXZ - spawnPos).normalized;
-            spawnPos += direction;
+           //var direction = (spawnOffsetXZ - spawnPos).normalized;
+            spawnPos += Vector3.right * Random.Range(-spawnOffsetX, spawnOffsetX);
             human.transform.position = spawnPos;
             human.transform.forward = _attractor.forward;
             human.transform.SetParent(_attractor);

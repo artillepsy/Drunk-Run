@@ -45,9 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 208f28df73a9fc64c9cdf2780b4533b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  humanRadius: 0.6
   humans: []
-  attractForce: 100
+  attractForce: 180
 --- !u!1 &803123748
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1317b073bfd4fb884317deb8529d34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRadius: 1.29
+  spawnOffsetX: 3
   deactivateDelay: 3
 --- !u!1 &858684512
 GameObject:
@@ -596,6 +595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zSpeed: 4.24
+  correctionTime: 0.63
 --- !u!114 &208871613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3a0e5b4a17406cb263aea3de7690e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endRadius: 2.9
+  endRadius: 3.47
   endAngle: 90
   endRotationTime: 1.5
   OnRotated:
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xSpeed: 3.7
-  xConstraints: 3
+  xConstraints: 2.4
 --- !u!1 &4754339343327980690
 GameObject:
   m_ObjectHideFlags: 0

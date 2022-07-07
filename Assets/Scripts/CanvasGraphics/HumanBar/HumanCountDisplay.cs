@@ -1,4 +1,5 @@
 ﻿using CanvasGraphics.Score;
+using Finish;
 using HumanAttraction;
 using TMPro;
 using UnityEngine;
@@ -19,7 +20,7 @@ namespace CanvasGraphics.HumanBar
 
         private void Start()
         {
-            AttractorForwardMover.OnReachedEnd.AddListener(() =>
+            FinishLine.OnReachedFinish.AddListener(() =>
             {
                 var count = ScoreChanger.Inst.HumanCount;
                 genderImage.color = count >= 0 ? maleColor : femaleColor;

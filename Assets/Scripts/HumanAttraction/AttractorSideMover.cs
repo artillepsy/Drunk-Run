@@ -35,16 +35,30 @@ namespace HumanAttraction
             
             var min = bounds[0] + _attractionPoint.localPosition.x;
             var max = bounds[1] + _attractionPoint.localPosition.x;
+
+            var left = min >= -xConstraints;
+            var right = max <= xConstraints;
+
+            if (swipeValue < 0 && !left || swipeValue > 0 && !right) return;
             
             min = min < -xConstraints ? _attractionPoint.localPosition.x : -xConstraints;
             max = max > xConstraints ? _attractionPoint.localPosition.x : xConstraints;
 
-            var velocity = Vector3.right * (swipeValue * xSpeed * Time.deltaTime);
-            _attractor.transform.Translate(velocity, Space.Self);
 
+            var velocityX = swipeValue * xSpeed * Time.deltaTime;
+
+            var predictedPosX = _attractionPoint.localPosition.x + velocityX;
+            predictedPosX = Mathf.Clamp(predictedPosX, min, max);
+            
+            _attractionPoint.localPosition = new Vector3(predictedPosX, 0, _attractionPoint.localPosition.z);
+            
+            /*var velocity = Vector3.right * velocityX;
+            _attractor.transform.Translate(velocity, Space.Self);*/
+
+            /*
             var pointPos = _attractionPoint.localPosition;
             pointPos.x = Mathf.Clamp(_attractionPoint.localPosition.x, min, max);
-            _attractionPoint.localPosition = pointPos;
+            _attractionPoint.localPosition = pointPos;*/
         }
 
         private float SwipeInput()

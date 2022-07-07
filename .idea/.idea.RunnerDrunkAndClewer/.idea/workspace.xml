@@ -20,42 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanCountDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanCountDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemUnlockDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemUnlockDisplay.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Human/HumanController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Canvas/UnlockItemCanvas.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/UnlockItemCanvas.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Downloaded Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/BarGate L.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/BarGate L.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/BarGate R.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/BarGate R.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate Long.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate Long.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/BarGate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate Long.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate Long.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/LibraryGate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Females.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Females.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Males.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Males.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Roads/StraightRoadPart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Roads/StraightRoadPart.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Bike.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Bike.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Moped.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Moped.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Samokat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Samokat.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanCountDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanCountDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanItemSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanItemSetter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vehicles/Vehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Vehicles/Vehicle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vehicles/VehicleTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Vehicles/VehicleTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Vehicles/Bike_icon.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Vehicles/Bike_icon.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saves/MetricsEventParameters.cs" />
-        <option value="$PROJECT_DIR$/Assets/Cubik.cs" />
         <option value="$PROJECT_DIR$/Assets/Pistolet.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
@@ -97,7 +82,6 @@
         <option value="$PROJECT_DIR$/Assets/AnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/LevelLabelSetter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/StartTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanDrunkScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBarCanvas.cs" />
@@ -113,7 +97,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Vechicles/Vechicles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vechicles/VehicleTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Gender.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saves/ItemScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemIcon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreChanger.cs" />
@@ -124,15 +107,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/DecisionParticlesDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemUnlockDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vehicles/Vehicle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanItemSetter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vehicles/VehicleTypes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanCountDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/StageDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" />
       </list>
     </option>
   </component>
@@ -148,6 +135,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -215,7 +203,8 @@
       <workItem from="1657084462034" duration="11020000" />
       <workItem from="1657099819790" duration="3181000" />
       <workItem from="1657139667871" duration="1825000" />
-      <workItem from="1657174135134" duration="19407000" />
+      <workItem from="1657174135134" duration="46370000" />
+      <workItem from="1657234511630" duration="2229000" />
     </task>
     <servers />
   </component>
@@ -244,10 +233,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="332" y="230" width="1097" height="820" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1657040379013" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1656020779887">
+    <state x="425" y="189" key="run.anything.popup" timestamp="1657216514476">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1656020779887" />
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1657216514476" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1655363173779">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
