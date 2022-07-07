@@ -2,7 +2,8 @@
 {
     public enum VehicleTypes
     {
-        Scooter,
+        Moped,
+        Bike,
         Skate
     }
 }

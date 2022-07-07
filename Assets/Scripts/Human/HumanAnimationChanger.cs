@@ -55,8 +55,11 @@ namespace Human
             _withVehicle = true;
             switch (type)
             {
-                case VehicleTypes.Scooter:
-                    _animator.SetTrigger(Literals.Scooter);
+                case VehicleTypes.Moped:
+                    _animator.SetTrigger(Literals.Moped);
+                    break;
+                case VehicleTypes.Bike:
+                    _animator.SetTrigger(Literals.Bike);
                     break;
                 case VehicleTypes.Skate:
                     _animator.SetTrigger(Literals.Skate);

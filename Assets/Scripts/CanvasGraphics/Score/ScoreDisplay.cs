@@ -65,7 +65,7 @@ namespace CanvasGraphics.Score
             var time = 0f;
             Vector2 velocity = Vector2.zero;
 
-            while (time < changeTime)
+            while (time < changeTime * 4f)
             {
                 pointer.anchoredPosition = Vector2.SmoothDamp(
                     pointer.anchoredPosition, 

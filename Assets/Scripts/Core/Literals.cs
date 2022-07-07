@@ -12,7 +12,8 @@ namespace Core
         public static readonly int Working = Animator.StringToHash("Working");
         public static readonly int Dancing = Animator.StringToHash("Dancing");
         public static readonly int Dancing2 = Animator.StringToHash("Dancing2");
-        public static readonly int Scooter = Animator.StringToHash("Scooter");
+        public static readonly int Moped = Animator.StringToHash("Moped");
+        public static readonly int Bike = Animator.StringToHash("Bike");
         public static readonly int Skate = Animator.StringToHash("Skate");
     }
 }

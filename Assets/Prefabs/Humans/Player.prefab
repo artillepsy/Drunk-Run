@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemTarget: {fileID: 7012489252142023315}
+  body: {fileID: 3165355932000065484}
   OnGetVehicle:
     m_PersistentCalls:
       m_Calls: []
@@ -124,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351620255105765055}
   - component: {fileID: 2207795678849419284}
-  m_Layer: 6
+  m_Layer: 12
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}

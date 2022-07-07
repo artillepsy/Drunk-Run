@@ -61,8 +61,8 @@ namespace Levels
             SaveSystem.Save(_metrics, Literals.MetricsFileName);
             AppMetrica.Instance.SendEventsBuffer();
             
-            _metrics.PrintInfo();
-            Debug.Log(" ");
+            /*_metrics.PrintInfo();
+            Debug.Log(" ");*/
         }
 
         private void SendLevelEndEvent()
@@ -87,12 +87,12 @@ namespace Levels
             SaveSystem.Save(_metrics, Literals.MetricsFileName);
             AppMetrica.Instance.SendEventsBuffer();
             
-            _metrics.PrintInfo();
+            /*_metrics.PrintInfo();
             Debug.Log("result = " + s_result);
             Debug.Log("time = "+ _time);
             Debug.Log(" ");
             Debug.Log(" ");
-            Debug.Log(" ");
+            Debug.Log(" ");*/
         }
     }
 }

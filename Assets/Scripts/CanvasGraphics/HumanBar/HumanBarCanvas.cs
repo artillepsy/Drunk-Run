@@ -15,6 +15,8 @@ namespace CanvasGraphics.HumanBar
 {
     public class HumanBarCanvas : MonoBehaviour
     {
+        [SerializeField] private bool resetResults = false;
+        [Space]
         [SerializeField] private TweenAnimatedUIElement elem;
         [SerializeField] private Image maleSlider;
         [SerializeField] private Image femaleSlider;
@@ -28,8 +30,6 @@ namespace CanvasGraphics.HumanBar
         private ScoreChanger _scoreChanger;
         private ItemScore _itemScore;
 
-        public IEnumerable<ItemForHumans> Items => items;
-        
         public static HumanBarCanvas Inst { get; private set; }
         public static UnityEvent OnBarAnimationPlayed = new UnityEvent();
 
@@ -46,12 +46,23 @@ namespace CanvasGraphics.HumanBar
         private void Awake()
         {
             Inst = this;
-            _itemScore = SaveSystem.Load<ItemScore>(Literals.ItemScoreFileName);
+            if (resetResults)
+            {
+                _itemScore = new ItemScore();
+                SaveSystem.Save(_itemScore, Literals.ItemScoreFileName);
+            }
+            else
+            {
+                _itemScore = SaveSystem.Load<ItemScore>(Literals.ItemScoreFileName);
+                Debug.Log("Saved item id: " + _itemScore.LastItemId);
+            }
+            
         }
 
         private void Start()
         {
             _scoreChanger = FindObjectOfType<ScoreChanger>();
+                // GetComponent<HumanBarItemDisplay>()
             AttractorForwardMover.OnReachedEnd.AddListener(PlayBarAnimaiton);
         }
 
@@ -81,7 +92,6 @@ namespace CanvasGraphics.HumanBar
                 humanCount = _itemScore.FemaleCount;
                 StartCoroutine(ChangeFillAmountCO(femaleSlider, _itemScore.FemaleCount));
             }
-            
             UpdateItem(collectedGender, _itemScore, humanCount);
             SaveSystem.Save(_itemScore, Literals.ItemScoreFileName);
             
@@ -90,18 +100,17 @@ namespace CanvasGraphics.HumanBar
         private void UpdateItem(GenderType genderType, ItemScore itemScore, int humanCount)
         {
             items = items.OrderBy(item => item.UnlockPoints).ToList();
-            var cachedPoints = 0;
             var id = -1;
             foreach (var item in items)
             {
                 Debug.Log(item.UnlockPoints);
-
-                if (humanCount > cachedPoints) break;
+                if (item.UnlockPoints > humanCount) break;
                 if(genderType != item.HumanGenderType) continue;
-
-                cachedPoints = humanCount;
-                itemScore.LastItemId = item.Id;
+                id = item.Id;
             }
+            if (itemScore.UnlockedIds.Contains(id)) return;
+            itemScore.LastItemId = id;
+            itemScore.UnlockedIds.Add(id);
         }
         
         private IEnumerator ChangeFillAmountCO(Image slider, int currentScore)
@@ -123,7 +132,7 @@ namespace CanvasGraphics.HumanBar
             slider.fillAmount = endFillAmount;
             yield return new WaitForSeconds(afterAnimationTime);
             elem.Hide();
-            OnBarAnimationPlayed?.Invoke();
+            
         }
     }
 }

@@ -37,8 +37,6 @@ namespace HumanSpawn
         private void SpawnHumans(GenderType genderType, int count)
         {
             var prefab = Gender.Inst.GetPrefab(genderType);
-            Debug.Log(prefab);
-            Debug.Log(genderType);
             
             for (var i = 0; i < count; i++)
             {

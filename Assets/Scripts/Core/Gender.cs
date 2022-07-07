@@ -17,7 +17,6 @@ namespace Core
 
         public static string GetTag(GenderType type)
         {
-            Debug.Log("type: " + type);
             return type == GenderType.Male ? Male : Female;
         }
 
