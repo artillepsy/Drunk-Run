@@ -1,0 +1,1896 @@
+fileFormatVersion: 2
+guid: 854444256cdbc8f408b5335ec91d23a1
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -3492562458102413824
+    second: Samokat
+  - first:
+      74: 779350438692948329
+    second: TCP_Male_Armature|Samokatik
+  - first:
+      74: 7113219274853865514
+    second: TCP_Male_Armature|TCP_Male_Armature|TCP_Male_Armature|1|TCP_Male_Armature|1
+  - first:
+      74: 7343871381721971382
+    second: TCP_Male_Armature|TCP_Male_Armature|TCP_Male_Armature|SUPRA_9542|C4D
+      Animation Ta
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Samokat
+      takeName: TCP_Male_Armature|Samokat
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TCP_Male_Armature|Samokatik
+      takeName: TCP_Male_Armature|Samokatik
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TCP_Male_Armature|TCP_Male_Armature|TCP_Male_Armature|1|TCP_Male_Armature|1
+      takeName: TCP_Male_Armature|TCP_Male_Armature|TCP_Male_Armature|1|TCP_Male_Armature|1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TCP_Male_Armature|TCP_Male_Armature|TCP_Male_Armature|SUPRA_9542|C4D
+        Animation Ta
+      takeName: TCP_Male_Armature|TCP_Male_Armature|TCP_Male_Armature|SUPRA_9542|C4D
+        Animation Ta
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Quad.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Quad.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicle.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicle.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb_Tip.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingers.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingertips.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb_Tip.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingers.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingertips.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Samokat(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.012
+      parentName: Samokat(Clone)
+      position: {x: -0.13191558, y: 0, z: 0.170946}
+      rotation: {x: 0.000000057606222, y: 0.70716435, z: -0.000000057615605, w: 0.7070492}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cylinder.001
+      parentName: Samokat(Clone)
+      position: {x: -0.13187613, y: 1.4261004, z: 0.41310427}
+      rotation: {x: -0.5609504, y: 0.5610207, z: 0.43050498, w: 0.43041372}
+      scale: {x: 3.8154387, y: 3.8154383, z: 3.8154387}
+    - name: Cube
+      parentName: Samokat(Clone)
+      position: {x: -0.13198172, y: 0.18040782, z: -0.23501575}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: front_tire_surface.001_Plane.002
+      parentName: Samokat(Clone)
+      position: {x: -0.13195042, y: 0.1966995, z: 0.18798298}
+      rotation: {x: 0.00000015478707, y: 0.00008141191, z: 0.000000030951597, w: 1}
+      scale: {x: 75.30375, y: 60.903053, z: 60.903053}
+    - name: Cube.001
+      parentName: Samokat(Clone)
+      position: {x: -0.13197534, y: 0.2845481, z: -0.19571817}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 3.9687936, y: 3.9687936, z: 3.9687936}
+    - name: Cylinder.002
+      parentName: Samokat(Clone)
+      position: {x: -0.13183947, y: 0.581516, z: 0.63809955}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Circle
+      parentName: Samokat(Clone)
+      position: {x: -0.10678686, y: 0.18182832, z: 0.7491544}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane
+      parentName: Samokat(Clone)
+      position: {x: -0.13181154, y: 0.40666515, z: 0.8096392}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cylinder.003
+      parentName: Samokat(Clone)
+      position: {x: -0.13183405, y: 0.48067835, z: 0.67143273}
+      rotation: {x: -0.5609504, y: 0.5610207, z: 0.43050498, w: 0.43041372}
+      scale: {x: 3.5421646, y: 3.5421638, z: 2.3236732}
+    - name: Cylinder.004
+      parentName: Samokat(Clone)
+      position: {x: -0.13183238, y: 0.5986624, z: 0.6817301}
+      rotation: {x: -0.5609504, y: 0.5610207, z: 0.43050498, w: 0.43041372}
+      scale: {x: 1.7432331, y: 1.7432325, z: 1.7432331}
+    - name: Cylinder.005
+      parentName: Samokat(Clone)
+      position: {x: -0.04597734, y: 0.23312616, z: 0.7433781}
+      rotation: {x: -0.5609504, y: 0.5610207, z: 0.43050498, w: 0.43041363}
+      scale: {x: 2.127071, y: 2.1270707, z: 2.127071}
+    - name: Cube.002
+      parentName: Samokat(Clone)
+      position: {x: -0.090449706, y: 0.55852604, z: 0.5929699}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cylinder.006
+      parentName: Samokat(Clone)
+      position: {x: -0.13186724, y: 0.12022799, z: 0.4675757}
+      rotation: {x: 0.00000008897838, y: 0.70716435, z: 3.371295e-11, w: 0.7070492}
+      scale: {x: 4.3480563, y: 4.3480563, z: 4.3480554}
+    - name: Cube.003
+      parentName: Samokat(Clone)
+      position: {x: -0.13186689, y: 0.14065397, z: 0.46979988}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bolt
+      parentName: Samokat(Clone)
+      position: {x: -0.14965154, y: 0.41018003, z: 0.71237206}
+      rotation: {x: -0.092238784, y: 0.092353046, z: 0.701065, w: 0.70104986}
+      scale: {x: 0.103908256, y: 0.103908256, z: 0.103908256}
+    - name: Cylinder.007
+      parentName: Samokat(Clone)
+      position: {x: -0.13186975, y: 1.4815801, z: 0.45219395}
+      rotation: {x: 0.00000008897838, y: 0.70716435, z: 3.371295e-11, w: 0.7070492}
+      scale: {x: 8.633668, y: 8.633668, z: 8.633668}
+    - name: Circle.001
+      parentName: Samokat(Clone)
+      position: {x: 0.035363123, y: 1.4933256, z: 0.45279276}
+      rotation: {x: 0.000000088957805, y: 0.70716435, z: 5.4297494e-11, w: 0.7070492}
+      scale: {x: 1.6925633, y: 1.6925633, z: 1.6925633}
+    - name: Circle.002
+      parentName: Samokat(Clone)
+      position: {x: -0.28357947, y: 1.4933162, z: 0.45282656}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.001
+      parentName: Samokat(Clone)
+      position: {x: -0.13187115, y: 1.5239868, z: 0.44364032}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 1.7663555, y: 1.7663555, z: 1.7663555}
+    - name: Bolt.002
+      parentName: Samokat(Clone)
+      position: {x: -0.11752261, y: 1.5242658, z: 0.42947784}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 0.095528856, y: 0.095528856, z: 0.095528856}
+    - name: Cube.004
+      parentName: Samokat(Clone)
+      position: {x: -0.1318555, y: 1.1940641, z: 0.53959775}
+      rotation: {x: -0.5609504, y: 0.5610207, z: 0.43050498, w: 0.43041372}
+      scale: {x: 2.217311, y: 2.2173111, z: 12.613224}
+    - name: Bolt.005
+      parentName: Samokat(Clone)
+      position: {x: -0.13186313, y: 1.3565128, z: 0.4742826}
+      rotation: {x: -0.09223879, y: 0.09235304, z: 0.701065, w: 0.70104986}
+      scale: {x: 0.1525965, y: 0.15259652, z: 0.1525965}
+    - name: Circle.003
+      parentName: Samokat(Clone)
+      position: {x: -0.13186656, y: 1.445507, z: 0.47192684}
+      rotation: {x: 0.00005749299, y: 0.000057572608, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1.7442621, y: 1.7442621, z: 1.7442621}
+    - name: Cube.005
+      parentName: Samokat(Clone)
+      position: {x: -0.1321008, y: 0.42902, z: -0.47781134}
+      rotation: {x: 0.00006322415, y: 0.63119155, z: 0.7756271, w: -0.00005139433}
+      scale: {x: 126.817665, y: 126.81768, z: 126.817665}
+    - name: Circle.004
+      parentName: Samokat(Clone)
+      position: {x: -0.13166945, y: 0.5827112, z: 1.6817303}
+      rotation: {x: 0.00000008897838, y: 0.70716435, z: 3.371295e-11, w: 0.7070492}
+      scale: {x: 13.382912, y: 13.382912, z: 13.382912}
+    - name: Circle.005
+      parentName: Samokat(Clone)
+      position: {x: -0.13184313, y: 0.6629705, z: 0.61566114}
+      rotation: {x: -0.56095046, y: 0.5610206, z: 0.430505, w: 0.43041363}
+      scale: {x: 4.6184278, y: 4.6184273, z: 3.2351959}
+    - name: Plane.002
+      parentName: Samokat(Clone)
+      position: {x: -0.13193028, y: 0.23288226, z: 0.080806166}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Circle.006
+      parentName: Samokat(Clone)
+      position: {x: -0.04473795, y: 0.49518603, z: 0.6639686}
+      rotation: {x: -0.5609504, y: 0.5610207, z: 0.43050498, w: 0.43041372}
+      scale: {x: 2.188567, y: 2.1885667, z: 2.188567}
+    - name: Cylinder.008
+      parentName: Samokat(Clone)
+      position: {x: -0.13187613, y: 1.4261004, z: 0.41310427}
+      rotation: {x: -0.5609504, y: 0.5610207, z: 0.43050498, w: 0.43041372}
+      scale: {x: 3.8154387, y: 3.8154383, z: 3.8154387}
+    - name: Cube.006
+      parentName: Samokat(Clone)
+      position: {x: -0.26806852, y: 1.4934154, z: 0.49840754}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.007
+      parentName: Samokat(Clone)
+      position: {x: -0.24874477, y: 1.4934154, z: 0.4913671}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.008
+      parentName: Samokat(Clone)
+      position: {x: 0.003148973, y: 1.4934154, z: 0.49836338}
+      rotation: {x: 0.50014234, y: -0.4998577, z: 0.5000609, w: 0.49993902}
+      scale: {x: -100, y: -100, z: -100}
+    - name: Cube.009
+      parentName: Samokat(Clone)
+      position: {x: -0.01617713, y: 1.4934154, z: 0.4913292}
+      rotation: {x: 0.50014234, y: -0.4998577, z: 0.5000609, w: 0.49993902}
+      scale: {x: -100, y: -100, z: -100}
+    - name: Cylinder.009
+      parentName: Samokat(Clone)
+      position: {x: -0.1318476, y: 0.7687119, z: 0.58813006}
+      rotation: {x: -0.5609505, y: 0.5610206, z: 0.43050513, w: 0.43041357}
+      scale: {x: 4.1402903, y: 4.1402903, z: 13.58027}
+    - name: Cube.010
+      parentName: Samokat(Clone)
+      position: {x: -0.006880209, y: 0.17732732, z: -0.35484737}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 3.5199065, y: 3.5199065, z: 3.5199065}
+    - name: Cube.011
+      parentName: Samokat(Clone)
+      position: {x: -0.13109927, y: 1.3630973, z: 0.33296204}
+      rotation: {x: -0.49985754, y: 0.5001425, z: 0.499939, w: 0.500061}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Circle.007
+      parentName: Samokat(Clone)
+      position: {x: 0.026664436, y: 1.4926493, z: 0.42872918}
+      rotation: {x: 0.00000008897838, y: 0.70716435, z: 3.371295e-11, w: 0.7070492}
+      scale: {x: 1.51168, y: 1.51168, z: 1.51168}
+    - name: TCP_Male_Armature
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0}
+      rotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: TCP_Male_Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: 0.50000006, z: 0.4999999, w: 0.50000006}
+      scale: {x: 1, y: 0.9999998, z: 0.9999875}
+    - name: Hips
+      parentName: Root
+      position: {x: 0.009830842, y: 0.00032710945, z: 0.0013405692}
+      rotation: {x: 0.00000008568168, y: 0.000000026077032, z: 0.6606105, w: 0.7507289}
+      scale: {x: 1.0000191, y: 1.000118, z: 1.0000745}
+    - name: Spine_01
+      parentName: Hips
+      position: {x: 0.000064479966, y: -0.00056559715, z: -2.2357085e-11}
+      rotation: {x: -0.7056698, y: -0.04506023, z: -0.7056696, w: 0.045058295}
+      scale: {x: 1.0000223, y: 1.0000058, z: 1.0000085}
+    - name: Spine_02
+      parentName: Spine_01
+      position: {x: 2.1456685e-11, y: 0.0012637244, z: 2.460979e-11}
+      rotation: {x: -0.15178409, y: 0.00000030174849, z: 0.00000004097819, w: 0.98841375}
+      scale: {x: 1.0000064, y: 0.9992725, z: 1.0007519}
+    - name: Spine_03
+      parentName: Spine_02
+      position: {x: 1.1341398e-11, y: 0.0016214789, z: 1.349656e-10}
+      rotation: {x: 0.114882626, y: -0.00000021574448, z: 0.0000001077469, w: 0.9933791}
+      scale: {x: 0.9999993, y: 0.99924755, z: 1.0007153}
+    - name: Neck
+      parentName: Spine_03
+      position: {x: 2.4566346e-10, y: 0.001671168, z: 0.00024169583}
+      rotation: {x: -0.0013325211, y: 0.00000014360157, z: -0.00000014856846, w: 0.99999917}
+      scale: {x: 1.0000246, y: 1.0001205, z: 0.99988234}
+    - name: Head
+      parentName: Neck
+      position: {x: 1.5165256e-11, y: 0.00100226, z: -2.7168311e-11}
+      rotation: {x: 0.017983727, y: -0.000000094532794, z: 0.0000000016983329, w: 0.99983835}
+      scale: {x: 1.0000199, y: 0.998468, z: 1.0015217}
+    - name: Head_end
+      parentName: Head
+      position: {x: 1.5714931e-11, y: 0.0011528095, z: 3.124967e-11}
+      rotation: {x: -0.00000021792941, y: 0.000000028936046, z: -0.00000002548688, w: 1}
+      scale: {x: 1.0000017, y: 1.0000044, z: 1.0000097}
+    - name: Head_end_end
+      parentName: Head_end
+      position: {x: -0, y: 0.0011528078, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavicle.L
+      parentName: Spine_03
+      position: {x: 5.2501718e-11, y: 0.0015510651, z: -1.03833026e-10}
+      rotation: {x: 0.6688415, y: -0.5023953, z: -0.4257618, w: -0.3449304}
+      scale: {x: 0.98505557, y: 0.9996039, z: 1.015551}
+    - name: Arm.L
+      parentName: Clavicle.L
+      position: {x: 5.5879353e-11, y: 0.0021322833, z: -0.0000000013876706}
+      rotation: {x: 0.104599714, y: -0.0859917, z: 0.019361395, w: 0.9906006}
+      scale: {x: 0.9857677, y: 0.99089134, z: 1.0237163}
+    - name: Forearm.L
+      parentName: Arm.L
+      position: {x: -1.11758706e-10, y: 0.002176523, z: -7.625203e-10}
+      rotation: {x: -0.068410605, y: 0.7912509, z: -0.032280963, w: -0.6067949}
+      scale: {x: 1.1705296, y: 1.0031459, z: 0.84805214}
+    - name: Hand.L
+      parentName: Forearm.L
+      position: {x: -2.9802322e-10, y: 0.0029480266, z: -2.4214386e-10}
+      rotation: {x: -0.05344863, y: -0.1440752, z: 0.002027794, w: 0.9881202}
+      scale: {x: 1.6810211, y: 0.9244851, z: 0.5937385}
+    - name: Fingers.L
+      parentName: Hand.L
+      position: {x: -6.1467287e-10, y: 0.0011967485, z: 6.519258e-11}
+      rotation: {x: -0.06688048, y: 0.08686368, z: -0.08096911, w: 0.9906693}
+      scale: {x: 0.30526447, y: 2.7859445, z: 2.3656847}
+    - name: Fingertips.L
+      parentName: Fingers.L
+      position: {x: 9.313226e-10, y: 0.0004195368, z: -7.4505804e-11}
+      rotation: {x: -0.06666117, y: -0.060171623, z: 0.3606738, w: 0.92835885}
+      scale: {x: 123134.586, y: 0.006282464, z: 0.5318246}
+    - name: Fingertips.L_end
+      parentName: Fingertips.L
+      position: {x: 0.0000000012293457, y: 0.000654091, z: -2.6077032e-10}
+      rotation: {x: 0.00000005215404, y: 0.00000039488057, z: -0.000000007450577, w: 1}
+      scale: {x: 0.99995905, y: 0.47722617, z: 0.9049533}
+    - name: Fingertips.L_end_end
+      parentName: Fingertips.L_end
+      position: {x: -0, y: 0.00065409753, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thumb.L
+      parentName: Hand.L
+      position: {x: -0.00018562535, y: 0.000084503394, z: 0.0002799548}
+      rotation: {x: 0.3913793, y: 0.8065901, z: 0.22917081, w: 0.37909803}
+      scale: {x: 83.32635, y: 0.04673569, z: 0.720747}
+    - name: Thumb_Tip.L
+      parentName: Thumb.L
+      position: {x: 2.2351741e-10, y: 0.0006159824, z: 0.0000000011641532}
+      rotation: {x: 0.5859932, y: -0.70035374, z: 0.12755686, w: 0.38709956}
+      scale: {x: 7.079176e+9, y: 9.359254e-11, z: 4254.356}
+    - name: Thumb_Tip.L_end
+      parentName: Thumb_Tip.L
+      position: {x: 9.126961e-10, y: 0.000874964, z: -3.5390257e-10}
+      rotation: {x: -0.00000022351732, y: 0.0000029504286, z: -0.0000019818535, w: 1}
+      scale: {x: 1.0038328, y: 0, z: 308.03696}
+    - name: Thumb_Tip.L_end_end
+      parentName: Thumb_Tip.L_end
+      position: {x: -0, y: 0.00087497546, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavicle.R
+      parentName: Spine_03
+      position: {x: 3.387299e-11, y: 0.0015510651, z: -1.9696528e-10}
+      rotation: {x: 0.66883916, y: 0.50239843, z: 0.42576036, w: -0.34493196}
+      scale: {x: 0.98507404, y: 0.9996289, z: 1.0155488}
+    - name: Arm.R
+      parentName: Clavicle.R
+      position: {x: 4.1909515e-10, y: 0.0021322789, z: 5.587935e-10}
+      rotation: {x: 0.10460014, y: 0.085991025, z: -0.019360058, w: 0.9906006}
+      scale: {x: 0.9857835, y: 0.9908958, z: 1.0237119}
+    - name: Forearm.R
+      parentName: Arm.R
+      position: {x: 4.4703483e-10, y: 0.0021765158, z: -0.0000000010244549}
+      rotation: {x: -0.06840935, y: -0.7912496, z: 0.03228092, w: -0.60679674}
+      scale: {x: 1.1701151, y: 1.0030298, z: 0.8483166}
+    - name: Hand.R
+      parentName: Forearm.R
+      position: {x: -0.0000000011920929, y: 0.0029480236, z: 0}
+      rotation: {x: -0.05344114, y: 0.14702478, z: -0.002185806, w: 0.98768574}
+      scale: {x: 1.6964685, y: 0.9245418, z: 0.58795655}
+    - name: Fingers.R
+      parentName: Hand.R
+      position: {x: -4.5634804e-10, y: 0.0011967504, z: -3.9115547e-10}
+      rotation: {x: -0.06670042, y: -0.090146564, z: 0.08357731, w: 0.99017143}
+      scale: {x: 0.29056227, y: 2.788085, z: 2.631047}
+    - name: Fingertips.R
+      parentName: Fingers.R
+      position: {x: 0.0000000026077032, y: 0.000419536, z: 4.1443854e-10}
+      rotation: {x: 0.06397802, y: -0.055332888, z: 0.3322254, w: -0.9393995}
+      scale: {x: 183695.86, y: 0.0058143325, z: 0.56290126}
+    - name: Fingertips.R_end
+      parentName: Fingertips.R
+      position: {x: -2.6077032e-10, y: 0.0006540902, z: 5.2154064e-10}
+      rotation: {x: -0.0000000037252885, y: -0.00000020489087, z: -5.8207633e-10, w: 1}
+      scale: {x: 1.0000302, y: -18.027788, z: 0.9219947}
+    - name: Fingertips.R_end_end
+      parentName: Fingertips.R_end
+      position: {x: -0, y: 0.00065409986, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thumb.R
+      parentName: Hand.R
+      position: {x: 0.00018395152, y: 0.000084504485, z: 0.00028105688}
+      rotation: {x: -0.3941999, y: 0.80711323, z: 0.22769193, w: -0.3759401}
+      scale: {x: 90.836464, y: 0.04480275, z: 0.7003895}
+    - name: Thumb_Tip.R
+      parentName: Thumb.R
+      position: {x: 3.72529e-10, y: 0.0006159835, z: -9.126961e-10}
+      rotation: {x: 0.59523934, y: 0.69832563, z: -0.12540014, w: 0.37723497}
+      scale: {x: -1.5023869e+10, y: 5.883891e-11, z: 4654.1704}
+    - name: Thumb_Tip.R_end
+      parentName: Thumb_Tip.R
+      position: {x: 2.7939676e-10, y: 0.00087496237, z: -2.188608e-10}
+      rotation: {x: 0.000000014901154, y: 0.0000018179408, z: -0.000000022351731, w: 1}
+      scale: {x: 1.0029758, y: 0, z: -163.75955}
+    - name: Thumb_Tip.R_end_end
+      parentName: Thumb_Tip.R_end
+      position: {x: -0, y: 0.0008749755, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Quad.L
+      parentName: Hips
+      position: {x: -0.00008860341, y: 0.0006925639, z: -0.0009268299}
+      rotation: {x: -0.082149096, y: 0.7370606, z: 0.035823032, w: 0.66985816}
+      scale: {x: 1.0001032, y: 1.0000877, z: 0.9999985}
+    - name: Shin.L
+      parentName: Quad.L
+      position: {x: -2.3283063e-11, y: 0.005134555, z: 1.0710209e-10}
+      rotation: {x: -0.03192406, y: -0.04431915, z: 0.0007219426, w: 0.99850696}
+      scale: {x: 1.0001184, y: 1.0004046, z: 0.99985695}
+    - name: Foot.L
+      parentName: Shin.L
+      position: {x: -3.5506674e-11, y: 0.005329101, z: 2.910383e-10}
+      rotation: {x: 0.6102624, y: 0.04140472, z: -0.0106496755, w: 0.7910449}
+      scale: {x: 0.9998973, y: 0.9987648, z: 1.001378}
+    - name: Toes.L
+      parentName: Foot.L
+      position: {x: -2.6775523e-11, y: 0.002322798, z: -1.2107193e-10}
+      rotation: {x: 0.1758783, y: 0.033674147, z: -0.107458875, w: 0.9779496}
+      scale: {x: 1.0016426, y: 1.0099198, z: 0.9887429}
+    - name: Toes.L_end
+      parentName: Toes.L
+      position: {x: 1.44355e-10, y: 0.0011855747, z: 9.3132255e-12}
+      rotation: {x: -0.000000014901159, y: -0, z: 0.0000000037252899, w: 1}
+      scale: {x: 0.9999919, y: 0.9999805, z: 0.9999959}
+    - name: Toes.L_end_end
+      parentName: Toes.L_end
+      position: {x: -0, y: 0.0011855747, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Quad.R
+      parentName: Hips
+      position: {x: -0.0000886024, y: 0.00069255685, z: 0.0009268286}
+      rotation: {x: -0.03582744, y: 0.6698768, z: 0.08214967, w: 0.7370434}
+      scale: {x: 1.0000501, y: 1.0000488, z: 1.000008}
+    - name: Shin.R
+      parentName: Quad.R
+      position: {x: -2.3283063e-11, y: 0.005134556, z: 1.2107193e-10}
+      rotation: {x: -0.031918768, y: 0.04429635, z: -0.0007222611, w: 0.9985082}
+      scale: {x: 1.0001179, y: 1.0003651, z: 0.9998387}
+    - name: Foot.R
+      parentName: Shin.R
+      position: {x: -1.9790605e-11, y: 0.005329105, z: -9.080395e-11}
+      rotation: {x: 0.61026067, y: -0.04140867, z: 0.010649779, w: 0.791046}
+      scale: {x: 1.0000925, y: 0.9989107, z: 1.0012364}
+    - name: Toes.R
+      parentName: Foot.R
+      position: {x: -3.7252902e-11, y: 0.0023227984, z: 8.469214e-11}
+      rotation: {x: 0.17587824, y: -0.03367189, z: 0.107458375, w: 0.9779498}
+      scale: {x: 1.0016619, y: 1.0085632, z: 0.9901071}
+    - name: Toes.R_end
+      parentName: Toes.R
+      position: {x: -2.0954757e-10, y: 0.0011855754, z: 6.0535965e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000557, y: 1.0000271, z: 1.0000205}
+    - name: Toes.R_end_end
+      parentName: Toes.R_end
+      position: {x: -0, y: 0.0011855747, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TCP_Male_Jacket_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_03D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_01E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shirt_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_03C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_01D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Skin_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_03B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_09E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_03A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Skin_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_09E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_04A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shirt_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_09D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_04A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Jacket_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_09D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_03A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_03A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Pants_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_09C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_04E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_03A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_04A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shoes_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_05C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_09C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_04D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_07A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Tie_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_05B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_09B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_04C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_08A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Tie_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_04C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_09B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_04B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_06A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shoes_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_04B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_08E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_03E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_06A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Pants_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_03C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_08E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_03D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Skin_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Headphones_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Tie_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Jacket_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_03B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_08D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_03C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_05A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shoes_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shirt_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_08D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hat_03B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_05A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_04A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Pants_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Skin_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_08C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_05A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Skin_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_08C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_06C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_04D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_01E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_03A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shirt_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_08B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_06C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_04C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_01D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Tie_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Watch_05A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Jacket_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_08B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_06B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_04C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shoes_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Pants_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_07E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_06B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_04B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_01E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Pants_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shoes_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_07E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_05E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_04B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_01D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_01E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Jacket_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Tie_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_07D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_05E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_03E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_01E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Shirt_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_05E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_07D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_05D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_03D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Glasses_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_01E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_09A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_05D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_07C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_05D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_03C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Headphones_01D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_01D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_07A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_05C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_07C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_05C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_03B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Headphones_01E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_08A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_05B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_07B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_05C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_03E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Headphones_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_04E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_07B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_05B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_03D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Headphones_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_01D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_04D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_06E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_05B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_03C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_02E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_01D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_04A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_01C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_04C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_06E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_04E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_03B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_02D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_09A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_04B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_06D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_04E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_02A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_03E
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_06D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_04D
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Beard_02C
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Sunglasses_02B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Hairstyle_01B
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.7071069, y: -1.558142e-16, z: 1.6146518e-15, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: TCP_Male_Head_01A
+      parentName: Samokat(Clone)
+      position: {x: -0.13405529, y: 0.2436862, z: 0.000000002829677}
+      rotation: {x: 0.000000059604645, y: -1.2167698e-16, z: 7.754214e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -58,7 +58,7 @@ namespace Human
                 case VehicleTypes.Moped:
                     _animator.SetTrigger(Literals.Moped);
                     break;
-                case VehicleTypes.Bike:
+                case VehicleTypes.Samokat:
                     _animator.SetTrigger(Literals.Bike);
                     break;
                 case VehicleTypes.Skate:

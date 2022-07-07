@@ -641,7 +641,9 @@
             <e p="HumanBar" t="Include">
               <e p="HumanBarCanvas.cs" t="Include" />
               <e p="HumanBarItemDisplay.cs" t="Include" />
+              <e p="HumanCountDisplay.cs" t="Include" />
               <e p="ItemForHumans.cs" t="Include" />
+              <e p="ItemUnlockDisplay.cs" t="Include" />
             </e>
             <e p="LevelLabelSetter.cs" t="Include" />
             <e p="Score" t="Include">

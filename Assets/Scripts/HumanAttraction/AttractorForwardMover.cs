@@ -10,6 +10,7 @@ namespace HumanAttraction
         private bool _shouldMove = true;
         private float _currentSpeed;
 
+        public static AttractorForwardMover Inst { get; private set; }
         public static UnityEvent OnReachedEnd = new UnityEvent();
 
         public float ZSpeed
@@ -19,10 +20,15 @@ namespace HumanAttraction
         }
         
         public void ResetSpeed() => _currentSpeed = zSpeed;
-        public void SetSpeed(float value) => _currentSpeed = value;
+        public void SetSpeed(float value, bool setStart = false)
+        {
+            if (setStart) zSpeed = value;
+            _currentSpeed = value;
+        }
 
         private void Awake()
         {
+            Inst = this;
             _currentSpeed = zSpeed;
         }
 

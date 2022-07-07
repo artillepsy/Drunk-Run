@@ -31,11 +31,11 @@ namespace CanvasGraphics.Score
         private void UpdateVisuals(int score, int humanCount)
         {
             var currentState = GetCurrentStage(humanCount);
-            if (!currentState) return;
-            
-            stageLabel.text = currentState.Name;
-            pointerImg.color = currentState.LabelColor;
-
+            if (currentState)
+            {
+                stageLabel.text = currentState.Name;
+                pointerImg.color = currentState.LabelColor;
+            }
             if (_changePosCO != null)
             {
                 StopCoroutine(_changePosCO);

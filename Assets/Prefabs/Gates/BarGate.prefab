@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   genderType: 1
-  pointsIncrementCount: 1
+  pointsIncrementCount: 3
   usedMat: {fileID: 2100000, guid: 88368fb61cb23714b9e07cd363f0fea2, type: 2}
   changeMaterial: 0
   OnGateUsed:

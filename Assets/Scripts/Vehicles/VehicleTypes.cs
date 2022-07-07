@@ -3,7 +3,7 @@
     public enum VehicleTypes
     {
         Moped,
-        Bike,
+        Samokat,
         Skate
     }
 }
