@@ -40,6 +40,9 @@ namespace CanvasGraphics.HumanBar
                     case GenderType.Female:
                         SpawnImage(femaleStageLine, femaleStageParent, item.UnlockPoints);
                         icon = SpawnImage(item.Icon, femaleIconParent, item.UnlockPoints);
+                        icon.rectTransform.anchoredPosition = new Vector2(
+                            -icon.rectTransform.anchoredPosition.x,
+                            icon.rectTransform.anchoredPosition.y);
                         icons.Add(icon);
                         break;
                 }

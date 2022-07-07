@@ -34,6 +34,8 @@ namespace Levels
                         LastLevelName = firstLevelName,
                         LevelLoop = 1
                     };
+                    var itemScore = new ItemScore();
+                    SaveSystem.Save(itemScore, Literals.ItemScoreFileName);
                 }
             }
             else Destroy(gameObject);

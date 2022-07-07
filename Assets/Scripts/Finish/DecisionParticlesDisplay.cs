@@ -14,7 +14,7 @@ namespace Finish
         {
             AttractorForwardMover.OnReachedEnd.AddListener(() =>
             {
-                var score = FindObjectOfType<ScoreChanger>(true).CurrentScore;
+                var score = FindObjectOfType<ScoreChanger>(true).HumanCount;
 
                 if (score >= 0) moneyParticles.ForEach(particle => particle.SetActive(true));
                 else drunkParticles.ForEach(particle => particle.SetActive(true));

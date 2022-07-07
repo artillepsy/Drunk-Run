@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7367b65be7894bae8d53da3a2254db2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetMetricsOnStart: 0
+  resetMetricsOnStart: 1
   firstLevelName: level 1
 --- !u!4 &1375999269
 Transform:

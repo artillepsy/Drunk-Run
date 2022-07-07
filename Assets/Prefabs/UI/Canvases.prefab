@@ -2367,7 +2367,7 @@ MonoBehaviour:
   elem: {fileID: 3715665087916343897}
   maleSlider: {fileID: 8617856037882171441}
   femaleSlider: {fileID: 1423066636122479508}
-  afterAnimationTime: 1.53
+  afterAnimationTime: 0.98
   animationDelay: 0.5
   sliderFillTime: 0.95
   maxScore: 20

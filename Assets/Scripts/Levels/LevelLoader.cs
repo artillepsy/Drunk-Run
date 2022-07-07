@@ -13,7 +13,7 @@ namespace Levels
         {
             HumanBarCanvas.OnBarAnimationPlayed.AddListener(() =>
             {
-                Invoke(nameof(SendEndLevelEvent), reloadDelay);
+                OnLevelEnded?.Invoke();
             });
             OnLevelLoaded?.Invoke();
         }

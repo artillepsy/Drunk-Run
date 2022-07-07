@@ -94,8 +94,33 @@ namespace CanvasGraphics.HumanBar
                 StartCoroutine(ChangeFillAmountCO(femaleSlider, _itemScore.FemaleCount));
             }
             UpdateItem(collectedGender, _itemScore, humanCount);
+            AddNextIdsToList(_itemScore);
             HumanBarItemDisplay.Inst.SetUpIcons(_itemScore);
             SaveSystem.Save(_itemScore, Literals.ItemScoreFileName);
+        }
+
+        private void AddNextIdsToList(ItemScore itemScore)
+        {
+            var maleAdded = false;
+            var femaleAdded = false;
+            foreach (var item in items)
+            {
+                switch (item.HumanGenderType)
+                {
+                    case GenderType.Male:
+                        if (maleAdded) break;
+                        if (item.UnlockPoints <= itemScore.MaleCount) break;
+                        _nextIdToUnlock.Add(item.Id);
+                        maleAdded = true;
+                        break;
+                    case GenderType.Female:
+                        if (femaleAdded) break;
+                        if (item.UnlockPoints <= itemScore.FemaleCount) break;
+                        _nextIdToUnlock.Add(item.Id);
+                        femaleAdded = true;
+                        break;
+                }
+            }
         }
 
         private void UpdateItem(GenderType genderType, ItemScore itemScore, int humanCount)
@@ -104,13 +129,8 @@ namespace CanvasGraphics.HumanBar
             var id = -1;
             foreach (var item in items)
             {
-                Debug.Log(item.UnlockPoints);
-                if (item.UnlockPoints > humanCount)
-                {
-                    _nextIdToUnlock.Add(item.Id);
-                    break;
-                }
                 if(genderType != item.HumanGenderType) continue;
+                if (item.UnlockPoints > humanCount) break;
                 id = item.Id;
             }
             if (itemScore.UnlockedIds.Contains(id)) return;
@@ -137,7 +157,7 @@ namespace CanvasGraphics.HumanBar
             slider.fillAmount = endFillAmount;
             yield return new WaitForSeconds(afterAnimationTime);
             elem.Hide();
-            
+            OnBarAnimationPlayed?.Invoke();
         }
     }
 }

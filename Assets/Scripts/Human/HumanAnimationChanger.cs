@@ -70,7 +70,7 @@ namespace Human
         private void SetWalkAnimOffset()
         {
             _animator.SetTrigger(Literals.Walking);
-            var randomOffset = Random.Range(0, /*_animator.GetCurrentAnimatorStateInfo(0).length*/maxWalkOffset);
+            var randomOffset = Random.Range(0, maxWalkOffset);
             _animator.SetFloat(Literals.CycleOffset, randomOffset);
             _startedWalking = true;
         }
@@ -82,7 +82,7 @@ namespace Human
             pos += transform.position;
             _humanMovement.RotateToTarget(pos);            
             
-            var score = FindObjectOfType<ScoreChanger>(true).CurrentScore;
+            var score = FindObjectOfType<ScoreChanger>(true).HumanCount;
             _animator.SetTrigger(score >= 0 ? 
                 Literals.Working : Random.value > 0.5f ? 
                 Literals.Dancing : Literals.Dancing2);

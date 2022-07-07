@@ -61,7 +61,6 @@ namespace HumanAttraction
             var radius = (pos - transform.position).magnitude;
             var desiredTime = Mathf.Abs(degrees * Mathf.Deg2Rad * radius / zSpeed);
             var angleStep = degrees / desiredTime;
-           // var endPos = GetEndPos(degrees, radius);
 
             while (desiredTime > 0f)
             {
@@ -71,20 +70,8 @@ namespace HumanAttraction
                 yield return null;
             }
             transform.rotation = lookRotation;
-           // transform.position = endPos;
             _forwardMover.ResetSpeed();
         }
-
-        /*private Vector3 GetEndPos(float degrees, float radius)
-        {
-            var alpha = (180f - Mathf.Abs(degrees)) / 2f;
-            var distance = 2f * radius * Mathf.Cos(alpha * Mathf.Deg2Rad);
-            Debug.Log("Distane: "+ distance);
-            Debug.Log("Alpha: "+ alpha);
-            var endPos = transform.position + Quaternion.Euler(0, alpha, 0) * transform.forward * distance;
-            Debug.DrawLine(endPos, endPos + Vector3.up * 2f, Color.red, 20f);
-            return endPos;
-        }*/
 
         private void OnTriggerEnter(Collider other)
         {

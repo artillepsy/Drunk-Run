@@ -1,4 +1,5 @@
 ﻿using CanvasGraphics.HumanBar;
+using HumanAttraction;
 using UnityEngine;
 using UnityEngine.Events;
 using Vehicles;
@@ -9,6 +10,7 @@ namespace Human
     {
         [SerializeField] private Transform itemTarget;
         [SerializeField] private Transform body;
+        
         public UnityEvent<VehicleTypes> OnGetVehicle = new UnityEvent<VehicleTypes>();
         private void Start()
         {
@@ -17,6 +19,12 @@ namespace Human
             var inst = Instantiate(prefab, itemTarget);
             body.transform.position = inst.bodyTarget.position;
             OnGetVehicle?.Invoke(inst.vehicleType);
+            
+            AttractorForwardMover.OnReachedEnd.AddListener(() =>
+            {
+                body.transform.localPosition = new Vector3(body.transform.localPosition.x, 0, 
+                    body.transform.localPosition.z);
+            });
         }
     }
 }

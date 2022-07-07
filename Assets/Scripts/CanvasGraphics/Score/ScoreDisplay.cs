@@ -19,12 +19,10 @@ namespace CanvasGraphics.Score
         
         [Space]
         [SerializeField] private List<ProgressStage> states;
-        private ScoreChanger _scoreChanger;
         private Coroutine _changePosCO;
 
         private void Start()
         {
-            _scoreChanger = FindObjectOfType<ScoreChanger>();
             ScoreChanger.OnScoreChange.AddListener(UpdateVisuals);
             FinishLine.OnReachedFinish.AddListener(() => scoreGO.SetActive(false));
             UpdateVisuals(0, 0);
@@ -59,7 +57,7 @@ namespace CanvasGraphics.Score
         private IEnumerator SetPointerPosXCO(int score)
         {
             var startPos = pointer.anchoredPosition;
-            var endX = (float) score / _scoreChanger.MaxScore * borderPosX;
+            var endX = (float) score / ScoreChanger.Inst.MaxScore * borderPosX;
             var endPos = new Vector2(endX, startPos.y);
             
             var time = 0f;

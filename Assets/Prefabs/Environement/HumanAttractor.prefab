@@ -215,8 +215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1317b073bfd4fb884317deb8529d34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  malePrefab: {fileID: 3924057490233314311, guid: 8d71de400848dc24f8fe3d6f0e175696, type: 3}
-  femalePrefab: {fileID: 3924057490233314311, guid: b565c5718c699e34d91d06e4e34387d2, type: 3}
   spawnRadius: 1.29
   deactivateDelay: 3
 --- !u!1 &858684512
