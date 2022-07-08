@@ -15,7 +15,7 @@ namespace Boosters
         protected void OnTriggerEnter(Collider other)
         {
             if (_used) return;
-            if (!other.GetComponentInParent<HumanMovement>()) return;
+            if (!other.GetComponentInParent<HumanItemSetter>()) return;
             base.OnTriggerEnter(other);
             
             OnGateUsed?.Invoke();

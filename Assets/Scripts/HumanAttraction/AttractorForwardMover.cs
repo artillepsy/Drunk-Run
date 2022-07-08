@@ -74,15 +74,20 @@ namespace HumanAttraction
                 StopCoroutine(_correctCO);
                 _correctCO = null;
             }
-            _correctCO = StartCoroutine(COrrectXAxisCO());
+            _correctCO = StartCoroutine(CorrectXAxisCO());
         }
 
-        private IEnumerator COrrectXAxisCO()
+        private IEnumerator CorrectXAxisCO()
         {
             var direction = _currentParent.position - transform.position;
             direction.y = 0;
             var angle = Vector3.SignedAngle(transform.forward, direction.normalized, Vector3.up);
             var offsetX = Mathf.Sin(angle * Mathf.Deg2Rad) * direction.magnitude;
+            if (offsetX == 0f)
+            {
+                _correctCO = null;
+                yield break;
+            }
             var offsetXtep = offsetX / correctionTime;
 
             while (true)

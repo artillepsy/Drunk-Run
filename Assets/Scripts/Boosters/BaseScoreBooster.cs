@@ -13,7 +13,7 @@ namespace Boosters
 
         protected void OnTriggerEnter(Collider other)
         {
-            if (!other.GetComponentInParent<HumanMovement>()) return;
+            if (!other.GetComponentInParent<HumanItemSetter>()) return;
             OnPicked?.Invoke(genderType, pointsIncrementCount);
         }
     }

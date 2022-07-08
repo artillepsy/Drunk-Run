@@ -7,7 +7,7 @@ namespace Boosters
     {
         protected void OnTriggerEnter(Collider other)
         {
-            if (!other.GetComponentInParent<HumanMovement>()) return;
+            if (!other.GetComponentInParent<HumanItemSetter>()) return;
             base.OnTriggerEnter(other);
             Destroy(gameObject);
         }

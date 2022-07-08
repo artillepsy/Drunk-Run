@@ -23,11 +23,10 @@ namespace CanvasGraphics.HumanBar
         [SerializeField] private Image maleSlider;
         [SerializeField] private Image femaleSlider;
         [Space]
-        [SerializeField] private float afterAnimationWithUnlockTime = 1f;
-        [SerializeField] private float afterAnimationTime = 1f;
+        [SerializeField] private float animationDelay = 1.3f;
+        [SerializeField] private float sliderFillTime = 0.7f;
+        [SerializeField] private float afterAnimationTime = 2f;
         [SerializeField] private float hideCountDelay = 1f;
-        [SerializeField] private float animationDelay = 0.5f;
-        [SerializeField] private float sliderFillTime = 0.5f;
         [Space]
         [SerializeField] private int maxScore = 20;
         [SerializeField] private List<ItemForHumans> items;
@@ -167,10 +166,11 @@ namespace CanvasGraphics.HumanBar
                 yield return null;
             }
             slider.fillAmount = endFillAmount;
-            yield return new WaitForSeconds(_unlocked ? afterAnimationWithUnlockTime : afterAnimationTime);
+            Debug.Log("OnEvent");
+            yield return new WaitForSeconds(afterAnimationTime);
             barElem.Hide();
             itemElem.Hide();
-            OnBarAnimationPlayed?.Invoke();
+           // OnBarAnimationPlayed?.Invoke();
         }
     }
 }
