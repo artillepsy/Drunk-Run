@@ -5,6 +5,8 @@ namespace Human
 {
     public class HumanMovement : MonoBehaviour
     {
+        [SerializeField] private bool isPlayer = false;
+        
         [SerializeField] private float forceFalloffDistance = 1f;
         [SerializeField] private float moveForce = 30;
         [SerializeField] private float rotationDegreesSec = 180f;
@@ -38,6 +40,7 @@ namespace Human
         
         public void AddForceToTarget(Vector3 targetPos, float force)
         {
+            if (isPlayer) return;
             var direction = (targetPos - transform.position);
             direction.y = 0;
             

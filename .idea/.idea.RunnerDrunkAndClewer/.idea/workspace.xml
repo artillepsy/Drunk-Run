@@ -20,16 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumansRotator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumansRotator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanXPosClamper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanXPosClamper.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Glow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Glow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DancePointMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DancePointMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/CoctailArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/CoctailArray.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/LaptopArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/LaptopArray.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/New Physic Material.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/New Physic Material.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/DrunkRun_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/DrunkRun_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/EndCanvasAnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/CurrentLevelCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/BeforePlayTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAsyncWalkAnimationSetter.cs" />
@@ -93,21 +108,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Vehicles/VehicleTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanCountDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/StageDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/EndCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/BaseScoreBooster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/HumanChangeDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanRotationAlongZ.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumansRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanXPosClamper.cs" />
       </list>
     </option>
   </component>
@@ -192,7 +209,7 @@
       <workItem from="1657099819790" duration="3181000" />
       <workItem from="1657139667871" duration="1825000" />
       <workItem from="1657174135134" duration="46370000" />
-      <workItem from="1657234511630" duration="11383000" />
+      <workItem from="1657234511630" duration="14943000" />
     </task>
     <servers />
   </component>

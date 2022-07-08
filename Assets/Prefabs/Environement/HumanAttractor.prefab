@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   humans: []
-  attractForce: 180
+  attractForce: 139.13
 --- !u!1 &803123748
 GameObject:
   m_ObjectHideFlags: 0

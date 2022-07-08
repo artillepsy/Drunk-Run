@@ -40,6 +40,7 @@ namespace HumanAttraction
             {
                 human.transform.SetParent(transform);
             }
+            
             HumanCountChanger.OnHumanSpawned.AddListener((human) =>
             {
                 humans.Add(human.GetComponent<HumanMovement>());

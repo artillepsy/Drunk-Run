@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Human;
 using UnityEngine;
 using UnityEngine.Events;
 

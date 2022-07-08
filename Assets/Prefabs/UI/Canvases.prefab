@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.54215956, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1398,7 +1398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.9058824, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1669,8 +1669,8 @@ MonoBehaviour:
   femaleElem: {fileID: 520095891812321506}
   maleLabel: {fileID: 8009694807207768179}
   femaleLabel: {fileID: 6614339893478804436}
-  plusColor: {r: 0.4377358, g: 1, b: 0.4377358, a: 1}
-  minusColor: {r: 1, g: 0.48490566, b: 0.48490566, a: 1}
+  plusColor: {r: 0.6924528, g: 1, b: 0.6924528, a: 1}
+  minusColor: {r: 1, g: 0.65471697, b: 0.65471697, a: 1}
   hideDelay: 0.92
 --- !u!1 &5322019516553642595
 GameObject:

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7934065009658137092}
   - component: {fileID: 5719532436056059159}
   - component: {fileID: 1630591304776397841}
+  - component: {fileID: -428282209968845587}
   m_Layer: 0
   m_Name: Female
   m_TagString: Female
@@ -45,8 +46,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3924057490233314311}
   serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 3
+  m_Mass: 3.5
+  m_Drag: 15
   m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
@@ -65,6 +66,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c9ad2b5ebaf4715ac1b4b7a1a5f3062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayer: 0
   forceFalloffDistance: 0.3
   moveForce: 20
   rotationDegreesSec: 180
@@ -97,6 +99,18 @@ MonoBehaviour:
   changeTime: 0.3
   minChangeDelay: 0
   maxChangeDelay: 0.2
+--- !u!114 &-428282209968845587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3924057490233314311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4616b91b02ee42309c38f896467bd324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7471682224898880664
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,10 +150,10 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7471682224898880664}
-  m_Material: {fileID: 13400000, guid: a3fd0ffcf0d0a384ba3568687a96ab8e, type: 2}
+  m_Material: {fileID: 13400000, guid: 0cf6518237fd6f0409aaa9d458e435e0, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.41
+  m_Radius: 0.32
   m_Height: 2.0734546
   m_Direction: 1
   m_Center: {x: 0, y: 0.04000175, z: 0}

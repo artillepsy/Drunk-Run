@@ -1,4 +1,6 @@
-﻿using Finish;
+﻿using System;
+using Finish;
+using Human;
 using UnityEngine;
 
 namespace HumanAttraction
@@ -12,12 +14,20 @@ namespace HumanAttraction
         private Transform _attractionPoint;
         private float _screenWidthLeveling;
         private bool _controlEnabled = true;
+        private Transform _player;
+
+        public float XConstraints => xConstraints;
+        public static AttractorSideMover Inst { get; private set; }
+
+        private void Awake() => Inst = this;
 
         private void Start()
         {
             _attractor = GetComponentInChildren<Attractor>();
             _attractionPoint = _attractor.transform;
             _screenWidthLeveling = 100f / Camera.main.pixelWidth;
+            _player = FindObjectOfType<HumanItemSetter>().transform;
+            _player.SetParent(transform);
             FinishLine.OnReachedFinish.AddListener(() => _controlEnabled = false);
         }
 
@@ -31,34 +41,27 @@ namespace HumanAttraction
         {
             var swipeValue =  SwipeInput();
             
-            var bounds = _attractor.GetXPosBounds();
+          //  var bounds = _attractor.GetXPosBounds();
             
-            var min = bounds[0] + _attractionPoint.localPosition.x;
-            var max = bounds[1] + _attractionPoint.localPosition.x;
+          //  var min = bounds[0] + _attractionPoint.localPosition.x;
+          //  var max = bounds[1] + _attractionPoint.localPosition.x;
 
-            var left = min >= -xConstraints;
-            var right = max <= xConstraints;
-
-            if (swipeValue < 0 && !left || swipeValue > 0 && !right) return;
+           // var left = min >= -xConstraints;
+           // var right = max <= xConstraints;
             
-            min = min < -xConstraints ? _attractionPoint.localPosition.x : -xConstraints;
-            max = max > xConstraints ? _attractionPoint.localPosition.x : xConstraints;
-
-
             var velocityX = swipeValue * xSpeed * Time.deltaTime;
-
+            
+            var playerPosX = _player.localPosition.x + velocityX;
+            playerPosX = Mathf.Clamp(playerPosX, -xConstraints, xConstraints);
+            _player.localPosition = new Vector3(playerPosX, 0, _player.localPosition.z);
+            
+          //  if (swipeValue < 0 && !left || swipeValue > 0 && !right) return;
+            
+         //   min = min < -xConstraints ? _attractionPoint.localPosition.x : -xConstraints;
+          //  max = max > xConstraints ? _attractionPoint.localPosition.x : xConstraints;
             var predictedPosX = _attractionPoint.localPosition.x + velocityX;
-            predictedPosX = Mathf.Clamp(predictedPosX, min, max);
-            
+            predictedPosX = Mathf.Clamp(predictedPosX, -xConstraints, xConstraints);
             _attractionPoint.localPosition = new Vector3(predictedPosX, 0, _attractionPoint.localPosition.z);
-            
-            /*var velocity = Vector3.right * velocityX;
-            _attractor.transform.Translate(velocity, Space.Self);*/
-
-            /*
-            var pointPos = _attractionPoint.localPosition;
-            pointPos.x = Mathf.Clamp(_attractionPoint.localPosition.x, min, max);
-            _attractionPoint.localPosition = pointPos;*/
         }
 
         private float SwipeInput()

@@ -671,6 +671,7 @@
             <e p="HumanDrunkScaler.cs" t="Include" />
             <e p="HumanItemSetter.cs" t="Include" />
             <e p="HumanMovement.cs" t="Include" />
+            <e p="HumanXPosClamper.cs" t="Include" />
           </e>
           <e p="HumanAttraction" t="Include">
             <e p="Attractor.cs" t="Include" />
