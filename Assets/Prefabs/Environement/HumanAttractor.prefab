@@ -608,7 +608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3a0e5b4a17406cb263aea3de7690e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endRadius: 3.47
+  endRadius: 3.05
   endAngle: 90
   endRotationTime: 1.5
   OnRotated:

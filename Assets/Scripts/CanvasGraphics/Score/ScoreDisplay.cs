@@ -24,6 +24,7 @@ namespace CanvasGraphics.Score
         [Space]
         [SerializeField] private List<ProgressStage> states;
         private Coroutine _updBarCO;
+        private bool _started = false;
 
         private void Start()
         {
@@ -31,6 +32,7 @@ namespace CanvasGraphics.Score
             FinishLine.OnReachedFinish.AddListener(() => scoreGO.SetActive(false));
             SpawnLines();
             UpdateVisuals(0, 0);
+            _started = true;
         }
 
         private void SpawnLines()
@@ -53,7 +55,7 @@ namespace CanvasGraphics.Score
             var currentState = GetCurrentStage(humanCount);
             if (currentState)
             {
-                stageLabel.text = currentState.Name;
+                stageLabel.text = _started ? currentState.Name : "";
                 pointerImg.color = currentState.LabelColor;
             }
             if (_updBarCO != null)

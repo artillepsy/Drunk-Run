@@ -647,6 +647,7 @@
             </e>
             <e p="LevelLabelSetter.cs" t="Include" />
             <e p="Score" t="Include">
+              <e p="HumanChangeDisplay.cs" t="Include" />
               <e p="ProgressStage.cs" t="Include" />
               <e p="ScoreChanger.cs" t="Include" />
               <e p="ScoreDisplay.cs" t="Include" />
