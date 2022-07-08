@@ -679,6 +679,7 @@
             <e p="AttractorSideMover.cs" t="Include" />
             <e p="BoostersDeactivator.cs" t="Include" />
             <e p="DecisionEmojiDisplay.cs" t="Include" />
+            <e p="HumansRotator.cs" t="Include" />
           </e>
           <e p="HumanSpawn" t="Include">
             <e p="HumanCountChanger.cs" t="Include" />

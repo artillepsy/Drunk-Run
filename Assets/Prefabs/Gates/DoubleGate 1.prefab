@@ -353,7 +353,7 @@ PrefabInstance:
       objectReference: {fileID: 9220085271518723750}
     - target: {fileID: 8392141893520756646, guid: cde946be47a40c442916989cbcab89ae, type: 3}
       propertyPath: OnGateUsed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8392141893520756646, guid: cde946be47a40c442916989cbcab89ae, type: 3}
       propertyPath: OnGateUsed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName

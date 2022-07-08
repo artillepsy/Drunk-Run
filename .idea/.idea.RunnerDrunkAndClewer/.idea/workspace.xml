@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/HumanChangeDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/HumanChangeDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumansRotator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumansRotator.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gates/DoubleGate 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Glow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Glow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScorePlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/EndCanvasAnimationPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/CurrentLevelCanvas.cs" />
@@ -82,7 +83,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/ItemForHumans.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarItemDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanAnimationChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish/DecisionParticlesDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MetricsCalculator.cs" />
@@ -92,9 +92,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vehicles/VehicleTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanCountDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/StageDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/EndCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/HumanBar/HumanBarCanvas.cs" />
@@ -105,6 +103,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Boosters/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/ScoreDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasGraphics/Score/HumanChangeDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanRotationAlongZ.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorRotator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumansRotator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
       </list>
     </option>
   </component>
@@ -189,7 +192,7 @@
       <workItem from="1657099819790" duration="3181000" />
       <workItem from="1657139667871" duration="1825000" />
       <workItem from="1657174135134" duration="46370000" />
-      <workItem from="1657234511630" duration="8565000" />
+      <workItem from="1657234511630" duration="11383000" />
     </task>
     <servers />
   </component>
@@ -218,10 +221,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="332" y="230" width="1097" height="820" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1657040379013" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1657216514476">
+    <state x="425" y="189" key="run.anything.popup" timestamp="1657272431604">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1657216514476" />
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1657272431604" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1655363173779">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

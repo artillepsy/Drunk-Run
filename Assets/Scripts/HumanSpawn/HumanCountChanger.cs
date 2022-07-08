@@ -18,7 +18,6 @@ namespace HumanSpawn
         
         private List<GameObject> _humans = new List<GameObject>();
         private Transform _attractor;
-
         public static UnityEvent<GameObject> OnHumanSpawned = new UnityEvent<GameObject>();
         public static UnityEvent<GameObject> OnHumanRemoved = new UnityEvent<GameObject>();
         public static UnityEvent OnAllSpawned = new UnityEvent();
@@ -45,6 +44,7 @@ namespace HumanSpawn
                     human = Instantiate(prefab);
                 }
                 UpdateHumanPos(human);
+                human.transform.localRotation = Quaternion.identity;
                 human.gameObject.SetActive(true);
                 _humans.Add(human);
                 OnHumanSpawned?.Invoke(human);
@@ -64,6 +64,7 @@ namespace HumanSpawn
                 remainingCount--;
                 humansToDelete.Add(human);
                 OnHumanRemoved?.Invoke(human);
+                human.transform.localRotation = Quaternion.identity;
                 human.transform.SetParent(null);
 
                 human.GetComponent<HumanMovement>().MoveAway();
@@ -86,9 +87,6 @@ namespace HumanSpawn
         private void UpdateHumanPos(GameObject human)
         {
             var spawnPos = new Vector3(transform.position.x, 0, transform.position.z);
-            var spawnOffsetXZ = Vector3.right * Random.Range(-spawnOffsetX, spawnOffsetX);
-
-           //var direction = (spawnOffsetXZ - spawnPos).normalized;
             spawnPos += Vector3.right * Random.Range(-spawnOffsetX, spawnOffsetX);
             human.transform.position = spawnPos;
             human.transform.forward = _attractor.forward;

@@ -12,11 +12,13 @@ namespace HumanAttraction
         [SerializeField] private float endAngle = 90f;
         [SerializeField] private float endRotationTime = 2f;
         
+        
         private AttractorForwardMover _forwardMover;
         private Transform _attractor;
         private Vector3 _endPoint;
         
         public UnityEvent<Vector3> OnRotated = new UnityEvent<Vector3>();
+        public static UnityEvent<float, float> OnNeedRotateHumans = new UnityEvent<float, float>();
 
         private void Start()
         {
@@ -61,6 +63,7 @@ namespace HumanAttraction
             var radius = (pos - transform.position).magnitude;
             var desiredTime = Mathf.Abs(degrees * Mathf.Deg2Rad * radius / zSpeed);
             var angleStep = degrees / desiredTime;
+            OnNeedRotateHumans?.Invoke(Mathf.Sign(degrees), desiredTime);
 
             while (desiredTime > 0f)
             {

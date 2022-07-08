@@ -538,6 +538,7 @@ GameObject:
   - component: {fileID: 4754339342185808405}
   - component: {fileID: 208871613}
   - component: {fileID: 993687696}
+  - component: {fileID: 2409518836641180493}
   m_Layer: 0
   m_Name: HumanAttractor
   m_TagString: Untagged
@@ -628,6 +629,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xSpeed: 3.7
   xConstraints: 2.4
+--- !u!114 &2409518836641180493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4754339342185808406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e46ba23f2e64b78bfe5af48d884df56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  humansMaxDeviation: 16.3
+  rotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.035894677
+      outSlope: 0.035894677
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09194831
+    - serializedVersion: 3
+      time: 0.4945328
+      value: 1.005759
+      inSlope: -0.0053630616
+      outSlope: -0.0053630616
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.013601244
+      outSlope: -0.013601244
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06933397
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4754339343327980690
 GameObject:
   m_ObjectHideFlags: 0

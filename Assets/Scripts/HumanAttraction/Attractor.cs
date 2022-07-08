@@ -12,6 +12,10 @@ namespace HumanAttraction
         [SerializeField] private float attractForce = 70f;
         private bool _attractionEnabled = true;
 
+        public List<HumanMovement> Humans => humans;
+
+        public static Attractor Inst { get; private set; }
+
         public float[] GetXPosBounds()
         {
             var bounds = new float[2]{0, 0};
@@ -26,6 +30,8 @@ namespace HumanAttraction
             }
             return bounds;
         }
+
+        private void Awake() => Inst = this;
 
         private void Start()
         {
