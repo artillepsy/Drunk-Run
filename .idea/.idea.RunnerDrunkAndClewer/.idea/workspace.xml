@@ -20,31 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92d68b43-2feb-498c-9a8b-8381a35c7246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanXPosClamper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanXPosClamper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerDrunkAndClewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DancePointMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DancePointMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Female.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Male.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Humans/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/AlcoholArray.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/BookArray.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/CoctailArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/CoctailArray.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/LaptopArray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/LaptopArray.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environement/HumanAttractor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/10 Females.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/10 Females.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/10 Males.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/10 Males.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Females.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Females.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Males.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemScore/5 Males.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/New Physic Material.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/New Physic Material.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Bike.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Bike.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Disc.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Disc.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Moped.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Moped.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Skate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Icons/Skate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Disc.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/Disc.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/HoverBoard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vehicles/HoverBoard.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 12.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 9.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/DrunkRun_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Build/DrunkRun_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
@@ -121,10 +126,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/HumansRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanSpawn/HumanCountChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorForwardMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Human/HumanXPosClamper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/Attractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HumanAttraction/AttractorSideMover.cs" />
       </list>
     </option>
   </component>
@@ -209,7 +214,8 @@
       <workItem from="1657099819790" duration="3181000" />
       <workItem from="1657139667871" duration="1825000" />
       <workItem from="1657174135134" duration="46370000" />
-      <workItem from="1657234511630" duration="14943000" />
+      <workItem from="1657234511630" duration="16746000" />
+      <workItem from="1657532857716" duration="4938000" />
     </task>
     <servers />
   </component>

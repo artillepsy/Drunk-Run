@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f15592bdbab43a38419ed8a539cc1a5, type: 3}
-  m_Name: 5 Females
+  m_Name: 20 Females
   m_EditorClassIdentifier: 
   Id: 1
   Icon: {fileID: 8989306679017659673, guid: 772cf83ef41fa9d4fbb25ad2b08b3cb3, type: 3}
   HumanGenderType: 1
-  UnlockPoints: 5
+  UnlockPoints: 20
   Prefab: {fileID: 1328096256047423443, guid: 86375d6e1b2e66649bb3445442f0f3d7, type: 3}

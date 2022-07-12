@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3128710706620822428}
   - component: {fileID: 1328096256047423443}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HoverBoard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc1a467de98409c9d55e945bd32c074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedMultiplier: 1.2
   vehicleType: 2
   bodyTarget: {fileID: 740332530401332968}
 --- !u!1001 &744865745465190104
@@ -57,6 +58,10 @@ PrefabInstance:
     - target: {fileID: 1044120275307978, guid: 35e5a3eaba9f7664183ec8e44c96da2a, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Hoverboard_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044120275307978, guid: 35e5a3eaba9f7664183ec8e44c96da2a, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4639876288079920, guid: 35e5a3eaba9f7664183ec8e44c96da2a, type: 3}
       propertyPath: m_RootOrder
@@ -113,3 +118,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4639876288079920, guid: 35e5a3eaba9f7664183ec8e44c96da2a, type: 3}
   m_PrefabInstance: {fileID: 744865745465190104}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &744781610512280338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1044120275307978, guid: 35e5a3eaba9f7664183ec8e44c96da2a, type: 3}
+  m_PrefabInstance: {fileID: 744865745465190104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &4910309710790615591
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744781610512280338}
+  m_Material: {fileID: 13400000, guid: 0cf6518237fd6f0409aaa9d458e435e0, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.17
+  m_Height: 1.73
+  m_Direction: 2
+  m_Center: {x: 0.000000014901161, y: 0.06, z: -0.020088345}

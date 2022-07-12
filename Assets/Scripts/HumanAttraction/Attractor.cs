@@ -16,21 +16,6 @@ namespace HumanAttraction
 
         public static Attractor Inst { get; private set; }
 
-        public float[] GetXPosBounds()
-        {
-            var bounds = new float[2]{0, 0};
-            if (humans.Count == 0) return null;
-
-            foreach (var human in humans)
-            {
-                var humanXPos = human.transform.localPosition.x;
-                
-                if (humanXPos < bounds[0]) bounds[0] = humanXPos;
-                else if (humanXPos > bounds[1]) bounds[1] = humanXPos;
-            }
-            return bounds;
-        }
-
         private void Awake() => Inst = this;
 
         private void Start()
