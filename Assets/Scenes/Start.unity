@@ -696,6 +696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375999269}
   - component: {fileID: 1375999268}
+  - component: {fileID: 1375999270}
   m_Layer: 0
   m_Name: MetricsCalculator
   m_TagString: Untagged
@@ -715,7 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7367b65be7894bae8d53da3a2254db2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetMetricsOnStart: 1
+  resetMetricsOnStart: 0
   firstLevelName: level 1
 --- !u!4 &1375999269
 Transform:
@@ -732,6 +733,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1375999270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375999267}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbe94d700718f74bba933f9da511556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useRenderTexture: 1
+  SSHTextureFormat: 1
+  cameras: []
+  fileNamePrefix: 
+  openFolderWhenDone: 1
+  didPressEditorScreenshotButton: 0
+  orientation: 0
+  shotInfo:
+  - width: 1080
+    height: 1920
+    label: 
+  savePath: C:/Users/Dell/Desktop/Unity/projects/RunnerDrunkAndClewer/Screenshots
+  buildSavePathRoot: 39
+  buildSavePathExtra: screenshots
+  configFile: C:/Users/Dell/Desktop/Unity/projects/RunnerDrunkAndClewer/Assets/screenshot_helper_preset.xml
 --- !u!1 &1433157746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4405976200006927252, guid: 0bfe3b149145747cc92dc53bb4df4e9b, type: 3}
+      propertyPath: devKey
+      value: r9vNC83N8nYpCzYGigyjUh
+      objectReference: {fileID: 0}
     - target: {fileID: 6207133488976360133, guid: 0bfe3b149145747cc92dc53bb4df4e9b, type: 3}
       propertyPath: m_RootOrder
       value: 3

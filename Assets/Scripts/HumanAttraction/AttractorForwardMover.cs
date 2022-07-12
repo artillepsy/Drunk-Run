@@ -7,34 +7,38 @@ namespace HumanAttraction
 {
     public class AttractorForwardMover : MonoBehaviour
     {
-        [SerializeField] private float zSpeed = 3.5f;
+        [SerializeField] private float startSpeed = 4.25f;
         [SerializeField] private float correctionTime = 0.1f;
         
         private bool _shouldMove = true;
         private float _currentSpeed;
         private Transform _currentParent;
         private Coroutine _correctCO;
+        private bool _stopped = false;
 
         public static AttractorForwardMover Inst { get; private set; }
         public static UnityEvent OnReachedEnd = new UnityEvent();
 
-        public float ZSpeed
+        public float StartSpeed => startSpeed;
+        public float CurrentSpeed
         {
             get => _currentSpeed;
             set => _currentSpeed = value;
         }
         
-        public void ResetSpeed() => _currentSpeed = zSpeed;
+        public void ResetSpeed() => _currentSpeed = startSpeed;
         public void SetSpeed(float value, bool setStart = false)
         {
-            if (setStart) zSpeed = value;
+            if (setStart) startSpeed = value;
             _currentSpeed = value;
         }
 
+        public void SetStartSpeed(float value) => startSpeed = value;
+        
         private void Awake()
         {
             Inst = this;
-            _currentSpeed = zSpeed;
+            _currentSpeed = startSpeed;
         }
 
         private void Start()
@@ -93,7 +97,7 @@ namespace HumanAttraction
 
             while (true)
             {
-                Debug.Log(offsetXtep * Time.deltaTime);
+               // Debug.Log(offsetXtep * Time.deltaTime);
                 transform.Translate(Vector3.right * (offsetXtep * Time.deltaTime), Space.Self);
                 var prevSign = Mathf.Sign(offsetX);
                 offsetX -= offsetXtep * Time.deltaTime;

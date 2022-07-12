@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SSHPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <orientation>portrait</orientation>
+  <lastSavePath>C:/Users/Dell/Desktop/Unity/projects/RunnerDrunkAndClewer/Screenshots</lastSavePath>
+  <textureFormat>RGB24</textureFormat>
+  <keyToPress>S</keyToPress>
+  <keyToHold>LeftShift</keyToHold>
+  <buildPathRoot>MyPictures</buildPathRoot>
+  <buildPathExtra>screenshots</buildPathExtra>
+  <sizes>
+    <size width="1080" height="1920" label="" />
+  </sizes>
+</SSHPreset>

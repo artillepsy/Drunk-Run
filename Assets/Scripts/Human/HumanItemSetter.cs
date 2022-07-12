@@ -25,7 +25,7 @@ namespace Human
                 body.transform.localPosition = new Vector3(body.transform.localPosition.x, 0, 
                     body.transform.localPosition.z);
             });
-            AttractorForwardMover.Inst.SetSpeed(inst.speedMultiplier * AttractorForwardMover.Inst.ZSpeed, true);
+            AttractorForwardMover.Inst.SetStartSpeed(inst.speedMultiplier * AttractorForwardMover.Inst.StartSpeed);
         }
     }
 }

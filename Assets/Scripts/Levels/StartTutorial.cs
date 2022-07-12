@@ -34,7 +34,7 @@ namespace Levels
             }
             tutorialCanvas.SetActive(true);
             _mover = FindObjectOfType<AttractorForwardMover>();
-            _mover.SetSpeed(0f);
+            _mover.SetSpeed(0f, false);
         }
 
         private void Update()
@@ -45,6 +45,7 @@ namespace Levels
             element.Hide();
             Started = true;
             _mover.ResetSpeed();
+            Debug.Log("Reset");
             FindObjectOfType<FinishLine>().ResetTime();
         }
     }

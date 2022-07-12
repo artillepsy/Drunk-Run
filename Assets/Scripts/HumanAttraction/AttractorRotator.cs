@@ -59,7 +59,7 @@ namespace HumanAttraction
             var lookDirection = Quaternion.Euler(0, degrees, 0) * transform.forward;
             var lookRotation = Quaternion.LookRotation(lookDirection);
             
-            var zSpeed = _forwardMover.ZSpeed;
+            var zSpeed = _forwardMover.CurrentSpeed;
             var radius = (pos - transform.position).magnitude;
             var desiredTime = Mathf.Abs(degrees * Mathf.Deg2Rad * radius / zSpeed);
             var angleStep = degrees / desiredTime;

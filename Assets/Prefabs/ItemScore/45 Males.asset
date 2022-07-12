@@ -15,5 +15,5 @@ MonoBehaviour:
   Id: 3
   Icon: {fileID: 4480749355249289467, guid: e579baefa12fd344196a03b5a9bf9df3, type: 3}
   HumanGenderType: 0
-  UnlockPoints: 45
+  UnlockPoints: 2
   Prefab: {fileID: 2925669909267088835, guid: 113420a04db723546bee3629f6208481, type: 3}

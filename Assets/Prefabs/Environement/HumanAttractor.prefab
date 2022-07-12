@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b54fcff4cf42dda971f18a21e951ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zSpeed: 4.24
+  startSpeed: 4.25
   correctionTime: 0.89
 --- !u!114 &208871613
 MonoBehaviour:
@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c10593c1ea4b18aea46c1eff4b5fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 3.7
+  xSpeed: 3.3
   xConstraints: 2.4
 --- !u!114 &2409518836641180493
 MonoBehaviour:

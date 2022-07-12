@@ -630,6 +630,28 @@
             </e>
           </e>
         </e>
+        <e p="screenshot_helper_preset.xml" t="Include" />
+        <e p="ScreenshotHelper" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ResetPlayerPrefs.cs" t="Include" />
+            <e p="ScreenshotHelperBuildSaveLocationWindow.cs" t="Include" />
+            <e p="ScreenShotHelperEditor.cs" t="Include" />
+          </e>
+          <e p="Example" t="Include">
+            <e p="KeyPressExample.cs" t="Include" />
+          </e>
+          <e p="Internal" t="Include">
+            <e p="EnumsStructs.cs" t="Include" />
+            <e p="GameViewUtils.cs" t="Include" />
+            <e p="ShotSize.cs" t="Include" />
+            <e p="SSHDebug.cs" t="Include" />
+            <e p="SSHPreset.cs" t="Include" />
+            <e p="SSHUtil.cs" t="Include" />
+            <e p="TextureScale.cs" t="Include" />
+          </e>
+          <e p="ReadMe.txt" t="Include" />
+          <e p="ScreenshotHelper.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="Boosters" t="Include">
             <e p="BaseScoreBooster.cs" t="Include" />
