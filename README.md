@@ -28,4 +28,4 @@ And created these features:
 
 ### Summary
 
-This is a commercial product which avaliable on [Play Market](https://play.google.com/store/apps/details?id=com.Snackers.DrunkRun) 
+This is a commercial product which available on [Play Market](https://play.google.com/store/apps/details?id=com.Snackers.DrunkRun) 
