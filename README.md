@@ -4,7 +4,7 @@
 
 This is a Hyper Casual Runner on Android. You can choose who you want to become: Busy intelligent person or drunk club dancer.
 You should collect devices and books to increase your intelligence level or drinks to increase your drunkenness.
-If you collect need point amount you unlock the vechicle!
+If you collect need point amount you unlock the vehicle!
 
 ### Features
 
